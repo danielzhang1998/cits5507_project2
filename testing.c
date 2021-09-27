@@ -14,7 +14,18 @@
 #define N 10
 
 int main(int argc, char **argv){
-    double *array = generate_array(N);
+
+    int rank, size;
+
+    
+    MPI_Init(0, 0);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    double *array;
+
+
+    array = generate_array(N);
     save_binary("unsorted_array", array, N);
     //printf("fuck\n");
     double *new_array = read_binary("unsorted_array", N);
@@ -26,12 +37,7 @@ int main(int argc, char **argv){
     printf("\n===================================================\n");
     //===================================================//
 
-    int rank, size;
-
-    
-    MPI_Init(0, 0);
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    //printf("%d\n", rank);
 
     mpi_write("mpi_unsorted_array", array, N, rank);
 
@@ -40,6 +46,8 @@ int main(int argc, char **argv){
     print_array(mpi_new_array, N);
 
     check_binary(array, mpi_new_array, N);
+    
+
 
     MPI_Finalize();
 

@@ -120,3 +120,30 @@ void print_array(double *array, int array_size){
     
     printf("\n\n");
 }
+
+
+/** 
+ * @brief print ratio of two running time
+ * @param no_omp time using with no omp
+ * @param has_omp time using with omp
+ *
+ */
+double print_ratio(double no_omp, double has_omp){
+    double ratio = has_omp / no_omp;
+    printf("ratio (has_omp / no_omp) = %12.10f\n", ratio);
+    return ratio;
+}
+
+
+/** 
+ * @brief print the time distance of two time point
+ * @param time1 the earlier time point
+ * @param time2 the later time point
+ *
+ */
+double print_time_distance(struct timeval time1, struct timeval time2, char *algorithm, char *is_omp){
+    double distance = ((time2.tv_sec  - time1.tv_sec) * 1000000u + time2.tv_usec - time1.tv_usec) / 1.e6;
+    printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_omp,algorithm,distance);
+
+    return distance;
+}
