@@ -10,17 +10,19 @@
 
 已完成 serial 版本的 sort algorithm 接入到 main 函数
 
-准备测试 main 函数中的 mpi 版本的 binary 文件的读与写是否正常
+已测试 main 函数中的 mpi 版本的 binary 文件的读与写是否正常
 
 准备开始 mpi 版本的 quicksort algorithm 的编写,参考代码链接:
 https://site.sci.hkbu.edu.hk/tdgc/tutorial/ExpClusterComp/qsort/qsort.c
+
+mpi 版本的 quicksort algorithm 需要进行最后的 merge 操作
 
 =============
 如何运行程序
 
 编译:
 
-mpicc main.c tools.c binary.c mpi_binary.c merge.c quick.c enum.c -o main
+mpicc main.c tools.c binary.c mpi_binary.c mpi_quick.c merge.c quick.c enum.c -o main
 
 运行:
 
