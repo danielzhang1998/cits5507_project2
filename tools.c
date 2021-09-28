@@ -103,7 +103,7 @@ double *deep_copy(double *array, int start, int size){
 double *generate_array(size_t value) {
     double *array = malloc(sizeof(double) * value);
     for (int i = 0; i < value; i++)
-        array[i] = (double)rand() / RAND_MAX * 1000;
+        array[i] = (double)rand() / RAND_MAX * 100000;
     return array;
 }
 
@@ -124,13 +124,13 @@ void print_array(double *array, int array_size){
 
 /** 
  * @brief print ratio of two running time
- * @param no_omp time using with no omp
- * @param has_omp time using with omp
+ * @param no_mpi time using with no mpi
+ * @param has_mpi time using with mpi
  *
  */
-double print_ratio(double no_omp, double has_omp){
-    double ratio = has_omp / no_omp;
-    printf("ratio (has_omp / no_omp) = %12.10f\n", ratio);
+double print_ratio(double no_mpi, double has_mpi){
+    double ratio = has_mpi / no_mpi;
+    printf("ratio (has_mpi / no_mpi) = %12.10f\n", ratio);
     return ratio;
 }
 
@@ -141,9 +141,9 @@ double print_ratio(double no_omp, double has_omp){
  * @param time2 the later time point
  *
  */
-double print_time_distance(struct timeval time1, struct timeval time2, char *algorithm, char *is_omp){
+double print_time_distance(struct timeval time1, struct timeval time2, char *algorithm, char *is_mpi){
     double distance = ((time2.tv_sec  - time1.tv_sec) * 1000000u + time2.tv_usec - time1.tv_usec) / 1.e6;
-    printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_omp,algorithm,distance);
+    printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_mpi,algorithm,distance);
 
     return distance;
 }

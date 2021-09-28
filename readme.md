@@ -12,10 +12,12 @@
 
 已测试 main 函数中的 mpi 版本的 binary 文件的读与写是否正常
 
-准备开始 mpi 版本的 quicksort algorithm 的编写,参考代码链接:
+已完成 mpi 版本的 quicksort algorithm 的编写,参考代码链接:
 https://site.sci.hkbu.edu.hk/tdgc/tutorial/ExpClusterComp/qsort/qsort.c
 
-mpi 版本的 quicksort algorithm 需要进行最后的 merge 操作
+已完成 mpi 版本的 quicksort algorithm 最后的 merge 操作
+
+即将开始 mpi merge 或 enum sort
 
 =============
 如何运行程序

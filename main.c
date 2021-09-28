@@ -20,6 +20,7 @@
 #include "mpi_binary.h"
 #include "mpi_quick.h"
 #include "quick.h"
+#include "start_algorithm.h"
 #include "tools.h"
 
 #define ROOT 0
@@ -28,14 +29,15 @@ int main(int argc, char *argv[])
 {
 
     size_t array_length;
-    double *array, *receive_array, *mpi_new_array, *quick_sort_store_array;
+    double *array, *receive_array, *mpi_new_array, *quick_sort_store_array, *merge_array;
 
-    int rank, size, num_value_per_process;
+    int rank, size, num_value_per_process, merge_length;
     struct timeval start, middle, end;
 
 
-    MPI_Init(0, 0);
-    MPI_Status status;
+    MPI_Init(&argc, &argv);
+    MPI_Status status[2];
+    MPI_Request request[2];
 
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
@@ -76,7 +78,7 @@ int main(int argc, char *argv[])
     if (argc == 3 && rank == 0){
         gettimeofday(&start, NULL);
         save_binary("unsorted_array", array, array_length);
-        //printf("fuck\n");
+        
         double *new_array = read_binary("unsorted_array", array_length);
 
         //print_array(new_array, array_length);
@@ -84,24 +86,21 @@ int main(int argc, char *argv[])
         check_binary(array, new_array, array_length);   // check the binary file with the original array
 
         if(strcmp(argv[2], "enum") == 0){
-            double *array_enum = deep_copy(array, 0, array_length);
-            start_enum(array_enum, array_length);
-            free(array_enum);
+            double *enum_result = start_enum_main(array, array_length);
+            //print_array(enum_result, array_length);
         }
         else if(strcmp(argv[2], "quick") == 0){
-            double *array_quick = deep_copy(array, 0, array_length);
-            start_quick(array_quick, array_length);
-            free(array_quick);
+            double *quick_result = start_quick_main(array, array_length);
+            //print_array(quick_result, array_length);
         }
         else if(strcmp(argv[2], "merge") == 0){
-            double *array_merge = deep_copy(array, 0, array_length);
-            start_merge(array_merge, array_length);
-            free(array_merge);        
+            double *merge_result = start_merge_main(array, array_length);
+            //print_array(merge_result, array_length);
         }
         else if(argc == 3){
-            double *array_quick = start_quick(array, array_length);
-            double *array_enum = start_enum(array, array_length);
-            double *array_merge = start_merge(array, array_length);
+            double *array_quick = start_quick_main(array, array_length);
+            double *array_enum = start_enum_main(array, array_length);
+            double *array_merge = start_merge_main(array, array_length);
 
             compare_result(array_quick, array_enum, array_merge, array_length);        
         }
@@ -111,7 +110,7 @@ int main(int argc, char *argv[])
         print_time_distance(start, end, argv[2], " ");
     }
 
-    if(argc == 4){
+    if(argc == 4){  //  the mpi solution
 
         mpi_write("mpi_unsorted_array", array, array_length, rank);
         mpi_new_array = mpi_read("mpi_unsorted_array", array_length, rank);
@@ -119,32 +118,76 @@ int main(int argc, char *argv[])
         if(strcmp(argv[2], "quick") == 0){
             if (rank == 0){
                 check_binary(array, mpi_new_array, array_length);
-                num_value_per_process = array_length / size;
+                num_value_per_process = array_length / size;    //  to compute the number of values each process need to deal with
 
                 if (array_length % size != 0){
                     printf("[Argument Error] the array length should be integer multiples of the num of process!\n");
                     MPI_Abort(MPI_COMM_WORLD, -1);
                 }
-
+                printf("mpi quicksort:\n");
+                gettimeofday(&start, NULL);
+            }
                 //printf("%d\n", num_value_per_process);
 
                 //printf("rank: %d\n", rank);
-                send_array_to_process(mpi_new_array, receive_array, num_value_per_process);
-                
-                //printf("rank: %d\n", rank);
-                //print_array(receive_array, num_value_per_process);
-                
+                MPI_Bcast(&num_value_per_process, 1, MPI_INT, ROOT, MPI_COMM_WORLD);    //  broadcast the value to each process
+
+                receive_array = (double *)malloc(num_value_per_process * sizeof(double));
+                //  give the array after split to each process (devided a large task to be multiple small tasks)
+                MPI_Scatter(mpi_new_array, num_value_per_process, MPI_DOUBLE, receive_array, num_value_per_process, MPI_DOUBLE, ROOT, MPI_COMM_WORLD);
+
+                quicksort(receive_array, 0, num_value_per_process - 1); //  sort the small array that current process get
+            
+            //printf("rank: %d, num_value_per_process: %d\n", rank, num_value_per_process);
+            for (int step = 1; step < size; step *= 2)
+            {
+                if(rank % (2 * step) == 0)
+                {
+                    if(rank + step < size)
+                    {
+                        
+                        MPI_Recv(&merge_length, 1, MPI_INT, rank + step, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //  receive the length of array to be merged
+                        //printf("%d\n", merge_length);
+                        merge_array = (double *)malloc(merge_length * sizeof(double));
+
+                        MPI_Recv(merge_array, merge_length, MPI_DOUBLE, rank + step, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //  receive the merge to be merged
+
+                        //print_array(merge_array, merge_length);
+                        
+                        receive_array = combine(receive_array, merge_array, num_value_per_process, merge_length);   //  combine two arrays to be a large array
+                        
+                        num_value_per_process += merge_length;
+
+                        //print_array(receive_array, num_value_per_process);
+                    }
+                }
+                else
+                {
+                    int near = rank - step;
+                    
+                    MPI_Isend(&num_value_per_process, 1, MPI_INT, near, 0, MPI_COMM_WORLD, &request[0]);    //  send the length of array to be merged
+                    //printf("num_value_per_process: %d\n", num_value_per_process);
+                    
+                    MPI_Isend(receive_array, num_value_per_process, MPI_DOUBLE, near, 0, MPI_COMM_WORLD, &request[1]);  //  send the merge to be merged
+                    
+                    MPI_Waitall(2, request, status);    //  wait until finish sending
+                    
+                    break;
+                }
             }
-            else{
-                printf("rank: %d\n", rank);
-                send_array_to_process(mpi_new_array, receive_array, num_value_per_process);
 
-                //printf("rank: %d\n", rank);
+            if (rank == 0){
                 //print_array(receive_array, num_value_per_process);
+                gettimeofday(&middle, NULL);
+                double has_mpi = print_time_distance(start, middle, "quick", " mpi ");
+                double *quick_result =  start_quick_main(mpi_new_array, array_length);  //  call serial quick sort to compare with mpi quick sort
+                gettimeofday(&end, NULL);
+
+                double no_mpi = print_time_distance(middle, end, "quick", " ");
+
+                compare_result(quick_result, quick_result, receive_array, array_length);
+                print_ratio(no_mpi, has_mpi);
             }
-
-
-
         }
         else if(strcmp(argv[2], "merge") == 0){
 
@@ -157,11 +200,14 @@ int main(int argc, char *argv[])
         }
     }
 
-    free(array);
+    
 
-    //print_array(mpi_new_array, array_length);
+
+    
 
     MPI_Finalize();
+
+    free(array);
 
     return 0;
 }

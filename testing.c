@@ -11,6 +11,8 @@
 #include "tools.h"
 
 
+//this is a rubbish testing file
+
 #define N 10
 
 int main(int argc, char **argv){
