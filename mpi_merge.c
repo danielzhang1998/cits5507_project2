@@ -5,28 +5,28 @@
 #include <sys/time.h>
 #include <time.h>
 
-#include "mpi_quick.h"
-#include "quick.h"
+#include "mpi_merge.h"
+#include "merge.h"
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_quick_serial(struct timeval start, struct timeval middle, struct timeval end, double *mpi_new_array, double *receive_array, int array_length){
+double *compare_with_merge_serial(struct timeval start, struct timeval middle, struct timeval end, double *mpi_new_array, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
 	gettimeofday(&middle, NULL);
-	double has_mpi = print_time_distance(start, middle, "quick", " mpi ");
-	double *quick_result =  start_quick_main(mpi_new_array, array_length);  //  call serial quick sort to compare with mpi quick sort
+	double has_mpi = print_time_distance(start, middle, "merge", " mpi ");
+	double *merge_result =  start_merge_main(mpi_new_array, array_length);  //  call serial merge sort to compare with mpi merge sort
 	gettimeofday(&end, NULL);
 
-	double no_mpi = print_time_distance(middle, end, "quick", " ");
+	double no_mpi = print_time_distance(middle, end, "merge", " ");
 
-	compare_result(quick_result, quick_result, receive_array, array_length);
+	compare_result(merge_result, merge_result, receive_array, array_length);
 	print_ratio(no_mpi, has_mpi);
 
-	return quick_result;
+	return merge_result;
 }
 
 
-double *mpi_quick_main(int rank, double *mpi_new_array, int num_value_per_process, double *receive_array, int num_of_process, int merge_length, double *merge_array){
+double *mpi_merge_main(int rank, double *mpi_new_array, int num_value_per_process, double *receive_array, int num_of_process, int merge_length, double *merge_array){
 
 		MPI_Status status[2];
 		MPI_Request request[2];
@@ -37,7 +37,7 @@ double *mpi_quick_main(int rank, double *mpi_new_array, int num_value_per_proces
 		//  give the array after split to each process (devided a large task to be multiple small tasks)
 		MPI_Scatter(mpi_new_array, num_value_per_process, MPI_DOUBLE, receive_array, num_value_per_process, MPI_DOUBLE, ROOT, MPI_COMM_WORLD);
 
-		quicksort(receive_array, 0, num_value_per_process - 1); //  sort the small array that current process get
+		merge_sort(receive_array, 0, num_value_per_process - 1); //  sort the small array that current process get
 	
 		//printf("rank: %d, num_value_per_process: %d\n", rank, num_value_per_process);
 		for (int step = 1; step < num_of_process; step *= 2)

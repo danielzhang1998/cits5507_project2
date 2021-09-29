@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 
-double *combine(double *array_1, double *array_2, int array_length_1, int array_length_2);
+double *compare_with_quick_serial(struct timeval start, struct timeval middle, struct timeval end, double *mpi_new_array, double *receive_array, int array_length);
+double *mpi_quick_main(int rank, double *mpi_new_array, int num_value_per_process, double *receive_array, int num_of_process, int merge_length, double *merge_array);
 
 #endif
 

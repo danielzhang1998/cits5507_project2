@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+double *combine(double *array_1, double *array_2, int array_length_1, int array_length_2);
 double *deep_copy(double *array, int start, int size);
 double *generate_array(size_t value);
 double print_ratio(double no_omp, double has_omp);
