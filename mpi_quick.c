@@ -78,6 +78,5 @@ double *mpi_quick_main(int rank, double *mpi_new_array, int num_value_per_proces
 			}
 		}
 
-	
 	return receive_array;
 }

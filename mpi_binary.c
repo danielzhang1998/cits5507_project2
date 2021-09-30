@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "mpi_binary.h"
-
+#include "tools.h"
 
 /** 
  * @brief function to read the file using mpi
@@ -12,13 +12,16 @@
  *
  * @return return the array read from thr file
  */
-double *mpi_read(char *filename, size_t array_length, int rank){
+double *mpi_read(char *filename, size_t array_length, int rank, int padding){
     
     MPI_File file;
     MPI_Status status;
+    int length = array_length + padding;
+    double *buf = malloc(sizeof(double) * (length));
 
-    double *buf = malloc(sizeof(double) * array_length);
-    
+    for (int i = 0; i < length; i ++){
+        buf[i] = 0.0;
+    }
 
     MPI_File_open(MPI_COMM_WORLD, filename, MPI_MODE_RDONLY, MPI_INFO_NULL, &file);
 
@@ -26,6 +29,9 @@ double *mpi_read(char *filename, size_t array_length, int rank){
     MPI_File_read(file, buf, array_length, MPI_DOUBLE, &status); //File read
 
     MPI_File_close(&file);
+
+
+    //print_array(buf, length);
     //printf("rank: %d\n", rank);
     return buf;
 }

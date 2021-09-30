@@ -114,9 +114,14 @@ int compare_result(double *array_1, double *array_2, double *array_3, size_t arr
  * @return the new array that copy from original array
  */
 double *deep_copy(double *array, int start, int size){
-    double *array_1 = malloc(sizeof(double) * size);
-    for (int i = 0; i < size; i++)
-        array_1[i] = array[i];
+    //printf("start and size: %d %d\n", start, size);
+    double *array_1 = malloc(sizeof(double) * (size - start));
+    //printf("value:%d\n", (size - start));
+    for (int i = start; i < size; i++){
+        array_1[i - start] = array[i];
+        //printf("test: %d %d\n", (i - start), i);
+    }
+
     return array_1;
 }
 
