@@ -97,6 +97,7 @@ int compare_result(double *array_1, double *array_2, double *array_3, size_t arr
                 printf("array 2 is different with others!");           
             else
                 printf("the results are different!");
+            printf("%f %f %f %d\n", array_1[i], array_2[2], array_3[i], i);
             return -1;
         }
     }
@@ -176,6 +177,22 @@ double print_ratio(double no_mpi, double has_mpi){
 double print_time_distance(struct timeval time1, struct timeval time2, char *algorithm, char *is_mpi){
     double distance = ((time2.tv_sec  - time1.tv_sec) * 1000000u + time2.tv_usec - time1.tv_usec) / 1.e6;
     printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_mpi,algorithm,distance);
+
+    return distance;
+}
+
+
+/** 
+ * @brief print the time distance of two time point
+ * @param time1 the earlier time point
+ * @param time2 the later time point
+ * @param algorithm the algorithm using
+ * @param is_mpi is mpi or serial
+ *
+ */
+double print_time_distance_mpi(double time1, double time2, char *algorithm, char *is_mpi){
+    double distance = time2 - time1;
+    printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_mpi, algorithm, distance);
 
     return distance;
 }

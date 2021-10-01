@@ -10,20 +10,18 @@
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_quick_serial(struct timeval start, struct timeval middle, struct timeval middle_1, struct timeval end, double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
+double *compare_with_quick_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
-	//gettimeofday(&middle, NULL);
-	double has_mpi = print_time_distance(start, middle, "quick", " mpi ");
+	double time_start, time_end;
+	time_start = MPI_Wtime();
 
-	double has_omp_mpi = print_time_distance(middle, middle_1, "quick", " omp&mpi ");
+	double *quick_result = start_quick_main(mpi_new_array, array_length); //  call serial quick sort to compare with mpi quick sort
+	//print_array(quick_result, 20);
+	time_end = MPI_Wtime();
 
-	double *quick_result =  start_quick_main(mpi_new_array, array_length);  //  call serial quick sort to compare with mpi quick sort
-	gettimeofday(&end, NULL);
-
-	double no_mpi = print_time_distance(middle, end, "quick", " ");
-
-	compare_result(quick_result, quick_result, receive_array, array_length);
-	print_ratio(no_mpi, has_mpi);
+	print_time_distance_mpi(time_start, time_end, "quick", " serial ");
+	
+	compare_result(quick_result, omp_result, receive_array, array_length);
 
 	return quick_result;
 }

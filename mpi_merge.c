@@ -10,20 +10,18 @@
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_merge_serial(struct timeval start, struct timeval middle, struct timeval middle_1, struct timeval end, double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
+double *compare_with_merge_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
-	//gettimeofday(&middle, NULL);
-	double has_mpi = print_time_distance(start, middle, "merge", " mpi ");
+	double time_start, time_end;
+	time_start = MPI_Wtime();
 
-	double has_omp_mpi = print_time_distance(middle, middle_1, "merge", " omp&mpi ");
-	
 	double *merge_result =  start_merge_main(mpi_new_array, array_length);  //  call serial merge sort to compare with mpi merge sort
-	gettimeofday(&end, NULL);
 
-	double no_mpi = print_time_distance(middle, end, "merge", " ");
+	time_end = MPI_Wtime();
+
+	print_time_distance_mpi(time_start, time_end, "merge", " serial ");
 
 	compare_result(merge_result, omp_result, receive_array, array_length);
-	print_ratio(no_mpi, has_mpi);
 
 	return merge_result;
 }

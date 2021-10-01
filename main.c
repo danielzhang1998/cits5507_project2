@@ -7,6 +7,7 @@
 
 #include <ctype.h>
 #include <mpi.h>
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -37,6 +38,9 @@ int main(int argc, char *argv[])
     double *array, *receive_array, *mpi_new_array, *quick_sort_store_array, *merge_array, *mpi_quick_result_1, *mpi_merge_result_1, *mpi_enum_result_1, *mpi_omp_enum_result_1, *mpi_omp_merge_result_1, *mpi_omp_quick_result_1;
 
     int rank, num_of_process, num_value_per_process, merge_length, num_value_left;
+
+    double time_start, time_end;
+
     struct timeval start, middle, middle_1, end;
 
 
@@ -124,16 +128,16 @@ int main(int argc, char *argv[])
             save_int_binary("array_size", array_length);
             //  can use ceil() in math.h to instead. know this after finish coding this part
             //  it can work, so do not change it here
-            num_value_per_process = (int)(float)(array_length + num_of_process - 1) / num_of_process;    //  to compute the number of values each process need to deal with
-
+            num_value_per_process = (int)ceil((float)array_length / num_of_process);    //  to compute the number of values each process need to deal with
+            //printf("number: %f %d\n", (float)array_length / num_of_process, (int)ceil((float)array_length / num_of_process));
             //printf("number: %d\n", num_value_per_process);
-            //if (array_length % num_of_process != 0) 
+            //if (array_length % num_of_process != 0)
             //{
-                /*
+            /*
                 printf("[Argument Error] the array length should be integer multiples of the num of process!\n");
                 MPI_Abort(MPI_COMM_WORLD, -1);
                 */
-            num_value_left = array_length % num_of_process; 
+            num_value_left = array_length % num_of_process;
 
                 //printf("value is: %d\n", num_value_left);
                 //mpi_new_array = malloc(sizeof(double) * (num_value_per_process * num_of_process));
@@ -156,7 +160,7 @@ int main(int argc, char *argv[])
 
             //printf("\nvalue: %d\n", num_value_per_process);
 
-            printf("mpi %s sort:\n", argv[2]);
+            //printf("mpi %s sort:\n", argv[2]);
             gettimeofday(&start, NULL);
         }
 
@@ -213,36 +217,54 @@ int main(int argc, char *argv[])
         else{
 
             //  ===========================
+            time_start = MPI_Wtime();
             double *mpi_quick_result = mpi_quick_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
             //print_array(mpi_quick_result, num_of_process * num_value_per_process);
-            if (rank == 0)
-                gettimeofday(&middle, NULL);
-
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "quick", " mpi ");
+            }
+            //MPI_Barrier(MPI_COMM_WORLD);
+            time_start = MPI_Wtime();
             double *mpi_omp_quick_result = mpi_omp_quick_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
+            //MPI_Barrier(MPI_COMM_WORLD);
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "quick", " mpi&openmp ");
+            }
 
-            if (rank == 0)
-                gettimeofday(&middle_1, NULL);
+            if (rank == 0){
+                //printf("left: %d\n", num_value_left);
+                mpi_quick_result_1 = (num_value_left != 0) ? deep_copy(mpi_quick_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_quick_result;
+                
+                mpi_omp_quick_result_1 = (num_value_left != 0) ? deep_copy(mpi_omp_quick_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_omp_quick_result;
+            }
+
+            //MPI_Barrier(MPI_COMM_WORLD);
 
             if (rank == 0)
             {
-                
-                mpi_quick_result_1 = (num_value_left != 0) ? deep_copy(mpi_quick_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_quick_result;
-                mpi_omp_quick_result_1 = (num_value_left != 0) ? deep_copy(mpi_omp_quick_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_omp_quick_result;
-                
-                compare_with_quick_serial(start, middle, middle_1, end, mpi_new_array, mpi_omp_quick_result_1, mpi_quick_result_1, array_length);
+                //printf("%f %f\n", mpi_omp_quick_result_1[0], mpi_quick_result_1[0]);
+                compare_with_quick_serial(mpi_new_array, mpi_omp_quick_result_1, mpi_quick_result_1, array_length);
                 printf("\n=============\n");
-                gettimeofday(&start, NULL);
             }
 
             //  ===========================
+
+            time_start = MPI_Wtime();
             double *mpi_merge_result = mpi_merge_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
-            if (rank == 0)
-                gettimeofday(&middle, NULL);
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "merge", " mpi ");
+            }
 
-            double *mpi_omp_merge_result = mpi_omp_merge_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
+            time_start = MPI_Wtime();
+            double *mpi_omp_merge_result = mpi_omp_merge_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);         
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "merge", " mpi&openmp ");
+            }
 
-            if (rank == 0)
-                gettimeofday(&middle_1, NULL);            
 
             if (rank == 0){
                 mpi_merge_result_1 = (num_value_left != 0) ? deep_copy(mpi_merge_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_merge_result;
@@ -250,27 +272,33 @@ int main(int argc, char *argv[])
 
                 //print_array(mpi_merge_result_1, array_length);
 
-                compare_with_merge_serial(start, middle, middle_1, end, mpi_new_array, mpi_omp_merge_result_1, mpi_merge_result_1, array_length);
+                compare_with_merge_serial(mpi_new_array, mpi_omp_merge_result_1, mpi_merge_result_1, array_length);
                 printf("\n=============\n");
                 gettimeofday(&start, NULL);
             }
 
             //  ===========================
 
+            time_start = MPI_Wtime();
             double *mpi_enum_result = mpi_enum_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
-            if (rank == 0)
-                gettimeofday(&middle, NULL);
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "enum", " mpi ");
+            }
 
+
+            time_start = MPI_Wtime();
             double *mpi_omp_enum_result = mpi_omp_enum_main(rank, mpi_new_array, num_value_per_process, receive_array, num_of_process, merge_length, merge_array);
-
-            if (rank == 0)
-                gettimeofday(&middle_1, NULL);
+            time_end = MPI_Wtime();
+            if (rank == 0){
+                print_time_distance_mpi(time_start, time_end, "enum", " mpi&openmp ");
+            }
 
             if (rank == 0){
                 mpi_enum_result_1 = (num_value_left != 0) ? deep_copy(mpi_enum_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_enum_result;
                 mpi_omp_enum_result_1 = (num_value_left != 0) ? deep_copy(mpi_omp_enum_result, num_value_per_process * num_of_process - array_length, num_value_per_process * num_of_process) : mpi_omp_enum_result;
 
-                compare_with_enum_serial(start, middle, middle_1, end, mpi_new_array, mpi_omp_enum_result_1, mpi_enum_result_1, array_length);
+                compare_with_enum_serial(mpi_new_array, mpi_omp_enum_result_1, mpi_enum_result_1, array_length);
                 printf("\n=============\n");
 
                 printf("Comparing between the result of three kinds of algorithms:\n");
