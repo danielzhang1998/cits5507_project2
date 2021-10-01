@@ -10,16 +10,19 @@
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_enum_serial(struct timeval start, struct timeval middle, struct timeval end, double *mpi_new_array, double *receive_array, int array_length){
+double *compare_with_enum_serial(struct timeval start, struct timeval middle, struct timeval middle_1, struct timeval end, double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
-	gettimeofday(&middle, NULL);
+	//gettimeofday(&middle, NULL);
 	double has_mpi = print_time_distance(start, middle, "enum", " mpi ");
+
+	double has_omp_mpi = print_time_distance(middle, middle_1, "enum", " omp&mpi ");
+
 	double *quick_result =  start_enum_main(mpi_new_array, array_length);  //  call serial enum sort to compare with mpi enum sort
 	gettimeofday(&end, NULL);
 
 	double no_mpi = print_time_distance(middle, end, "enum", " ");
 
-	compare_result(quick_result, quick_result, receive_array, array_length);
+	compare_result(quick_result, omp_result, receive_array, array_length);
 	print_ratio(no_mpi, has_mpi);
 
 	return quick_result;

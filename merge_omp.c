@@ -1,35 +1,24 @@
+/*
+    Author: Hanlin Zhang
+    Student id: 22541459
+    Unit: CITS 5507
+    Date: 17 Sep 2021
+*/
+
 #include <mpi.h>
+#include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
 #include <time.h>
-
-#include "mpi_merge.h"
 #include "merge.h"
+#include "merge_omp.h"
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_merge_serial(struct timeval start, struct timeval middle, struct timeval middle_1, struct timeval end, double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
-	//print_array(receive_array, num_value_per_process);
-	//gettimeofday(&middle, NULL);
-	double has_mpi = print_time_distance(start, middle, "merge", " mpi ");
 
-	double has_omp_mpi = print_time_distance(middle, middle_1, "merge", " omp&mpi ");
-	
-	double *merge_result =  start_merge_main(mpi_new_array, array_length);  //  call serial merge sort to compare with mpi merge sort
-	gettimeofday(&end, NULL);
-
-	double no_mpi = print_time_distance(middle, end, "merge", " ");
-
-	compare_result(merge_result, omp_result, receive_array, array_length);
-	print_ratio(no_mpi, has_mpi);
-
-	return merge_result;
-}
-
-
-double *mpi_merge_main(int rank, double *mpi_new_array, int num_value_per_process, double *receive_array, int num_of_process, int merge_length, double *merge_array){
+double *mpi_omp_merge_main(int rank, double *mpi_new_array, int num_value_per_process, double *receive_array, int num_of_process, int merge_length, double *merge_array){
 
 		MPI_Status status[2];
 		MPI_Request request[2];
@@ -40,9 +29,11 @@ double *mpi_merge_main(int rank, double *mpi_new_array, int num_value_per_proces
 		//  give the array after split to each process (devided a large task to be multiple small tasks)
 		MPI_Scatter(mpi_new_array, num_value_per_process, MPI_DOUBLE, receive_array, num_value_per_process, MPI_DOUBLE, ROOT, MPI_COMM_WORLD);
 
-		merge_sort(receive_array, 0, num_value_per_process - 1); //  sort the small array that current process get
-	
-		//printf("rank: %d, num_value_per_process: %d\n", rank, num_value_per_process);
+		receive_array = start_omp_merge(receive_array, num_value_per_process); //  sort the small array that current process get
+        //print_array(receive_array, num_value_per_process);
+        //printf("\n==========\n");
+
+        //printf("rank: %d, num_value_per_process: %d\n", rank, num_value_per_process);
 		for (int step = 1; step < num_of_process; step *= 2)
 		{
 			if(rank % (2 * step) == 0)
@@ -83,4 +74,51 @@ double *mpi_merge_main(int rank, double *mpi_new_array, int num_value_per_proces
 
 	
 	return receive_array;
+}
+
+
+/**
+ * @brief run the merge algorithm with using omp
+ * @param array the array to be sorted
+ * @param start the start of the array
+ * @param end the end of the array
+ * 
+ */
+void omp_merge(double *array, int start, int end){
+    if(start < end){
+        if((end - start) > 40000){
+            int middle = (start + end) / 2;
+            #pragma omp parallel
+            {
+                #pragma omp single nowait
+                {
+                    #pragma omp task firstprivate(array, start, middle)
+                    omp_merge(array, start, middle);    //array1 (left)
+                    #pragma omp task firstprivate(array, middle, end)
+                    omp_merge(array, middle + 1, end);  //array2 (right)
+                }
+            }
+            //wait for the task finished, then sort the array
+            #pragma omp taskwait
+            merge_sort_looping(array, start, end);  
+            
+        }
+        else{
+            merge_sort(array, start, end);
+        }
+        }
+}
+
+
+/** 
+ * @brief start running omp merge algorithm
+ * @param array array to be copied
+ * @param array_length the length to be copied
+ *
+ * @return return the result after using omp merge algorithm
+ */
+double *start_omp_merge(double *array, size_t array_length){
+    omp_merge(array, 0, array_length -1);
+    //print_array(array, array_length);
+    return array;
 }

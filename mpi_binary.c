@@ -9,6 +9,7 @@
  * @param filename the file to be read
  * @param array_length length to read
  * @param rank the rank of current process
+ * @param padding how many 0 padding into the array to makes it able to devide task to each process equally
  *
  * @return return the array read from thr file
  */
@@ -16,7 +17,7 @@ double *mpi_read(char *filename, size_t array_length, int rank, int padding){
     
     MPI_File file;
     MPI_Status status;
-    int length = array_length + padding;
+    int length = array_length + padding;    //  padding will not be 0 if task devide unequal
     double *buf = malloc(sizeof(double) * (length));
 
     for (int i = 0; i < length; i ++){
