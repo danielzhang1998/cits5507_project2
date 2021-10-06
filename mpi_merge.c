@@ -10,7 +10,7 @@
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_merge_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
+double compare_with_merge_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
 	double time_start, time_end;
 	time_start = MPI_Wtime();
@@ -19,11 +19,11 @@ double *compare_with_merge_serial(double *mpi_new_array, double *omp_result, dou
 
 	time_end = MPI_Wtime();
 
-	print_time_distance_mpi(time_start, time_end, "merge", " serial ");
+	double print_result = print_time_distance_mpi(time_start, time_end, "merge", " serial ");
 
 	compare_result(merge_result, omp_result, receive_array, array_length);
 
-	return merge_result;
+	return print_result;
 }
 
 

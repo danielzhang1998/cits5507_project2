@@ -10,7 +10,7 @@
 #include "start_algorithm.h"
 #include "tools.h"
 
-double *compare_with_enum_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
+double compare_with_enum_serial(double *mpi_new_array, double *omp_result, double *receive_array, int array_length){
 	//print_array(receive_array, num_value_per_process);
 	double time_start, time_end;
 	time_start = MPI_Wtime();
@@ -19,11 +19,11 @@ double *compare_with_enum_serial(double *mpi_new_array, double *omp_result, doub
 
 	time_end = MPI_Wtime();
 
-	print_time_distance_mpi(time_start, time_end, "enum", " serial ");
+	double print_result = print_time_distance_mpi(time_start, time_end, "enum", " serial ");
 
 	compare_result(quick_result, omp_result, receive_array, array_length);
 
-	return quick_result;
+	return print_result;
 }
 
 
@@ -57,12 +57,11 @@ double *mpi_enum_main(int rank, double *mpi_new_array, int num_value_per_process
 
 					MPI_Recv(enum_array, enum_length, MPI_DOUBLE, rource_process, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE); //  receive the enum to be enumd
 
-					//print_array(enum_array, enum_length);
-					
 					receive_array = combine(receive_array, enum_array, num_value_per_process, enum_length);   //  combine two arrays to be a large array
 					
 					num_value_per_process += enum_length;
 
+					//printf("Receive:\n");
 					//print_array(receive_array, num_value_per_process);
 				}
 			}

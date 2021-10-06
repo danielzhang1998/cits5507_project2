@@ -32,7 +32,7 @@ double *enum_sort(double *array, double *array_new, size_t value){
         }
         array_new[count_smaller] = array[i];
     }
-    
+    /*
     //  if there have multi repeat values, all the value will be place at the same space by using this algorithm
     //  but there is a rule, the empty space value will be same with the space value of array[pos - 1]
     //  so loop the array and find the empty space, if exists, use the last space value instead it
@@ -40,6 +40,7 @@ double *enum_sort(double *array, double *array_new, size_t value){
         if (array_new[i] == 0)
             array_new[i] = array_new[i - 1];
     }
+    */
     return array_new;
 }
 

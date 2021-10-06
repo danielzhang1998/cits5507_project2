@@ -41,7 +41,21 @@ double *combine(double *array_1, double *array_2, int array_length_1, int array_
 	int i = 0, j = 0, k = 0;
 	double * merged_array = (double *)malloc((array_length_1 + array_length_2)*sizeof(double));
 
-	while(i<array_length_1 && j<array_length_2)
+    int length;
+
+    length = (array_length_1 > array_length_2) ? array_length_1 : array_length_2;
+
+    for (int i = 0; i < length;i++){
+        if (i < array_length_1){
+            array_1[i] = (array_1[i] <= 0.0 || array_1[i] > 100000.0) ? 0.0 : array_1[i];
+        }
+
+        if (i < array_length_2){
+            array_2[i] = (array_2[i] <= 0.0 || array_2[i] > 100000.0) ? 0.0 : array_2[i];
+        }
+    }
+
+    while(i<array_length_1 && j<array_length_2)
 		merged_array[k++] = (array_1[i]<array_2[j]) ? array_1[i++] : array_2[j++];
 
 	if(i==array_length_1)
@@ -51,6 +65,13 @@ double *combine(double *array_1, double *array_2, int array_length_1, int array_
 		while(i<array_length_1)
 			merged_array[k++] = array_1[i++];
 		
+    /*
+    printf("array:\n");
+    print_array(array_2, array_length_2);
+    printf("receive array:\n");
+    print_array(array_1, array_length_1);
+    */
+
 	return merged_array;
 }
 
@@ -195,4 +216,90 @@ double print_time_distance_mpi(double time1, double time2, char *algorithm, char
     printf("time spent of the%salgorithm(s) %s = %12.10f seconds\n", is_mpi, algorithm, distance);
 
     return distance;
+}
+
+
+double *remove_trash_value(double *array, size_t length, size_t array_length){
+
+    int position = 0;
+    //print_array(array, length);
+    double largest = 0.0000000001;
+
+    //printf("count length:%zu %zu\n", array_length, length);
+
+    double *new_array = malloc(sizeof(double) * array_length);
+
+    for (int i = 0; i < length; i++){
+
+        if (array[i] > 0.0 && array[i] < 100000.0 && array[i] > largest){
+            
+            if (i > 1){
+                if (array[i] > array[i - 1] && array[i] != 2.0){
+                    new_array[position] = array[i];
+                    position++;       
+                    largest = array[i];
+                }
+            }
+            else{
+                if (array[i] != 2.0){
+                    new_array[position] = array[i];
+                    position++;
+                    largest = array[i];
+                }
+
+            }
+            //printf("value: %f\n", array[i]);
+        }
+    }
+
+    //print_array(new_array, array_length);
+
+    return new_array;
+}
+
+/** 
+ * @brief save the algorithm name, array size, run time into the file
+ * @param filename the filename to write
+ * @param algorithm the filename to write
+ * @param filename the filename to write
+ * @param filename the filename to write
+ *
+ */
+int save_csv(char *filename, char algorithm[], int array_size, double run_time, int num_of_process)
+{
+    FILE *file;
+
+    file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        file = fopen(filename, "w");
+        if (file == NULL)
+        {
+            return -1;
+        }
+        char title[100];
+        strcpy(title, "sorting_algorithm, array_size, run_time\n");
+        fputs(title, file);
+
+        fclose(file);
+    }
+    fclose(file);
+
+    file = fopen(filename, "a");
+    if (file == NULL)
+    {
+        return -1;
+    }
+    //char new_str_1;
+    //strcpy(&new_str_1, algorithm);
+    //printf("%s\n", algorithm);
+
+    char row[100];
+    sprintf(row, "%s, %d, %f\n", algorithm, array_size, run_time);
+    fputs(row, file);
+    //fputs("\n", file);
+
+    fclose(file);
+
+    return 0;
 }

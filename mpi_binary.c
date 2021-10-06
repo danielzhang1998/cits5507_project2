@@ -19,11 +19,12 @@ double *mpi_read(char *filename, size_t array_length, int rank, int padding){
     MPI_Status status;
     int length = array_length + padding;    //  padding will not be 0 if task devide unequal
     double *buf = malloc(sizeof(double) * (length));
-
-    for (int i = 0; i < length; i ++){
+    //printf("length is: %d\n", length);
+    for (int i = 0; i < length; i++)
+    {
         buf[i] = 0.0;
     }
-
+    //print_array(buf, length);
     MPI_File_open(MPI_COMM_WORLD, filename, MPI_MODE_RDONLY, MPI_INFO_NULL, &file);
 
 
