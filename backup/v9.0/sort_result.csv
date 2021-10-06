@@ -1,0 +1,2611 @@
+sorting_algorithm, array_size, run_time, num_of_process
+mpi quick, 1000, 0.000112, 1
+serial quick, 1000, 0.000097, 1
+mpi merge, 1000, 0.000201, 1
+serial merge, 1000, 0.000183, 1
+mpi enum, 1000, 0.003728, 1
+serial enum, 1000, 0.003967, 1
+mpi quick, 1000, 0.000149, 3
+serial quick, 1000, 0.000098, 3
+mpi merge, 1000, 0.000122, 3
+serial merge, 1000, 0.000189, 3
+mpi enum, 1000, 0.000393, 3
+serial enum, 1000, 0.003827, 3
+mpi quick, 1000, 0.000418, 5
+serial quick, 1000, 0.000109, 5
+mpi merge, 1000, 0.000271, 5
+serial merge, 1000, 0.000188, 5
+mpi enum, 1000, 0.000293, 5
+serial enum, 1000, 0.003711, 5
+mpi quick, 1000, 0.000386, 7
+serial quick, 1000, 0.000181, 7
+mpi merge, 1000, 0.000397, 7
+serial merge, 1000, 0.000185, 7
+mpi enum, 1000, 0.000399, 7
+serial enum, 1000, 0.003736, 7
+mpi quick, 5000, 0.001095, 3
+serial quick, 5000, 0.000577, 3
+mpi merge, 5000, 0.000450, 3
+serial merge, 5000, 0.001077, 3
+mpi enum, 5000, 0.011951, 3
+serial enum, 5000, 0.115366, 3
+mpi quick, 5000, 0.000563, 1
+serial quick, 5000, 0.000560, 1
+mpi merge, 5000, 0.001054, 1
+serial merge, 5000, 0.001026, 1
+mpi enum, 5000, 0.110595, 1
+serial enum, 5000, 0.110191, 1
+mpi quick, 5000, 0.001588, 6
+serial quick, 5000, 0.000580, 6
+mpi merge, 5000, 0.000705, 6
+serial merge, 5000, 0.002271, 6
+mpi enum, 5000, 0.004899, 6
+serial enum, 5000, 0.115763, 6
+mpi quick, 5000, 0.001742, 7
+serial quick, 5000, 0.000577, 7
+mpi merge, 5000, 0.000815, 7
+serial merge, 5000, 0.002369, 7
+mpi enum, 5000, 0.003470, 7
+serial enum, 5000, 0.117036, 7
+mpi quick, 5000, 0.002266, 8
+serial quick, 5000, 0.000588, 8
+mpi merge, 5000, 0.000845, 8
+serial merge, 5000, 0.001048, 8
+mpi enum, 5000, 0.003082, 8
+serial enum, 5000, 0.116879, 8
+mpi quick, 10000, 0.001178, 1
+serial quick, 10000, 0.001210, 1
+mpi merge, 10000, 0.002197, 1
+serial merge, 10000, 0.002351, 1
+mpi enum, 10000, 0.452080, 1
+serial enum, 10000, 0.453432, 1
+mpi quick, 10000, 0.001406, 2
+serial quick, 10000, 0.001223, 2
+mpi merge, 10000, 0.001342, 2
+serial merge, 10000, 0.002344, 2
+mpi enum, 10000, 0.114081, 2
+serial enum, 10000, 0.468606, 2
+mpi quick, 10000, 0.001881, 4
+serial quick, 10000, 0.001234, 4
+mpi merge, 10000, 0.000852, 4
+serial merge, 10000, 0.002311, 4
+mpi enum, 10000, 0.028091, 4
+serial enum, 10000, 0.473124, 4
+mpi quick, 10000, 0.009643, 5
+serial quick, 10000, 0.001231, 5
+mpi merge, 10000, 0.002592, 5
+serial merge, 10000, 0.002239, 5
+mpi enum, 10000, 0.021901, 5
+serial enum, 10000, 0.475334, 5
+mpi quick, 10000, 0.007062, 8
+serial quick, 10000, 0.002345, 8
+mpi merge, 10000, 0.001559, 8
+serial merge, 10000, 0.003516, 8
+mpi enum, 10000, 0.011014, 8
+serial enum, 10000, 0.477561, 8
+mpi quick, 30000, 0.003869, 1
+serial quick, 30000, 0.004408, 1
+mpi merge, 30000, 0.006857, 1
+serial merge, 30000, 0.006910, 1
+mpi enum, 30000, 4.146987, 1
+serial enum, 30000, 4.137817, 1
+mpi quick, 30000, 0.002921, 3
+serial quick, 30000, 0.004385, 3
+mpi merge, 30000, 0.002936, 3
+serial merge, 30000, 0.007288, 3
+mpi enum, 30000, 0.487478, 3
+serial enum, 30000, 4.331997, 3
+mpi quick, 30000, 0.002724, 4
+serial quick, 30000, 0.005279, 4
+mpi merge, 30000, 0.002357, 4
+serial merge, 30000, 0.006842, 4
+mpi enum, 30000, 0.277211, 4
+serial enum, 30000, 4.343464, 4
+mpi quick, 30000, 0.003493, 5
+serial quick, 30000, 0.006933, 5
+mpi merge, 30000, 0.003701, 5
+serial merge, 30000, 0.007114, 5
+mpi enum, 30000, 0.190966, 5
+serial enum, 30000, 4.356329, 5
+mpi quick, 30000, 0.003875, 7
+serial quick, 30000, 0.007031, 7
+mpi merge, 30000, 0.003660, 7
+serial merge, 30000, 0.006742, 7
+mpi enum, 30000, 0.107296, 7
+serial enum, 30000, 4.364470, 7
+mpi quick, 30000, 0.004213, 8
+serial quick, 30000, 0.004134, 8
+mpi merge, 30000, 0.002978, 8
+serial merge, 30000, 0.011070, 8
+mpi enum, 30000, 0.095431, 8
+serial enum, 30000, 4.395935, 8
+mpi quick, 30000, 0.010601, 8
+mpi+openmp quick, 30000, 0.010906, 8
+serial quick, 30000, 0.007138, 8
+mpi merge, 30000, 0.003863, 8
+mpi+openmp merge, 30000, 0.003621, 8
+serial merge, 30000, 0.008987, 8
+mpi enum, 30000, 0.102919, 8
+mpi+openmp enum, 30000, 0.105033, 8
+serial enum, 30000, 4.391753, 8
+mpi quick, 100000, 0.014471, 8
+mpi+openmp quick, 100000, 0.005592, 8
+serial quick, 100000, 0.018923, 8
+mpi merge, 100000, 0.008284, 8
+mpi+openmp merge, 100000, 0.014086, 8
+serial merge, 100000, 0.041312, 8
+mpi enum, 100000, 1.043341, 8
+mpi+openmp enum, 100000, 1.033199, 8
+serial enum, 100000, 48.468316, 8
+mpi quick, 1000000, 0.068966, 8
+mpi+openmp quick, 1000000, 0.053359, 8
+serial quick, 1000000, 0.255641, 8
+mpi merge, 1000000, 0.083222, 8
+mpi+openmp merge, 1000000, 0.114161, 8
+serial merge, 1000000, 0.387491, 8
+mpi quick, 1000000, 0.062531, 8
+mpi+openmp quick, 1000000, 0.077238, 8
+serial quick, 1000000, 0.240270, 8
+mpi merge, 1000000, 0.083345, 8
+mpi+openmp merge, 1000000, 0.097298, 8
+serial merge, 1000000, 0.402279, 8
+mpi quick, 1000000, 0.057974, 8
+mpi+openmp quick, 1000000, 0.065460, 8
+serial quick, 1000000, 0.269382, 8
+mpi merge, 1000000, 0.088323, 8
+mpi+openmp merge, 1000000, 0.095482, 8
+serial merge, 1000000, 0.401152, 8
+mpi quick, 1000000, 0.068586, 8
+mpi+openmp quick, 1000000, 0.058438, 8
+serial quick, 1000000, 0.255386, 8
+mpi merge, 1000000, 0.104410, 8
+mpi+openmp merge, 1000000, 0.099598, 8
+serial merge, 1000000, 0.408062, 8
+mpi quick, 100000, 0.008631, 8
+mpi+openmp quick, 100000, 0.008939, 8
+serial quick, 100000, 0.027303, 8
+mpi merge, 100000, 0.015701, 8
+mpi+openmp merge, 100000, 0.011662, 8
+serial merge, 100000, 0.039336, 8
+mpi enum, 100000, 1.033605, 8
+mpi+openmp enum, 100000, 1.066941, 8
+mpi quick, 10000000, 0.682150, 8
+mpi+openmp quick, 10000000, 0.755391, 8
+serial quick, 10000000, 2.863888, 8
+mpi merge, 10000000, 0.938023, 8
+mpi+openmp merge, 10000000, 0.934537, 8
+serial merge, 10000000, 4.500463, 8
+mpi quick, 10000000, 0.587642, 8
+mpi+openmp quick, 10000000, 0.652701, 8
+serial quick, 10000000, 2.789340, 8
+mpi merge, 10000000, 0.857301, 8
+mpi+openmp merge, 10000000, 0.830295, 8
+serial merge, 10000000, 4.518162, 8
+mpi quick, 100, 0.000359, 8
+mpi+openmp quick, 100, 0.000073, 8
+serial quick, 100, 0.000200, 8
+mpi merge, 100, 0.000045, 8
+mpi+openmp merge, 100, 0.000075, 8
+serial merge, 100, 0.000042, 8
+mpi enum, 100, 0.000018, 8
+mpi+openmp enum, 100, 0.000022, 8
+serial enum, 100, 0.000041, 8
+mpi quick, 1000, 0.000478, 8
+mpi+openmp quick, 1000, 0.000304, 8
+serial quick, 1000, 0.000175, 8
+mpi merge, 1000, 0.000366, 8
+mpi+openmp merge, 1000, 0.000129, 8
+serial merge, 1000, 0.000411, 8
+mpi enum, 1000, 0.000136, 8
+mpi+openmp enum, 1000, 0.000161, 8
+serial enum, 1000, 0.003524, 8
+mpi quick, 1000, 0.000506, 8
+mpi+openmp quick, 1000, 0.000216, 8
+serial quick, 1000, 0.000213, 8
+mpi merge, 1000, 0.000209, 8
+mpi+openmp merge, 1000, 0.000071, 8
+serial merge, 1000, 0.000186, 8
+mpi enum, 1000, 0.000131, 8
+mpi+openmp enum, 1000, 0.000133, 8
+serial enum, 1000, 0.003546, 8
+mpi quick, 1000, 0.000464, 8
+mpi+openmp quick, 1000, 0.000161, 8
+serial quick, 1000, 0.000175, 8
+mpi merge, 1000, 0.000227, 8
+mpi+openmp merge, 1000, 0.000100, 8
+serial merge, 1000, 0.000416, 8
+mpi enum, 1000, 0.000143, 8
+mpi+openmp enum, 1000, 0.000237, 8
+serial enum, 1000, 0.003509, 8
+mpi quick, 1000, 0.000462, 8
+mpi+openmp quick, 1000, 0.000579, 8
+serial quick, 1000, 0.000187, 8
+mpi merge, 1000, 0.000235, 8
+mpi+openmp merge, 1000, 0.000098, 8
+serial merge, 1000, 0.000419, 8
+mpi enum, 1000, 0.000147, 8
+mpi+openmp enum, 1000, 0.000147, 8
+serial enum, 1000, 0.003631, 8
+mpi quick, 1000, 0.000403, 8
+mpi+openmp quick, 1000, 0.000431, 8
+serial quick, 1000, 0.000373, 8
+mpi merge, 1000, 0.001876, 8
+mpi+openmp merge, 1000, 0.000105, 8
+serial merge, 1000, 0.000432, 8
+mpi enum, 1000, 0.000141, 8
+mpi+openmp enum, 1000, 0.000179, 8
+serial enum, 1000, 0.003644, 8
+mpi quick, 100, 0.000487, 8
+mpi+openmp quick, 100, 0.000139, 8
+serial quick, 100, 0.000015, 8
+mpi merge, 100, 0.000600, 8
+mpi+openmp merge, 100, 0.000086, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000013, 8
+mpi+openmp enum, 100, 0.000065, 8
+serial enum, 100, 0.000039, 8
+mpi quick, 100, 0.000310, 8
+mpi+openmp quick, 100, 0.000290, 8
+serial quick, 100, 0.000015, 8
+mpi merge, 100, 0.000224, 8
+mpi+openmp merge, 100, 0.000029, 8
+serial merge, 100, 0.000047, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000021, 8
+serial enum, 100, 0.000044, 8
+mpi quick, 100, 0.000356, 8
+mpi+openmp quick, 100, 0.000097, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000296, 8
+mpi+openmp merge, 100, 0.000027, 8
+serial merge, 100, 0.000040, 8
+mpi enum, 100, 0.000059, 8
+mpi+openmp enum, 100, 0.000018, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.000376, 8
+mpi+openmp quick, 100, 0.000267, 8
+serial quick, 100, 0.000015, 8
+mpi merge, 100, 0.000068, 8
+mpi+openmp merge, 100, 0.000021, 8
+serial merge, 100, 0.000044, 8
+mpi enum, 100, 0.000236, 8
+mpi+openmp enum, 100, 0.000020, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.000341, 8
+mpi+openmp quick, 100, 0.000262, 8
+serial quick, 100, 0.000011, 8
+mpi merge, 100, 0.000352, 8
+mpi+openmp merge, 100, 0.000048, 8
+serial merge, 100, 0.000021, 8
+mpi enum, 100, 0.000011, 8
+mpi+openmp enum, 100, 0.000051, 8
+serial enum, 100, 0.000039, 8
+mpi quick, 100, 0.001536, 8
+mpi+openmp quick, 100, 0.000105, 8
+serial quick, 100, 0.000017, 8
+mpi merge, 100, 0.000080, 8
+mpi+openmp merge, 100, 0.000021, 8
+serial merge, 100, 0.000042, 8
+mpi enum, 100, 0.000051, 8
+mpi+openmp enum, 100, 0.000022, 8
+serial enum, 100, 0.000045, 8
+mpi quick, 100, 0.000323, 8
+mpi+openmp quick, 100, 0.000354, 8
+serial quick, 100, 0.000236, 8
+mpi merge, 100, 0.000124, 8
+mpi+openmp merge, 100, 0.000026, 8
+serial merge, 100, 0.000040, 8
+mpi enum, 100, 0.000019, 8
+mpi+openmp enum, 100, 0.000021, 8
+serial enum, 100, 0.000082, 8
+mpi quick, 100, 0.000323, 8
+mpi+openmp quick, 100, 0.000154, 8
+serial quick, 100, 0.000019, 8
+mpi merge, 100, 0.000120, 8
+mpi+openmp merge, 100, 0.000053, 8
+serial merge, 100, 0.000041, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000049, 8
+serial enum, 100, 0.000042, 8
+mpi quick, 100, 0.010193, 8
+mpi+openmp quick, 100, 0.000370, 8
+serial quick, 100, 0.000017, 8
+mpi merge, 100, 0.000044, 8
+mpi+openmp merge, 100, 0.000029, 8
+serial merge, 100, 0.000043, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000020, 8
+serial enum, 100, 0.000052, 8
+mpi quick, 100, 0.000932, 8
+mpi+openmp quick, 100, 0.000377, 8
+serial quick, 100, 0.000008, 8
+mpi merge, 100, 0.000228, 8
+mpi+openmp merge, 100, 0.000019, 8
+serial merge, 100, 0.000017, 8
+mpi enum, 100, 0.000014, 8
+mpi+openmp enum, 100, 0.000023, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.001409, 8
+mpi+openmp quick, 100, 0.000410, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000229, 8
+mpi+openmp merge, 100, 0.000019, 8
+serial merge, 100, 0.000043, 8
+mpi enum, 100, 0.000018, 8
+mpi+openmp enum, 100, 0.000016, 8
+serial enum, 100, 0.000040, 8
+mpi quick, 100, 0.000353, 8
+mpi+openmp quick, 100, 0.000094, 8
+serial quick, 100, 0.000018, 8
+mpi merge, 100, 0.000092, 8
+mpi+openmp merge, 100, 0.000020, 8
+serial merge, 100, 0.000018, 8
+mpi enum, 100, 0.000014, 8
+mpi+openmp enum, 100, 0.000016, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000373, 8
+mpi+openmp quick, 100, 0.000316, 8
+serial quick, 100, 0.000017, 8
+mpi merge, 100, 0.000372, 8
+mpi+openmp merge, 100, 0.000023, 8
+serial merge, 100, 0.000021, 8
+mpi enum, 100, 0.000012, 8
+mpi+openmp enum, 100, 0.000018, 8
+serial enum, 100, 0.000044, 8
+mpi quick, 100, 0.000319, 8
+mpi+openmp quick, 100, 0.000166, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000302, 8
+mpi+openmp merge, 100, 0.000038, 8
+serial merge, 100, 0.000027, 8
+mpi enum, 100, 0.000058, 8
+mpi+openmp enum, 100, 0.000019, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000358, 8
+mpi+openmp quick, 100, 0.000147, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000275, 8
+mpi+openmp merge, 100, 0.000241, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000013, 8
+mpi+openmp enum, 100, 0.000017, 8
+serial enum, 100, 0.000045, 8
+mpi quick, 100, 0.000443, 8
+mpi+openmp quick, 100, 0.000053, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000156, 8
+mpi+openmp merge, 100, 0.000056, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000021, 8
+mpi+openmp enum, 100, 0.000020, 8
+serial enum, 100, 0.000075, 8
+mpi quick, 100, 0.000325, 8
+mpi+openmp quick, 100, 0.000894, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000067, 8
+mpi+openmp merge, 100, 0.000490, 8
+serial merge, 100, 0.000018, 8
+mpi enum, 100, 0.000045, 8
+mpi+openmp enum, 100, 0.000014, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.002113, 8
+mpi+openmp quick, 100, 0.008649, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000863, 8
+mpi+openmp merge, 100, 0.016317, 8
+serial merge, 100, 0.002976, 8
+mpi enum, 100, 0.005912, 8
+mpi+openmp enum, 100, 0.000171, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000379, 8
+mpi+openmp quick, 100, 0.000093, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000040, 8
+mpi+openmp merge, 100, 0.000019, 8
+serial merge, 100, 0.000025, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000016, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000306, 8
+mpi+openmp quick, 100, 0.000387, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000033, 8
+mpi+openmp merge, 100, 0.000051, 8
+serial merge, 100, 0.000021, 8
+mpi enum, 100, 0.000039, 8
+mpi+openmp enum, 100, 0.000016, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.000364, 8
+mpi+openmp quick, 100, 0.000080, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000622, 8
+mpi+openmp merge, 100, 0.000402, 8
+serial merge, 100, 0.000045, 8
+mpi enum, 100, 0.000456, 8
+mpi+openmp enum, 100, 0.000027, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.000326, 8
+mpi+openmp quick, 100, 0.000163, 8
+serial quick, 100, 0.000008, 8
+mpi merge, 100, 0.000422, 8
+mpi+openmp merge, 100, 0.000022, 8
+serial merge, 100, 0.000021, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000017, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000344, 8
+mpi+openmp quick, 100, 0.000383, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000051, 8
+mpi+openmp merge, 100, 0.000018, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000053, 8
+mpi+openmp enum, 100, 0.000018, 8
+serial enum, 100, 0.000036, 8
+mpi quick, 100, 0.000374, 8
+mpi+openmp quick, 100, 0.000474, 8
+serial quick, 100, 0.000017, 8
+mpi merge, 100, 0.000047, 8
+mpi+openmp merge, 100, 0.000027, 8
+serial merge, 100, 0.000043, 8
+mpi enum, 100, 0.000026, 8
+mpi+openmp enum, 100, 0.000027, 8
+serial enum, 100, 0.000041, 8
+mpi quick, 100, 0.000311, 8
+mpi+openmp quick, 100, 0.000095, 8
+serial quick, 100, 0.000008, 8
+mpi merge, 100, 0.000232, 8
+mpi+openmp merge, 100, 0.000055, 8
+serial merge, 100, 0.000017, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000489, 8
+serial enum, 100, 0.000039, 8
+mpi quick, 100, 0.000369, 8
+mpi+openmp quick, 100, 0.000488, 8
+serial quick, 100, 0.000016, 8
+mpi merge, 100, 0.000046, 8
+mpi+openmp merge, 100, 0.000020, 8
+serial merge, 100, 0.000040, 8
+mpi enum, 100, 0.000019, 8
+mpi+openmp enum, 100, 0.000166, 8
+serial enum, 100, 0.000036, 8
+mpi quick, 100, 0.000345, 8
+mpi+openmp quick, 100, 0.000452, 8
+serial quick, 100, 0.000010, 8
+mpi merge, 100, 0.000162, 8
+mpi+openmp merge, 100, 0.000015, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000014, 8
+mpi+openmp enum, 100, 0.000333, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000371, 8
+mpi+openmp quick, 100, 0.000161, 8
+serial quick, 100, 0.000009, 8
+mpi merge, 100, 0.000155, 8
+mpi+openmp merge, 100, 0.000016, 8
+serial merge, 100, 0.000027, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000210, 8
+serial enum, 100, 0.000038, 8
+mpi quick, 100, 0.000473, 8
+mpi+openmp quick, 100, 0.000097, 8
+serial quick, 100, 0.000008, 8
+mpi merge, 100, 0.000300, 8
+mpi+openmp merge, 100, 0.000328, 8
+serial merge, 100, 0.000022, 8
+mpi enum, 100, 0.000017, 8
+mpi+openmp enum, 100, 0.000190, 8
+serial enum, 100, 0.000089, 8
+mpi quick, 100, 0.000256, 8
+mpi+openmp quick, 100, 0.000244, 8
+serial quick, 100, 0.000015, 8
+mpi merge, 100, 0.000040, 8
+mpi+openmp merge, 100, 0.000064, 8
+serial merge, 100, 0.000042, 8
+mpi enum, 100, 0.000020, 8
+mpi+openmp enum, 100, 0.000198, 8
+serial enum, 100, 0.000037, 8
+mpi quick, 100, 0.000549, 8
+mpi+openmp quick, 100, 0.000128, 8
+serial quick, 100, 0.000018, 8
+mpi merge, 100, 0.000123, 8
+mpi+openmp merge, 100, 0.000693, 8
+serial merge, 100, 0.000019, 8
+mpi enum, 100, 0.000059, 8
+mpi+openmp enum, 100, 0.000163, 8
+serial enum, 100, 0.000040, 8
+mpi quick, 20, 0.000264, 8
+mpi+openmp quick, 20, 0.000200, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000175, 8
+mpi+openmp merge, 20, 0.000017, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000013, 8
+mpi+openmp enum, 20, 0.000018, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000308, 8
+mpi+openmp quick, 20, 0.000054, 8
+serial quick, 20, 0.000005, 8
+mpi merge, 20, 0.000238, 8
+mpi+openmp merge, 20, 0.000283, 8
+serial merge, 20, 0.000013, 8
+mpi enum, 20, 0.000252, 8
+mpi+openmp enum, 20, 0.000022, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000337, 8
+mpi+openmp quick, 20, 0.000136, 8
+serial quick, 20, 0.000003, 8
+mpi merge, 20, 0.000122, 8
+mpi+openmp merge, 20, 0.000022, 8
+serial merge, 20, 0.000004, 8
+mpi enum, 20, 0.000786, 8
+mpi+openmp enum, 20, 0.000060, 8
+serial enum, 20, 0.000005, 8
+mpi quick, 20, 0.000313, 8
+mpi+openmp quick, 20, 0.000128, 8
+serial quick, 20, 0.000002, 8
+mpi merge, 20, 0.000121, 8
+mpi+openmp merge, 20, 0.000562, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000021, 8
+mpi+openmp enum, 20, 0.000019, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000170, 8
+mpi+openmp quick, 20, 0.000526, 8
+serial quick, 20, 0.000005, 8
+mpi merge, 20, 0.000115, 8
+mpi+openmp merge, 20, 0.000652, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000018, 8
+mpi+openmp enum, 20, 0.000018, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000215, 8
+mpi+openmp quick, 20, 0.000211, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000400, 8
+mpi+openmp merge, 20, 0.000020, 8
+serial merge, 20, 0.000004, 8
+mpi enum, 20, 0.000147, 8
+mpi+openmp enum, 20, 0.000066, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000168, 8
+mpi+openmp quick, 20, 0.000021, 8
+serial quick, 20, 0.000005, 8
+mpi merge, 20, 0.000024, 8
+mpi+openmp merge, 20, 0.000185, 8
+serial merge, 20, 0.000546, 8
+mpi enum, 20, 0.000018, 8
+mpi+openmp enum, 20, 0.000014, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000224, 8
+mpi+openmp quick, 20, 0.000204, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000039, 8
+mpi+openmp merge, 20, 0.000438, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000053, 8
+mpi+openmp enum, 20, 0.000015, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000265, 8
+mpi+openmp quick, 20, 0.000164, 8
+serial quick, 20, 0.000007, 8
+mpi merge, 20, 0.000402, 8
+mpi+openmp merge, 20, 0.000192, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000015, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000323, 8
+mpi+openmp quick, 20, 0.000202, 8
+serial quick, 20, 0.000003, 8
+mpi merge, 20, 0.000150, 8
+mpi+openmp merge, 20, 0.000089, 8
+serial merge, 20, 0.000004, 8
+mpi enum, 20, 0.000142, 8
+mpi+openmp enum, 20, 0.000039, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000308, 8
+mpi+openmp quick, 20, 0.000401, 8
+serial quick, 20, 0.000009, 8
+mpi merge, 20, 0.000345, 8
+mpi+openmp merge, 20, 0.000682, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000101, 8
+mpi+openmp enum, 20, 0.000067, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000201, 8
+mpi+openmp quick, 20, 0.000115, 8
+serial quick, 20, 0.000004, 8
+mpi merge, 20, 0.000529, 8
+mpi+openmp merge, 20, 0.000596, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000015, 8
+mpi+openmp enum, 20, 0.000022, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000525, 8
+mpi+openmp quick, 20, 0.000365, 8
+serial quick, 20, 0.001113, 8
+mpi merge, 20, 0.000432, 8
+mpi+openmp merge, 20, 0.000294, 8
+serial merge, 20, 0.001478, 8
+mpi enum, 20, 0.000022, 8
+mpi+openmp enum, 20, 0.000018, 8
+serial enum, 20, 0.000024, 8
+mpi quick, 20, 0.000266, 8
+mpi+openmp quick, 20, 0.000159, 8
+serial quick, 20, 0.000049, 8
+mpi merge, 20, 0.000447, 8
+mpi+openmp merge, 20, 0.000298, 8
+serial merge, 20, 0.000047, 8
+mpi enum, 20, 0.000020, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000023, 8
+mpi quick, 20, 0.000189, 8
+mpi+openmp quick, 20, 0.000115, 8
+serial quick, 20, 0.000044, 8
+mpi merge, 20, 0.000240, 8
+mpi+openmp merge, 20, 0.000425, 8
+serial merge, 20, 0.000048, 8
+mpi enum, 20, 0.000024, 8
+mpi+openmp enum, 20, 0.000020, 8
+serial enum, 20, 0.000047, 8
+mpi quick, 20, 0.000207, 8
+mpi+openmp quick, 20, 0.000185, 8
+serial quick, 20, 0.000044, 8
+mpi merge, 20, 0.000043, 8
+mpi+openmp merge, 20, 0.000094, 8
+serial merge, 20, 0.001062, 8
+mpi enum, 20, 0.000025, 8
+mpi+openmp enum, 20, 0.000013, 8
+serial enum, 20, 0.000082, 8
+mpi quick, 20, 0.002685, 8
+mpi+openmp quick, 20, 0.006549, 8
+serial quick, 20, 0.004021, 8
+mpi merge, 20, 0.006052, 8
+mpi+openmp merge, 20, 0.000212, 8
+serial merge, 20, 0.001988, 8
+mpi enum, 20, 0.006432, 8
+mpi+openmp enum, 20, 0.000959, 8
+serial enum, 20, 0.000025, 8
+mpi quick, 20, 0.000182, 8
+mpi+openmp quick, 20, 0.000126, 8
+serial quick, 20, 0.005877, 8
+mpi merge, 20, 0.000239, 8
+mpi+openmp merge, 20, 0.000207, 8
+serial merge, 20, 0.000048, 8
+mpi enum, 20, 0.000032, 8
+mpi+openmp enum, 20, 0.000081, 8
+serial enum, 20, 0.000022, 8
+mpi quick, 20, 0.000342, 8
+mpi+openmp quick, 20, 0.000049, 8
+serial quick, 20, 0.000019, 8
+mpi merge, 20, 0.000111, 8
+mpi+openmp merge, 20, 0.000133, 8
+serial merge, 20, 0.000020, 8
+mpi enum, 20, 0.000372, 8
+mpi+openmp enum, 20, 0.000014, 8
+serial enum, 20, 0.000020, 8
+mpi quick, 20, 0.000318, 8
+mpi+openmp quick, 20, 0.000128, 8
+serial quick, 20, 0.000003, 8
+mpi merge, 20, 0.000088, 8
+mpi+openmp merge, 20, 0.000474, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000013, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000005, 8
+mpi quick, 20, 0.000370, 8
+mpi+openmp quick, 20, 0.000212, 8
+serial quick, 20, 0.000004, 8
+mpi merge, 20, 0.000145, 8
+mpi+openmp merge, 20, 0.000447, 8
+serial merge, 20, 0.000004, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000015, 8
+serial enum, 20, 0.000002, 8
+mpi quick, 20, 0.000283, 8
+mpi+openmp quick, 20, 0.000237, 8
+mpi quick, 20, 0.000166, 8
+mpi+openmp quick, 20, 0.000231, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000262, 8
+mpi+openmp merge, 20, 0.000155, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000019, 8
+mpi+openmp enum, 20, 0.000137, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000200, 8
+mpi+openmp quick, 20, 0.000349, 8
+serial quick, 20, 0.000005, 8
+mpi merge, 20, 0.000187, 8
+mpi+openmp merge, 20, 0.000037, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000061, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000233, 8
+mpi+openmp quick, 20, 0.000515, 8
+serial quick, 20, 0.000003, 8
+mpi merge, 20, 0.000039, 8
+mpi+openmp merge, 20, 0.000013, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000012, 8
+serial enum, 20, 0.000005, 8
+mpi quick, 20, 0.000241, 8
+mpi+openmp quick, 20, 0.000282, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000175, 8
+mpi+openmp merge, 20, 0.000020, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000017, 8
+mpi+openmp enum, 20, 0.000016, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000226, 8
+mpi+openmp quick, 20, 0.001028, 8
+serial quick, 20, 0.000002, 8
+mpi merge, 20, 0.000532, 8
+mpi+openmp merge, 20, 0.008633, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000964, 8
+mpi+openmp enum, 20, 0.000125, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000323, 8
+mpi+openmp quick, 20, 0.000123, 8
+serial quick, 20, 0.000004, 8
+mpi merge, 20, 0.000334, 8
+mpi+openmp merge, 20, 0.000016, 8
+serial merge, 20, 0.000010, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000016, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000391, 8
+mpi+openmp quick, 20, 0.000143, 8
+serial quick, 20, 0.000002, 8
+mpi merge, 20, 0.000156, 8
+mpi+openmp merge, 20, 0.000478, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000025, 8
+mpi+openmp enum, 20, 0.000014, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000261, 8
+mpi+openmp quick, 20, 0.000200, 8
+serial quick, 20, 0.000006, 8
+mpi merge, 20, 0.000167, 8
+mpi+openmp merge, 20, 0.000033, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000014, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000169, 8
+mpi+openmp quick, 20, 0.000130, 8
+serial quick, 20, 0.000041, 8
+mpi merge, 20, 0.000125, 8
+mpi+openmp merge, 20, 0.000017, 8
+serial merge, 20, 0.000047, 8
+mpi enum, 20, 0.000032, 8
+mpi+openmp enum, 20, 0.000018, 8
+serial enum, 20, 0.000024, 8
+mpi quick, 20, 0.000873, 8
+mpi+openmp quick, 20, 0.000042, 8
+serial quick, 20, 0.000045, 8
+mpi merge, 20, 0.000413, 8
+mpi+openmp merge, 20, 0.000121, 8
+mpi quick, 20, 0.006154, 8
+mpi+openmp quick, 20, 0.001436, 8
+serial quick, 20, 0.000192, 8
+mpi merge, 20, 0.001320, 8
+mpi+openmp merge, 20, 0.017764, 8
+mpi quick, 20, 0.000341, 8
+mpi+openmp quick, 20, 0.000108, 8
+serial quick, 20, 0.000081, 8
+mpi merge, 20, 0.000042, 8
+mpi+openmp merge, 20, 0.000017, 8
+mpi quick, 20, 0.000236, 8
+mpi+openmp quick, 20, 0.000171, 8
+serial quick, 20, 0.000007, 8
+mpi merge, 20, 0.000387, 8
+mpi+openmp merge, 20, 0.000017, 8
+serial merge, 20, 0.000013, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000016, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000245, 8
+mpi+openmp quick, 20, 0.000173, 8
+serial quick, 20, 0.000011, 8
+mpi merge, 20, 0.000114, 8
+mpi+openmp merge, 20, 0.000020, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000014, 8
+mpi+openmp enum, 20, 0.000014, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000484, 8
+mpi+openmp quick, 20, 0.000377, 8
+serial quick, 20, 0.000004, 8
+mpi merge, 20, 0.000073, 8
+mpi+openmp merge, 20, 0.000015, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000009, 8
+mpi+openmp enum, 20, 0.000014, 8
+serial enum, 20, 0.000033, 8
+mpi quick, 20, 0.001722, 8
+mpi+openmp quick, 20, 0.000059, 8
+serial quick, 20, 0.000011, 8
+mpi merge, 20, 0.000128, 8
+mpi+openmp merge, 20, 0.000041, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000111, 8
+mpi+openmp enum, 20, 0.000067, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000266, 8
+mpi+openmp quick, 20, 0.000093, 8
+serial quick, 20, 0.000011, 8
+mpi merge, 20, 0.000192, 8
+mpi+openmp merge, 20, 0.000454, 8
+mpi quick, 20, 0.010236, 8
+mpi+openmp quick, 20, 0.000060, 8
+serial quick, 20, 0.000005, 8
+mpi merge, 20, 0.000032, 8
+mpi+openmp merge, 20, 0.000017, 8
+mpi quick, 20, 0.000336, 8
+mpi+openmp quick, 20, 0.000154, 8
+mpi quick, 20, 0.000266, 8
+mpi+openmp quick, 20, 0.000202, 8
+mpi quick, 20, 0.000287, 8
+mpi+openmp quick, 20, 0.000091, 8
+serial quick, 20, 0.000101, 8
+mpi merge, 20, 0.000056, 8
+mpi+openmp merge, 20, 0.000021, 8
+mpi quick, 20, 0.000498, 8
+mpi+openmp quick, 20, 0.000187, 8
+mpi quick, 20, 0.000472, 8
+mpi+openmp quick, 20, 0.000396, 8
+serial quick, 20, 0.000004, 8
+mpi merge, 20, 0.000230, 8
+mpi+openmp merge, 20, 0.000056, 8
+mpi quick, 20, 0.000221, 8
+mpi+openmp quick, 20, 0.000061, 8
+mpi quick, 20, 0.000269, 8
+mpi+openmp quick, 20, 0.000098, 8
+mpi quick, 20, 0.000251, 8
+mpi+openmp quick, 20, 0.000291, 8
+serial quick, 20, 0.000015, 8
+mpi merge, 20, 0.000062, 8
+mpi+openmp merge, 20, 0.000094, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000017, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000217, 8
+mpi+openmp quick, 20, 0.001912, 8
+serial quick, 20, 0.000011, 8
+mpi merge, 20, 0.000287, 8
+mpi+openmp merge, 20, 0.000013, 8
+serial merge, 20, 0.000012, 8
+mpi enum, 20, 0.000011, 8
+mpi+openmp enum, 20, 0.000012, 8
+serial enum, 20, 0.000006, 8
+mpi quick, 20, 0.000248, 8
+mpi+openmp quick, 20, 0.000145, 8
+serial quick, 20, 0.000010, 8
+mpi merge, 20, 0.000046, 8
+mpi+openmp merge, 20, 0.000013, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000011, 8
+mpi+openmp enum, 20, 0.000012, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000162, 8
+mpi+openmp quick, 20, 0.000095, 8
+serial quick, 20, 0.000008, 8
+mpi merge, 20, 0.000430, 8
+mpi+openmp merge, 20, 0.000018, 8
+serial merge, 20, 0.000011, 8
+mpi enum, 20, 0.000012, 8
+mpi+openmp enum, 20, 0.000016, 8
+serial enum, 20, 0.000006, 8
+mpi quick, 20, 0.000697, 8
+mpi+openmp quick, 20, 0.000465, 8
+serial quick, 20, 0.000008, 8
+mpi merge, 20, 0.000378, 8
+mpi+openmp merge, 20, 0.001094, 8
+serial merge, 20, 0.000005, 8
+mpi enum, 20, 0.000011, 8
+mpi+openmp enum, 20, 0.000012, 8
+serial enum, 20, 0.000003, 8
+mpi quick, 20, 0.000500, 8
+mpi+openmp quick, 20, 0.000063, 8
+serial quick, 20, 0.000012, 8
+mpi merge, 20, 0.000139, 8
+mpi+openmp merge, 20, 0.000021, 8
+serial merge, 20, 0.000014, 8
+mpi enum, 20, 0.000014, 8
+mpi+openmp enum, 20, 0.000016, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 20, 0.000199, 8
+mpi+openmp quick, 20, 0.000084, 8
+serial quick, 20, 0.000014, 8
+mpi merge, 20, 0.000098, 8
+mpi+openmp merge, 20, 0.000480, 8
+serial merge, 20, 0.000035, 8
+mpi enum, 20, 0.000029, 8
+mpi+openmp enum, 20, 0.000019, 8
+serial enum, 20, 0.000004, 8
+mpi quick, 10, 0.000050, 3
+mpi+openmp quick, 10, 0.000010, 3
+serial quick, 10, 0.000013, 3
+mpi merge, 10, 0.000043, 3
+mpi+openmp merge, 10, 0.000041, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000013, 3
+mpi+openmp enum, 10, 0.000038, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000051, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000005, 3
+mpi merge, 10, 0.000010, 3
+mpi+openmp merge, 10, 0.000053, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000212, 3
+mpi+openmp enum, 10, 0.000020, 3
+serial enum, 10, 0.000001, 3
+mpi quick, 10, 0.000069, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000006, 3
+mpi merge, 10, 0.000145, 3
+mpi+openmp merge, 10, 0.000026, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000034, 3
+mpi+openmp enum, 10, 0.000003, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000061, 3
+mpi+openmp quick, 10, 0.000043, 3
+serial quick, 10, 0.000008, 3
+mpi merge, 10, 0.000014, 3
+mpi+openmp merge, 10, 0.000005, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000057, 3
+mpi+openmp enum, 10, 0.000021, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000054, 3
+mpi+openmp quick, 10, 0.000061, 3
+serial quick, 10, 0.000004, 3
+mpi merge, 10, 0.000107, 3
+mpi+openmp merge, 10, 0.000088, 3
+serial merge, 10, 0.000003, 3
+mpi enum, 10, 0.000041, 3
+mpi+openmp enum, 10, 0.000012, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000068, 3
+mpi+openmp quick, 10, 0.000054, 3
+serial quick, 10, 0.000006, 3
+mpi merge, 10, 0.000012, 3
+mpi+openmp merge, 10, 0.000064, 3
+serial merge, 10, 0.000006, 3
+mpi enum, 10, 0.000035, 3
+mpi+openmp enum, 10, 0.000015, 3
+serial enum, 10, 0.000001, 3
+mpi quick, 10, 0.000063, 3
+mpi+openmp quick, 10, 0.000004, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000040, 3
+mpi+openmp merge, 10, 0.000029, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000032, 3
+mpi+openmp enum, 10, 0.000078, 3
+serial enum, 10, 0.000001, 3
+mpi quick, 10, 0.000056, 3
+mpi+openmp quick, 10, 0.000045, 3
+serial quick, 10, 0.000005, 3
+mpi merge, 10, 0.000016, 3
+mpi+openmp merge, 10, 0.000088, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000053, 3
+mpi+openmp enum, 10, 0.000053, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000052, 3
+mpi+openmp quick, 10, 0.000205, 3
+serial quick, 10, 0.000014, 3
+mpi merge, 10, 0.000017, 3
+mpi+openmp merge, 10, 0.000028, 3
+serial merge, 10, 0.000006, 3
+mpi enum, 10, 0.000077, 3
+mpi+openmp enum, 10, 0.000044, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000054, 3
+mpi+openmp quick, 10, 0.000008, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000011, 3
+mpi+openmp merge, 10, 0.000169, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000033, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000055, 3
+mpi+openmp quick, 10, 0.000062, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000053, 3
+mpi+openmp merge, 10, 0.000042, 3
+serial merge, 10, 0.000007, 3
+mpi enum, 10, 0.000030, 3
+mpi+openmp enum, 10, 0.000024, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000058, 3
+mpi+openmp quick, 10, 0.000036, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000013, 3
+mpi+openmp merge, 10, 0.000056, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000067, 3
+mpi+openmp enum, 10, 0.000051, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000056, 3
+mpi+openmp quick, 10, 0.000050, 3
+serial quick, 10, 0.000004, 3
+mpi merge, 10, 0.000014, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000006, 3
+mpi enum, 10, 0.000032, 3
+mpi+openmp enum, 10, 0.000050, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000235, 3
+mpi+openmp quick, 10, 0.000010, 3
+serial quick, 10, 0.000004, 3
+mpi merge, 10, 0.000044, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000051, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000063, 3
+mpi+openmp quick, 10, 0.000053, 3
+serial quick, 10, 0.000004, 3
+mpi merge, 10, 0.000017, 3
+mpi+openmp merge, 10, 0.000005, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000117, 3
+mpi+openmp enum, 10, 0.000007, 3
+serial enum, 10, 0.000001, 3
+mpi quick, 10, 0.000055, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000035, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000005, 3
+mpi enum, 10, 0.000026, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000359, 3
+mpi+openmp quick, 10, 0.000019, 3
+serial quick, 10, 0.000004, 3
+mpi merge, 10, 0.000011, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000004, 3
+mpi enum, 10, 0.000044, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000054, 3
+mpi+openmp quick, 10, 0.000058, 3
+serial quick, 10, 0.000002, 3
+mpi merge, 10, 0.000012, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000015, 3
+mpi enum, 10, 0.000033, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000055, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000002, 3
+mpi quick, 10, 0.000053, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000002, 3
+mpi quick, 10, 0.000056, 3
+mpi+openmp quick, 10, 0.000035, 3
+serial quick, 10, 0.000005, 3
+mpi merge, 10, 0.000012, 3
+mpi+openmp merge, 10, 0.000004, 3
+mpi quick, 10, 0.000055, 3
+mpi+openmp quick, 10, 0.000058, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000013, 3
+mpi+openmp merge, 10, 0.000004, 3
+serial merge, 10, 0.000008, 3
+mpi enum, 10, 0.000078, 3
+mpi+openmp enum, 10, 0.000025, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000054, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000004, 3
+mpi quick, 10, 0.000054, 3
+mpi+openmp quick, 10, 0.000004, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000199, 3
+mpi+openmp merge, 10, 0.000050, 3
+serial merge, 10, 0.000004, 3
+mpi enum, 10, 0.000037, 3
+mpi+openmp enum, 10, 0.000004, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000074, 3
+mpi+openmp quick, 10, 0.000183, 3
+serial quick, 10, 0.000002, 3
+mpi merge, 10, 0.000067, 3
+mpi+openmp merge, 10, 0.000008, 3
+serial merge, 10, 0.000004, 3
+mpi enum, 10, 0.000203, 3
+mpi+openmp enum, 10, 0.000045, 3
+serial enum, 10, 0.000001, 3
+mpi quick, 10, 0.000063, 3
+mpi+openmp quick, 10, 0.000059, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000014, 3
+mpi+openmp merge, 10, 0.000004, 3
+mpi quick, 10, 0.000061, 3
+mpi+openmp quick, 10, 0.000005, 3
+serial quick, 10, 0.000003, 3
+mpi merge, 10, 0.000063, 3
+mpi+openmp merge, 10, 0.000005, 3
+serial merge, 10, 0.000004, 3
+mpi enum, 10, 0.000098, 3
+mpi+openmp enum, 10, 0.000007, 3
+serial enum, 10, 0.000002, 3
+mpi quick, 10, 0.000253
+mpi+openmp quick, 10, 0.000174
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000058
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000064
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000047
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000036
+mpi+openmp enum, 10, 0.000003
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000063
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000233
+mpi+openmp merge, 10, 0.000045
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000048
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000061
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000012
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000036
+mpi+openmp enum, 10, 0.000061
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000056
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000035
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000031
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000053
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000054
+mpi+openmp enum, 10, 0.000136
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000054
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000097
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000069
+mpi+openmp enum, 10, 0.000018
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000069
+mpi+openmp quick, 10, 0.000056
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000011
+mpi+openmp merge, 10, 0.000065
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000028
+mpi+openmp enum, 10, 0.000017
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000053
+mpi+openmp quick, 10, 0.000082
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000012
+mpi+openmp merge, 10, 0.000020
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000035
+mpi+openmp enum, 10, 0.000003
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000054
+mpi+openmp quick, 10, 0.000119
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000053
+mpi+openmp merge, 10, 0.000013
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000032
+mpi+openmp enum, 10, 0.000027
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000062
+mpi+openmp quick, 10, 0.000044
+serial quick, 10, 0.000022
+mpi merge, 10, 0.000102
+mpi+openmp merge, 10, 0.000053
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000028
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000064
+mpi+openmp quick, 10, 0.000028
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000013
+mpi+openmp merge, 10, 0.000054
+serial merge, 10, 0.000008
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000160
+mpi+openmp quick, 10, 0.000062
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000038
+mpi+openmp merge, 10, 0.000022
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000052
+mpi+openmp enum, 10, 0.000006
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000056
+mpi+openmp quick, 10, 0.000006
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000013
+mpi+openmp merge, 10, 0.000008
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000055
+mpi+openmp enum, 10, 0.000005
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000054
+mpi+openmp quick, 10, 0.000109
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000053
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000030
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000061
+mpi+openmp quick, 10, 0.000150
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000013
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000023
+mpi enum, 10, 0.000006
+mpi+openmp enum, 10, 0.000054
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000170
+mpi+openmp quick, 10, 0.000023
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000041
+mpi+openmp merge, 10, 0.000016
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000004
+mpi+openmp enum, 10, 0.000105
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000061
+mpi+openmp quick, 10, 0.000042
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000015
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000038
+mpi+openmp enum, 10, 0.000007
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000120
+mpi+openmp quick, 10, 0.000055
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000059
+mpi+openmp merge, 10, 0.000047
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000052
+mpi+openmp enum, 10, 0.000030
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000194
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000014
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000012
+mpi enum, 10, 0.000005
+mpi+openmp enum, 10, 0.000077
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000053
+mpi+openmp quick, 10, 0.000018
+serial quick, 10, 0.000007
+mpi merge, 10, 0.000013
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000035
+mpi enum, 10, 0.000004
+mpi+openmp enum, 10, 0.000008
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000237
+mpi+openmp quick, 10, 0.000037
+serial quick, 10, 0.000012
+mpi merge, 10, 0.000015
+mpi+openmp merge, 10, 0.000099
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000012
+mpi+openmp enum, 10, 0.000023
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000043
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000011
+mpi+openmp merge, 10, 0.000049
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000006
+mpi+openmp enum, 10, 0.000008
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000046
+mpi+openmp merge, 10, 0.000110
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000050
+mpi+openmp enum, 10, 0.000005
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000056
+mpi+openmp quick, 10, 0.000049
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000062
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000043
+mpi+openmp enum, 10, 0.000015
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000062
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000048
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000031
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000041
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000015
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000095
+mpi+openmp enum, 10, 0.000007
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000060
+mpi+openmp quick, 10, 0.000065
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000099
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000022
+mpi+openmp enum, 10, 0.000024
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000062
+mpi+openmp quick, 10, 0.000067
+serial quick, 10, 0.000019
+mpi merge, 10, 0.000014
+mpi+openmp merge, 10, 0.000083
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000006
+mpi+openmp enum, 10, 0.000006
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000052
+mpi+openmp quick, 10, 0.000023
+serial quick, 10, 0.000007
+mpi merge, 10, 0.000059
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000056
+mpi+openmp enum, 10, 0.000018
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000056
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000066
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000004
+mpi+openmp enum, 10, 0.000024
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000063
+mpi+openmp quick, 10, 0.000174
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000016
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000059
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000058
+mpi+openmp quick, 10, 0.000047
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000016
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000032
+mpi+openmp enum, 10, 0.000047
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000057
+mpi+openmp quick, 10, 0.000008
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000085
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000219
+mpi+openmp enum, 10, 0.000010
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000062
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000064
+mpi+openmp merge, 10, 0.000053
+serial merge, 10, 0.000024
+mpi enum, 10, 0.000032
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000054
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000077
+mpi+openmp merge, 10, 0.000011
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000065
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000328
+mpi+openmp quick, 10, 0.000101
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000049
+mpi+openmp merge, 10, 0.000055
+serial merge, 10, 0.000008
+mpi enum, 10, 0.000060
+mpi+openmp enum, 10, 0.000005
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000062
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000010
+mpi merge, 10, 0.000015
+mpi+openmp merge, 10, 0.000164
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000153
+mpi+openmp enum, 10, 0.000094
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000320
+mpi+openmp quick, 10, 0.000010
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000095
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000012
+mpi enum, 10, 0.000063
+mpi+openmp enum, 10, 0.000016
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000042
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000013
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000067
+mpi+openmp enum, 10, 0.000004
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000202
+mpi+openmp quick, 10, 0.000029
+serial quick, 10, 0.000023
+mpi merge, 10, 0.000024
+mpi+openmp merge, 10, 0.000199
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000051
+mpi+openmp enum, 10, 0.000019
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000054
+mpi+openmp quick, 10, 0.000046
+serial quick, 10, 0.000014
+mpi merge, 10, 0.000114
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000032
+mpi enum, 10, 0.000171
+mpi+openmp enum, 10, 0.000009
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000068
+mpi+openmp quick, 10, 0.000047
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000030
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000015
+mpi enum, 10, 0.000129
+mpi+openmp enum, 10, 0.000042
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000062
+mpi+openmp quick, 10, 0.000046
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000058
+mpi+openmp merge, 10, 0.000008
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000178
+mpi+openmp enum, 10, 0.000027
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000128
+mpi+openmp merge, 10, 0.000004
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000197
+mpi+openmp enum, 10, 0.000006
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000055
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000038
+mpi+openmp merge, 10, 0.000005
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000060
+mpi+openmp enum, 10, 0.000018
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000065
+mpi+openmp quick, 10, 0.000005
+serial quick, 10, 0.000012
+mpi merge, 10, 0.000015
+mpi+openmp merge, 10, 0.000093
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000072
+mpi+openmp enum, 10, 0.000003
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000105
+serial quick, 10, 0.000007
+mpi merge, 10, 0.000047
+mpi+openmp merge, 10, 0.000030
+serial merge, 10, 0.000011
+mpi enum, 10, 0.000057
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000085
+mpi+openmp quick, 10, 0.000040
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000053
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000008
+mpi enum, 10, 0.000068
+mpi+openmp enum, 10, 0.000070
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000040
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000077
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000153
+mpi+openmp enum, 10, 0.000042
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000360
+mpi+openmp quick, 10, 0.000151
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000102
+serial merge, 10, 0.000008
+mpi enum, 10, 0.000099
+mpi+openmp enum, 10, 0.000032
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000129
+mpi+openmp merge, 10, 0.000035
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000200
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000087
+mpi+openmp quick, 10, 0.000068
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000096
+mpi+openmp merge, 10, 0.000035
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000057
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000074
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000046
+mpi+openmp merge, 10, 0.000146
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000095
+mpi+openmp enum, 10, 0.000064
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000068
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000088
+mpi+openmp merge, 10, 0.000054
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000050
+mpi+openmp enum, 10, 0.000071
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000155
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000077
+mpi+openmp merge, 10, 0.000080
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000165
+mpi+openmp enum, 10, 0.000044
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000078
+mpi+openmp quick, 10, 0.000051
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000205
+mpi+openmp merge, 10, 0.000075
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000055
+mpi+openmp enum, 10, 0.000041
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000037
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000105
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000048
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000139
+mpi+openmp merge, 10, 0.000039
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000052
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000036
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000075
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000003
+mpi quick, 10, 0.000087
+mpi+openmp quick, 10, 0.000051
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000112
+mpi+openmp merge, 10, 0.000056
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000066
+mpi+openmp enum, 10, 0.000078
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000086
+mpi+openmp merge, 10, 0.000116
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000084
+mpi+openmp enum, 10, 0.000140
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000031
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000123
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000052
+mpi+openmp enum, 10, 0.000031
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000074
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000107
+mpi+openmp merge, 10, 0.000049
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000107
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000081
+mpi+openmp quick, 10, 0.000123
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000078
+mpi+openmp merge, 10, 0.000044
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000050
+mpi+openmp enum, 10, 0.000044
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000079
+mpi+openmp quick, 10, 0.000132
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000052
+mpi+openmp merge, 10, 0.000041
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000054
+mpi+openmp enum, 10, 0.000029
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000074
+mpi+openmp quick, 10, 0.000053
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000110
+mpi+openmp merge, 10, 0.000162
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000051
+mpi+openmp enum, 10, 0.000032
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000032
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000148
+mpi+openmp merge, 10, 0.000038
+serial merge, 10, 0.000013
+mpi enum, 10, 0.000050
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000226
+mpi+openmp quick, 10, 0.000230
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000073
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000050
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000032
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000115
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000049
+mpi+openmp enum, 10, 0.000030
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000045
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000101
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000175
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000067
+mpi quick, 10, 0.000199
+mpi+openmp quick, 10, 0.000048
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000069
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000079
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000298
+mpi+openmp quick, 10, 0.000038
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000036
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000086
+mpi+openmp enum, 10, 0.000060
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000090
+mpi+openmp quick, 10, 0.000070
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000059
+mpi+openmp enum, 10, 0.000031
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000036
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000039
+mpi+openmp merge, 10, 0.000052
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000049
+mpi+openmp enum, 10, 0.000099
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000089
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000070
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000055
+mpi+openmp enum, 10, 0.000128
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000254
+mpi+openmp quick, 10, 0.000048
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000059
+mpi+openmp merge, 10, 0.000095
+serial merge, 10, 0.000009
+mpi enum, 10, 0.000056
+mpi+openmp enum, 10, 0.000092
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000080
+mpi+openmp quick, 10, 0.000102
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000040
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000060
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000060
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000037
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000051
+mpi+openmp enum, 10, 0.000032
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000037
+serial merge, 10, 0.000036
+mpi enum, 10, 0.000137
+mpi+openmp enum, 10, 0.000037
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000081
+mpi+openmp quick, 10, 0.000084
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000060
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000055
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000061
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000084
+mpi+openmp merge, 10, 0.000040
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000059
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000083
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000120
+mpi+openmp merge, 10, 0.000079
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000056
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000389
+mpi+openmp quick, 10, 0.000103
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000037
+mpi+openmp merge, 10, 0.000054
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000061
+mpi+openmp enum, 10, 0.000032
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000226
+mpi+openmp quick, 10, 0.000214
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000042
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000093
+mpi+openmp enum, 10, 0.000038
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000078
+mpi+openmp quick, 10, 0.000036
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000090
+mpi+openmp merge, 10, 0.000296
+serial merge, 10, 0.000008
+mpi enum, 10, 0.000036
+mpi+openmp enum, 10, 0.000087
+serial enum, 10, 0.000003
+mpi quick, 10, 0.000079
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000065
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000070
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000079
+mpi+openmp quick, 10, 0.000144
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000042
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000082
+mpi+openmp enum, 10, 0.000064
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000222
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000064
+serial merge, 10, 0.000014
+mpi enum, 10, 0.000102
+mpi+openmp enum, 10, 0.000087
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000273
+mpi+openmp quick, 10, 0.000041
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000072
+mpi+openmp merge, 10, 0.000072
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000057
+mpi+openmp enum, 10, 0.000061
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000088
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000154
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000102
+mpi+openmp enum, 10, 0.000123
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000091
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000088
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000015
+mpi enum, 10, 0.000041
+mpi+openmp enum, 10, 0.000054
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000089
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000067
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000041
+mpi+openmp enum, 10, 0.000037
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000045
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000094
+mpi+openmp merge, 10, 0.000140
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000097
+mpi+openmp enum, 10, 0.000056
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000092
+mpi+openmp quick, 10, 0.000145
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000038
+mpi+openmp merge, 10, 0.000088
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000081
+mpi+openmp enum, 10, 0.000122
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000040
+serial quick, 10, 0.000010
+mpi merge, 10, 0.000041
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000032
+mpi+openmp enum, 10, 0.000040
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000068
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000145
+mpi+openmp merge, 10, 0.000064
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000044
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000041
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000066
+mpi+openmp enum, 10, 0.000049
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000227
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000148
+mpi+openmp merge, 10, 0.000076
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000055
+mpi+openmp enum, 10, 0.000128
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000061
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000100
+mpi+openmp merge, 10, 0.000035
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000059
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000121
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000100
+mpi+openmp merge, 10, 0.000094
+serial merge, 10, 0.000042
+mpi enum, 10, 0.000041
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000087
+mpi+openmp quick, 10, 0.000051
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000040
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000015
+mpi enum, 10, 0.000030
+mpi+openmp enum, 10, 0.000082
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000126
+serial quick, 10, 0.000014
+mpi merge, 10, 0.000045
+mpi+openmp merge, 10, 0.000157
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000041
+mpi+openmp enum, 10, 0.000037
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000009
+mpi merge, 10, 0.000206
+mpi+openmp merge, 10, 0.000085
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000047
+mpi+openmp enum, 10, 0.000116
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000038
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000072
+mpi+openmp merge, 10, 0.000071
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000128
+mpi+openmp enum, 10, 0.000039
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000059
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000039
+mpi+openmp merge, 10, 0.000075
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000057
+mpi+openmp enum, 10, 0.000109
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000072
+mpi+openmp quick, 10, 0.000146
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000053
+mpi+openmp merge, 10, 0.000074
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000087
+mpi+openmp enum, 10, 0.000047
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000061
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000076
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000034
+mpi+openmp enum, 10, 0.000031
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000030
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000083
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000048
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000080
+mpi+openmp quick, 10, 0.000091
+serial quick, 10, 0.000026
+mpi merge, 10, 0.000070
+mpi+openmp merge, 10, 0.000054
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000029
+mpi+openmp enum, 10, 0.000090
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000135
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000116
+mpi+openmp merge, 10, 0.000040
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000038
+mpi+openmp enum, 10, 0.000030
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000062
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000087
+mpi+openmp merge, 10, 0.000042
+serial merge, 10, 0.000014
+mpi enum, 10, 0.000074
+mpi+openmp enum, 10, 0.000046
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000080
+mpi+openmp quick, 10, 0.000117
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000084
+mpi+openmp merge, 10, 0.000046
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000085
+mpi+openmp enum, 10, 0.000095
+mpi quick, 10, 0.000085
+mpi+openmp quick, 10, 0.000036
+serial quick, 10, 0.000011
+mpi merge, 10, 0.000078
+mpi+openmp merge, 10, 0.000036
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000058
+mpi+openmp enum, 10, 0.000089
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000054
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000039
+mpi+openmp merge, 10, 0.000040
+serial merge, 10, 0.000011
+mpi enum, 10, 0.000085
+mpi+openmp enum, 10, 0.000134
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000235
+mpi+openmp quick, 10, 0.000062
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000134
+mpi+openmp merge, 10, 0.000089
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000053
+mpi+openmp enum, 10, 0.000036
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000424
+mpi+openmp quick, 10, 0.000041
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000075
+mpi+openmp merge, 10, 0.000057
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000028
+mpi+openmp enum, 10, 0.000045
+serial enum, 10, 0.000043
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000035
+mpi+openmp merge, 10, 0.000036
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000096
+mpi+openmp enum, 10, 0.000052
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000078
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000136
+mpi+openmp merge, 10, 0.000055
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000125
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000075
+mpi+openmp quick, 10, 0.000041
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000125
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000031
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000096
+mpi+openmp merge, 10, 0.000051
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000034
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000254
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000040
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000057
+mpi+openmp enum, 10, 0.000042
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000172
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000042
+mpi+openmp merge, 10, 0.000035
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000099
+mpi+openmp enum, 10, 0.000082
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000037
+mpi+openmp merge, 10, 0.000102
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000090
+mpi+openmp enum, 10, 0.000038
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000073
+mpi+openmp quick, 10, 0.000114
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000043
+mpi+openmp merge, 10, 0.000088
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000084
+mpi+openmp enum, 10, 0.000045
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000088
+mpi+openmp quick, 10, 0.000035
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000108
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000032
+mpi+openmp enum, 10, 0.000089
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000085
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000179
+mpi+openmp merge, 10, 0.000039
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000053
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000074
+mpi+openmp quick, 10, 0.000050
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000112
+mpi+openmp merge, 10, 0.000039
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000077
+mpi+openmp enum, 10, 0.000095
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000038
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000028
+mpi+openmp enum, 10, 0.000043
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000060
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000092
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000049
+mpi+openmp enum, 10, 0.000045
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000080
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000079
+mpi+openmp merge, 10, 0.000050
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000077
+mpi+openmp quick, 10, 0.000031
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000072
+mpi+openmp merge, 10, 0.000033
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000030
+mpi+openmp enum, 10, 0.000031
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000396
+mpi+openmp quick, 10, 0.000081
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000039
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000041
+mpi+openmp enum, 10, 0.000062
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000059
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000037
+mpi+openmp merge, 10, 0.000032
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000046
+mpi+openmp enum, 10, 0.000035
+serial enum, 10, 0.000004
+mpi quick, 10, 0.000085
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000035
+mpi+openmp merge, 10, 0.000031
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000109
+mpi+openmp enum, 10, 0.000056
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000053
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000160
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000073
+mpi+openmp enum, 10, 0.000090
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000040
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000045
+mpi+openmp enum, 10, 0.000030
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000038
+mpi+openmp merge, 10, 0.000030
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000095
+mpi+openmp enum, 10, 0.000126
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000121
+mpi+openmp merge, 10, 0.000034
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000093
+mpi+openmp enum, 10, 0.000140
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000087
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000057
+mpi+openmp merge, 10, 0.000048
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000028
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000043
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000035
+mpi+openmp merge, 10, 0.000106
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000083
+mpi+openmp enum, 10, 0.000128
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000073
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000129
+mpi+openmp merge, 10, 0.000050
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000103
+mpi+openmp enum, 10, 0.000084
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000086
+mpi+openmp quick, 10, 0.000086
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000076
+mpi+openmp merge, 10, 0.000139
+serial merge, 10, 0.000020
+mpi enum, 10, 0.000038
+mpi+openmp enum, 10, 0.000100
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000215
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000090
+mpi+openmp merge, 10, 0.000216
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000035
+mpi+openmp enum, 10, 0.000033
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000224
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000044
+mpi+openmp merge, 10, 0.000041
+serial merge, 10, 0.000012
+mpi enum, 10, 0.000110
+mpi+openmp enum, 10, 0.000052
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000080
+mpi+openmp quick, 10, 0.000034
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000289
+mpi+openmp merge, 10, 0.000061
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000053
+mpi+openmp enum, 10, 0.000034
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000079
+mpi+openmp quick, 10, 0.000053
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000109
+mpi+openmp merge, 10, 0.000063
+serial merge, 10, 0.000004
+mpi enum, 10, 0.000035
+mpi+openmp enum, 10, 0.000043
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000068
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000075
+mpi+openmp merge, 10, 0.000035
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000079
+mpi+openmp enum, 10, 0.000113
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000218
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000045
+mpi+openmp merge, 10, 0.000128
+serial merge, 10, 0.000018
+mpi enum, 10, 0.000036
+mpi+openmp enum, 10, 0.000080
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000083
+mpi+openmp quick, 10, 0.000091
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000098
+mpi+openmp merge, 10, 0.000042
+serial merge, 10, 0.000005
+mpi enum, 10, 0.000084
+mpi+openmp enum, 10, 0.000110
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000082
+mpi+openmp quick, 10, 0.000109
+serial quick, 10, 0.000004
+mpi merge, 10, 0.000066
+mpi+openmp merge, 10, 0.000151
+serial merge, 10, 0.000007
+mpi enum, 10, 0.000062
+mpi+openmp enum, 10, 0.000063
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000074
+mpi+openmp quick, 10, 0.000088
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000099
+mpi+openmp merge, 10, 0.000085
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000031
+mpi+openmp enum, 10, 0.000159
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000076
+mpi+openmp quick, 10, 0.000037
+serial quick, 10, 0.000002
+mpi merge, 10, 0.000062
+mpi+openmp merge, 10, 0.000050
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000029
+mpi+openmp enum, 10, 0.000031
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000078
+mpi+openmp quick, 10, 0.000033
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000118
+mpi+openmp merge, 10, 0.000097
+serial merge, 10, 0.000003
+mpi enum, 10, 0.000042
+mpi+openmp enum, 10, 0.000057
+serial enum, 10, 0.000002
+mpi quick, 10, 0.000084
+mpi+openmp quick, 10, 0.000043
+serial quick, 10, 0.000003
+mpi merge, 10, 0.000095
+mpi+openmp merge, 10, 0.000058
+serial merge, 10, 0.000011
+mpi enum, 10, 0.000218
+mpi+openmp enum, 10, 0.000086
+serial enum, 10, 0.000001
+mpi quick, 10, 0.000285
+mpi+openmp quick, 10, 0.000010
+serial quick, 10, 0.000005
+mpi merge, 10, 0.000012
+mpi+openmp merge, 10, 0.000057
+serial merge, 10, 0.000006
+mpi enum, 10, 0.000022
+mpi+openmp enum, 10, 0.000037
+serial enum, 10, 0.000002
+mpi quick, 1000, 0.000171
+serial quick, 1000, 0.000101
+mpi merge, 1000, 0.000145
+serial merge, 1000, 0.000195
+mpi enum, 1000, 0.000415
+serial enum, 1000, 0.003487
+mpi quick, 1000, 0.000188
+serial quick, 1000, 0.000098
+mpi merge, 1000, 0.000139
+serial merge, 1000, 0.000201
+mpi enum, 1000, 0.000359
+serial enum, 1000, 0.003437
+mpi quick, 1000, 0.000144
+serial quick, 1000, 0.000223
+mpi merge, 1000, 0.000338
+serial merge, 1000, 0.000187
+mpi enum, 1000, 0.000360
+serial enum, 1000, 0.003511
+mpi quick, 1000, 0.000148
+serial quick, 1000, 0.000096
+mpi merge, 1000, 0.000118
+serial merge, 1000, 0.000183
+mpi enum, 1000, 0.000659
+serial enum, 1000, 0.003645
+mpi quick, 1000, 0.000190
+serial quick, 1000, 0.000101
+mpi merge, 1000, 0.000248
+serial merge, 1000, 0.000189
+mpi enum, 1000, 0.000368
+serial enum, 1000, 0.003539
+mpi quick, 1000, 0.000138
+serial quick, 1000, 0.000097
+mpi merge, 1000, 0.000126
+serial merge, 1000, 0.000199
+mpi enum, 1000, 0.000364
+serial enum, 1000, 0.003465
+mpi quick, 1000, 0.000151
+serial quick, 1000, 0.000097
+mpi merge, 1000, 0.000125
+serial merge, 1000, 0.000190
+mpi enum, 1000, 0.000447
+serial enum, 1000, 0.003519
+mpi quick, 1000, 0.000169
+serial quick, 1000, 0.000112
+mpi merge, 1000, 0.000094
+serial merge, 1000, 0.000261
+mpi enum, 1000, 0.000363
+serial enum, 1000, 0.003501
+mpi quick, 1000, 0.000179
+serial quick, 1000, 0.000179
+mpi merge, 1000, 0.000099
+serial merge, 1000, 0.000181
+mpi enum, 1000, 0.000412
+serial enum, 1000, 0.003442
+mpi quick, 1000, 0.000142
+serial quick, 1000, 0.000195
+mpi merge, 1000, 0.000158
+serial merge, 1000, 0.000185
+mpi enum, 1000, 0.000363
+serial enum, 1000, 0.003373
