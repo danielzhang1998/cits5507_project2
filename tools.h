@@ -13,7 +13,7 @@ double *remove_trash_value(double *array, size_t length, size_t array_length);
 
 int check_binary(double *array_1, double *array_2, size_t array_length);
 int compare_result(double *array_1, double *array_2, double *array_3, size_t array_length);
-int save_csv(char *filename, char algorithm[], int array_size, double run_time, int num_of_process);
+int save_csv(char *filename, char algorithm[], int array_size, double run_time, int num_of_process, int num_of_thread);
 
 void print_array(double *array, int array_size);
 

@@ -2,6 +2,10 @@ serial 全部完成
 mpi 全部完成
 openmp&mpi 全部完成
 
+main 函数已进行精简
+
+mpi+omp main 函数已进行精简
+
 =============
 如何运行程序
 
@@ -12,6 +16,8 @@ mpicc main.c tools.c binary.c mpi_binary.c mpi_enum.c mpi_merge.c mpi_quick.c me
 Openmp + MPI
 
 mpicc omp_mpi_main.c tools.c binary.c mpi_binary.c mpi_enum.c mpi_merge.c mpi_quick.c merge.c quick.c enum.c start_algorithm.c omp_merge.c omp_enum.c omp_quick.c -o omp_mpi_main
+
+在 vagrant 上需要在末尾加上 -lm
 
 运行:
 

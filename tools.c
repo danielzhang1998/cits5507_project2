@@ -265,7 +265,7 @@ double *remove_trash_value(double *array, size_t length, size_t array_length){
  * @param filename the filename to write
  *
  */
-int save_csv(char *filename, char algorithm[], int array_size, double run_time, int num_of_process)
+int save_csv(char *filename, char algorithm[], int array_size, double run_time, int num_of_process, int num_of_thread)
 {
     FILE *file;
 
@@ -277,8 +277,8 @@ int save_csv(char *filename, char algorithm[], int array_size, double run_time, 
         {
             return -1;
         }
-        char title[100];
-        strcpy(title, "sorting_algorithm, array_size, run_time\n");
+        char title[150];
+        strcpy(title, "sorting_algorithm, array_size, run_time, num_of_process, num_of_thread\n");
         fputs(title, file);
 
         fclose(file);
@@ -294,8 +294,8 @@ int save_csv(char *filename, char algorithm[], int array_size, double run_time, 
     //strcpy(&new_str_1, algorithm);
     //printf("%s\n", algorithm);
 
-    char row[100];
-    sprintf(row, "%s, %d, %f\n", algorithm, array_size, run_time);
+    char row[150];
+    sprintf(row, "%s, %d, %f, %d, %d\n", algorithm, array_size, run_time, num_of_process, num_of_thread);
     fputs(row, file);
     //fputs("\n", file);
 

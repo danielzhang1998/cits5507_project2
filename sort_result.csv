@@ -1,2611 +1,1921 @@
-sorting_algorithm, array_size, run_time, num_of_process
-mpi quick, 1000, 0.000112, 1
-serial quick, 1000, 0.000097, 1
-mpi merge, 1000, 0.000201, 1
-serial merge, 1000, 0.000183, 1
-mpi enum, 1000, 0.003728, 1
-serial enum, 1000, 0.003967, 1
-mpi quick, 1000, 0.000149, 3
-serial quick, 1000, 0.000098, 3
-mpi merge, 1000, 0.000122, 3
-serial merge, 1000, 0.000189, 3
-mpi enum, 1000, 0.000393, 3
-serial enum, 1000, 0.003827, 3
-mpi quick, 1000, 0.000418, 5
-serial quick, 1000, 0.000109, 5
-mpi merge, 1000, 0.000271, 5
-serial merge, 1000, 0.000188, 5
-mpi enum, 1000, 0.000293, 5
-serial enum, 1000, 0.003711, 5
-mpi quick, 1000, 0.000386, 7
-serial quick, 1000, 0.000181, 7
-mpi merge, 1000, 0.000397, 7
-serial merge, 1000, 0.000185, 7
-mpi enum, 1000, 0.000399, 7
-serial enum, 1000, 0.003736, 7
-mpi quick, 5000, 0.001095, 3
-serial quick, 5000, 0.000577, 3
-mpi merge, 5000, 0.000450, 3
-serial merge, 5000, 0.001077, 3
-mpi enum, 5000, 0.011951, 3
-serial enum, 5000, 0.115366, 3
-mpi quick, 5000, 0.000563, 1
-serial quick, 5000, 0.000560, 1
-mpi merge, 5000, 0.001054, 1
-serial merge, 5000, 0.001026, 1
-mpi enum, 5000, 0.110595, 1
-serial enum, 5000, 0.110191, 1
-mpi quick, 5000, 0.001588, 6
-serial quick, 5000, 0.000580, 6
-mpi merge, 5000, 0.000705, 6
-serial merge, 5000, 0.002271, 6
-mpi enum, 5000, 0.004899, 6
-serial enum, 5000, 0.115763, 6
-mpi quick, 5000, 0.001742, 7
-serial quick, 5000, 0.000577, 7
-mpi merge, 5000, 0.000815, 7
-serial merge, 5000, 0.002369, 7
-mpi enum, 5000, 0.003470, 7
-serial enum, 5000, 0.117036, 7
-mpi quick, 5000, 0.002266, 8
-serial quick, 5000, 0.000588, 8
-mpi merge, 5000, 0.000845, 8
-serial merge, 5000, 0.001048, 8
-mpi enum, 5000, 0.003082, 8
-serial enum, 5000, 0.116879, 8
-mpi quick, 10000, 0.001178, 1
-serial quick, 10000, 0.001210, 1
-mpi merge, 10000, 0.002197, 1
-serial merge, 10000, 0.002351, 1
-mpi enum, 10000, 0.452080, 1
-serial enum, 10000, 0.453432, 1
-mpi quick, 10000, 0.001406, 2
-serial quick, 10000, 0.001223, 2
-mpi merge, 10000, 0.001342, 2
-serial merge, 10000, 0.002344, 2
-mpi enum, 10000, 0.114081, 2
-serial enum, 10000, 0.468606, 2
-mpi quick, 10000, 0.001881, 4
-serial quick, 10000, 0.001234, 4
-mpi merge, 10000, 0.000852, 4
-serial merge, 10000, 0.002311, 4
-mpi enum, 10000, 0.028091, 4
-serial enum, 10000, 0.473124, 4
-mpi quick, 10000, 0.009643, 5
-serial quick, 10000, 0.001231, 5
-mpi merge, 10000, 0.002592, 5
-serial merge, 10000, 0.002239, 5
-mpi enum, 10000, 0.021901, 5
-serial enum, 10000, 0.475334, 5
-mpi quick, 10000, 0.007062, 8
-serial quick, 10000, 0.002345, 8
-mpi merge, 10000, 0.001559, 8
-serial merge, 10000, 0.003516, 8
-mpi enum, 10000, 0.011014, 8
-serial enum, 10000, 0.477561, 8
-mpi quick, 30000, 0.003869, 1
-serial quick, 30000, 0.004408, 1
-mpi merge, 30000, 0.006857, 1
-serial merge, 30000, 0.006910, 1
-mpi enum, 30000, 4.146987, 1
-serial enum, 30000, 4.137817, 1
-mpi quick, 30000, 0.002921, 3
-serial quick, 30000, 0.004385, 3
-mpi merge, 30000, 0.002936, 3
-serial merge, 30000, 0.007288, 3
-mpi enum, 30000, 0.487478, 3
-serial enum, 30000, 4.331997, 3
-mpi quick, 30000, 0.002724, 4
-serial quick, 30000, 0.005279, 4
-mpi merge, 30000, 0.002357, 4
-serial merge, 30000, 0.006842, 4
-mpi enum, 30000, 0.277211, 4
-serial enum, 30000, 4.343464, 4
-mpi quick, 30000, 0.003493, 5
-serial quick, 30000, 0.006933, 5
-mpi merge, 30000, 0.003701, 5
-serial merge, 30000, 0.007114, 5
-mpi enum, 30000, 0.190966, 5
-serial enum, 30000, 4.356329, 5
-mpi quick, 30000, 0.003875, 7
-serial quick, 30000, 0.007031, 7
-mpi merge, 30000, 0.003660, 7
-serial merge, 30000, 0.006742, 7
-mpi enum, 30000, 0.107296, 7
-serial enum, 30000, 4.364470, 7
-mpi quick, 30000, 0.004213, 8
-serial quick, 30000, 0.004134, 8
-mpi merge, 30000, 0.002978, 8
-serial merge, 30000, 0.011070, 8
-mpi enum, 30000, 0.095431, 8
-serial enum, 30000, 4.395935, 8
-mpi quick, 30000, 0.010601, 8
-mpi+openmp quick, 30000, 0.010906, 8
-serial quick, 30000, 0.007138, 8
-mpi merge, 30000, 0.003863, 8
-mpi+openmp merge, 30000, 0.003621, 8
-serial merge, 30000, 0.008987, 8
-mpi enum, 30000, 0.102919, 8
-mpi+openmp enum, 30000, 0.105033, 8
-serial enum, 30000, 4.391753, 8
-mpi quick, 100000, 0.014471, 8
-mpi+openmp quick, 100000, 0.005592, 8
-serial quick, 100000, 0.018923, 8
-mpi merge, 100000, 0.008284, 8
-mpi+openmp merge, 100000, 0.014086, 8
-serial merge, 100000, 0.041312, 8
-mpi enum, 100000, 1.043341, 8
-mpi+openmp enum, 100000, 1.033199, 8
-serial enum, 100000, 48.468316, 8
-mpi quick, 1000000, 0.068966, 8
-mpi+openmp quick, 1000000, 0.053359, 8
-serial quick, 1000000, 0.255641, 8
-mpi merge, 1000000, 0.083222, 8
-mpi+openmp merge, 1000000, 0.114161, 8
-serial merge, 1000000, 0.387491, 8
-mpi quick, 1000000, 0.062531, 8
-mpi+openmp quick, 1000000, 0.077238, 8
-serial quick, 1000000, 0.240270, 8
-mpi merge, 1000000, 0.083345, 8
-mpi+openmp merge, 1000000, 0.097298, 8
-serial merge, 1000000, 0.402279, 8
-mpi quick, 1000000, 0.057974, 8
-mpi+openmp quick, 1000000, 0.065460, 8
-serial quick, 1000000, 0.269382, 8
-mpi merge, 1000000, 0.088323, 8
-mpi+openmp merge, 1000000, 0.095482, 8
-serial merge, 1000000, 0.401152, 8
-mpi quick, 1000000, 0.068586, 8
-mpi+openmp quick, 1000000, 0.058438, 8
-serial quick, 1000000, 0.255386, 8
-mpi merge, 1000000, 0.104410, 8
-mpi+openmp merge, 1000000, 0.099598, 8
-serial merge, 1000000, 0.408062, 8
-mpi quick, 100000, 0.008631, 8
-mpi+openmp quick, 100000, 0.008939, 8
-serial quick, 100000, 0.027303, 8
-mpi merge, 100000, 0.015701, 8
-mpi+openmp merge, 100000, 0.011662, 8
-serial merge, 100000, 0.039336, 8
-mpi enum, 100000, 1.033605, 8
-mpi+openmp enum, 100000, 1.066941, 8
-mpi quick, 10000000, 0.682150, 8
-mpi+openmp quick, 10000000, 0.755391, 8
-serial quick, 10000000, 2.863888, 8
-mpi merge, 10000000, 0.938023, 8
-mpi+openmp merge, 10000000, 0.934537, 8
-serial merge, 10000000, 4.500463, 8
-mpi quick, 10000000, 0.587642, 8
-mpi+openmp quick, 10000000, 0.652701, 8
-serial quick, 10000000, 2.789340, 8
-mpi merge, 10000000, 0.857301, 8
-mpi+openmp merge, 10000000, 0.830295, 8
-serial merge, 10000000, 4.518162, 8
-mpi quick, 100, 0.000359, 8
-mpi+openmp quick, 100, 0.000073, 8
-serial quick, 100, 0.000200, 8
-mpi merge, 100, 0.000045, 8
-mpi+openmp merge, 100, 0.000075, 8
-serial merge, 100, 0.000042, 8
-mpi enum, 100, 0.000018, 8
-mpi+openmp enum, 100, 0.000022, 8
-serial enum, 100, 0.000041, 8
-mpi quick, 1000, 0.000478, 8
-mpi+openmp quick, 1000, 0.000304, 8
-serial quick, 1000, 0.000175, 8
-mpi merge, 1000, 0.000366, 8
-mpi+openmp merge, 1000, 0.000129, 8
-serial merge, 1000, 0.000411, 8
-mpi enum, 1000, 0.000136, 8
-mpi+openmp enum, 1000, 0.000161, 8
-serial enum, 1000, 0.003524, 8
-mpi quick, 1000, 0.000506, 8
-mpi+openmp quick, 1000, 0.000216, 8
-serial quick, 1000, 0.000213, 8
-mpi merge, 1000, 0.000209, 8
-mpi+openmp merge, 1000, 0.000071, 8
-serial merge, 1000, 0.000186, 8
-mpi enum, 1000, 0.000131, 8
-mpi+openmp enum, 1000, 0.000133, 8
-serial enum, 1000, 0.003546, 8
-mpi quick, 1000, 0.000464, 8
-mpi+openmp quick, 1000, 0.000161, 8
-serial quick, 1000, 0.000175, 8
-mpi merge, 1000, 0.000227, 8
-mpi+openmp merge, 1000, 0.000100, 8
-serial merge, 1000, 0.000416, 8
-mpi enum, 1000, 0.000143, 8
-mpi+openmp enum, 1000, 0.000237, 8
-serial enum, 1000, 0.003509, 8
-mpi quick, 1000, 0.000462, 8
-mpi+openmp quick, 1000, 0.000579, 8
-serial quick, 1000, 0.000187, 8
-mpi merge, 1000, 0.000235, 8
-mpi+openmp merge, 1000, 0.000098, 8
-serial merge, 1000, 0.000419, 8
-mpi enum, 1000, 0.000147, 8
-mpi+openmp enum, 1000, 0.000147, 8
-serial enum, 1000, 0.003631, 8
-mpi quick, 1000, 0.000403, 8
-mpi+openmp quick, 1000, 0.000431, 8
-serial quick, 1000, 0.000373, 8
-mpi merge, 1000, 0.001876, 8
-mpi+openmp merge, 1000, 0.000105, 8
-serial merge, 1000, 0.000432, 8
-mpi enum, 1000, 0.000141, 8
-mpi+openmp enum, 1000, 0.000179, 8
-serial enum, 1000, 0.003644, 8
-mpi quick, 100, 0.000487, 8
-mpi+openmp quick, 100, 0.000139, 8
-serial quick, 100, 0.000015, 8
-mpi merge, 100, 0.000600, 8
-mpi+openmp merge, 100, 0.000086, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000013, 8
-mpi+openmp enum, 100, 0.000065, 8
-serial enum, 100, 0.000039, 8
-mpi quick, 100, 0.000310, 8
-mpi+openmp quick, 100, 0.000290, 8
-serial quick, 100, 0.000015, 8
-mpi merge, 100, 0.000224, 8
-mpi+openmp merge, 100, 0.000029, 8
-serial merge, 100, 0.000047, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000021, 8
-serial enum, 100, 0.000044, 8
-mpi quick, 100, 0.000356, 8
-mpi+openmp quick, 100, 0.000097, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000296, 8
-mpi+openmp merge, 100, 0.000027, 8
-serial merge, 100, 0.000040, 8
-mpi enum, 100, 0.000059, 8
-mpi+openmp enum, 100, 0.000018, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.000376, 8
-mpi+openmp quick, 100, 0.000267, 8
-serial quick, 100, 0.000015, 8
-mpi merge, 100, 0.000068, 8
-mpi+openmp merge, 100, 0.000021, 8
-serial merge, 100, 0.000044, 8
-mpi enum, 100, 0.000236, 8
-mpi+openmp enum, 100, 0.000020, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.000341, 8
-mpi+openmp quick, 100, 0.000262, 8
-serial quick, 100, 0.000011, 8
-mpi merge, 100, 0.000352, 8
-mpi+openmp merge, 100, 0.000048, 8
-serial merge, 100, 0.000021, 8
-mpi enum, 100, 0.000011, 8
-mpi+openmp enum, 100, 0.000051, 8
-serial enum, 100, 0.000039, 8
-mpi quick, 100, 0.001536, 8
-mpi+openmp quick, 100, 0.000105, 8
-serial quick, 100, 0.000017, 8
-mpi merge, 100, 0.000080, 8
-mpi+openmp merge, 100, 0.000021, 8
-serial merge, 100, 0.000042, 8
-mpi enum, 100, 0.000051, 8
-mpi+openmp enum, 100, 0.000022, 8
-serial enum, 100, 0.000045, 8
-mpi quick, 100, 0.000323, 8
-mpi+openmp quick, 100, 0.000354, 8
-serial quick, 100, 0.000236, 8
-mpi merge, 100, 0.000124, 8
-mpi+openmp merge, 100, 0.000026, 8
-serial merge, 100, 0.000040, 8
-mpi enum, 100, 0.000019, 8
-mpi+openmp enum, 100, 0.000021, 8
-serial enum, 100, 0.000082, 8
-mpi quick, 100, 0.000323, 8
-mpi+openmp quick, 100, 0.000154, 8
-serial quick, 100, 0.000019, 8
-mpi merge, 100, 0.000120, 8
-mpi+openmp merge, 100, 0.000053, 8
-serial merge, 100, 0.000041, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000049, 8
-serial enum, 100, 0.000042, 8
-mpi quick, 100, 0.010193, 8
-mpi+openmp quick, 100, 0.000370, 8
-serial quick, 100, 0.000017, 8
-mpi merge, 100, 0.000044, 8
-mpi+openmp merge, 100, 0.000029, 8
-serial merge, 100, 0.000043, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000020, 8
-serial enum, 100, 0.000052, 8
-mpi quick, 100, 0.000932, 8
-mpi+openmp quick, 100, 0.000377, 8
-serial quick, 100, 0.000008, 8
-mpi merge, 100, 0.000228, 8
-mpi+openmp merge, 100, 0.000019, 8
-serial merge, 100, 0.000017, 8
-mpi enum, 100, 0.000014, 8
-mpi+openmp enum, 100, 0.000023, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.001409, 8
-mpi+openmp quick, 100, 0.000410, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000229, 8
-mpi+openmp merge, 100, 0.000019, 8
-serial merge, 100, 0.000043, 8
-mpi enum, 100, 0.000018, 8
-mpi+openmp enum, 100, 0.000016, 8
-serial enum, 100, 0.000040, 8
-mpi quick, 100, 0.000353, 8
-mpi+openmp quick, 100, 0.000094, 8
-serial quick, 100, 0.000018, 8
-mpi merge, 100, 0.000092, 8
-mpi+openmp merge, 100, 0.000020, 8
-serial merge, 100, 0.000018, 8
-mpi enum, 100, 0.000014, 8
-mpi+openmp enum, 100, 0.000016, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000373, 8
-mpi+openmp quick, 100, 0.000316, 8
-serial quick, 100, 0.000017, 8
-mpi merge, 100, 0.000372, 8
-mpi+openmp merge, 100, 0.000023, 8
-serial merge, 100, 0.000021, 8
-mpi enum, 100, 0.000012, 8
-mpi+openmp enum, 100, 0.000018, 8
-serial enum, 100, 0.000044, 8
-mpi quick, 100, 0.000319, 8
-mpi+openmp quick, 100, 0.000166, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000302, 8
-mpi+openmp merge, 100, 0.000038, 8
-serial merge, 100, 0.000027, 8
-mpi enum, 100, 0.000058, 8
-mpi+openmp enum, 100, 0.000019, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000358, 8
-mpi+openmp quick, 100, 0.000147, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000275, 8
-mpi+openmp merge, 100, 0.000241, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000013, 8
-mpi+openmp enum, 100, 0.000017, 8
-serial enum, 100, 0.000045, 8
-mpi quick, 100, 0.000443, 8
-mpi+openmp quick, 100, 0.000053, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000156, 8
-mpi+openmp merge, 100, 0.000056, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000021, 8
-mpi+openmp enum, 100, 0.000020, 8
-serial enum, 100, 0.000075, 8
-mpi quick, 100, 0.000325, 8
-mpi+openmp quick, 100, 0.000894, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000067, 8
-mpi+openmp merge, 100, 0.000490, 8
-serial merge, 100, 0.000018, 8
-mpi enum, 100, 0.000045, 8
-mpi+openmp enum, 100, 0.000014, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.002113, 8
-mpi+openmp quick, 100, 0.008649, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000863, 8
-mpi+openmp merge, 100, 0.016317, 8
-serial merge, 100, 0.002976, 8
-mpi enum, 100, 0.005912, 8
-mpi+openmp enum, 100, 0.000171, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000379, 8
-mpi+openmp quick, 100, 0.000093, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000040, 8
-mpi+openmp merge, 100, 0.000019, 8
-serial merge, 100, 0.000025, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000016, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000306, 8
-mpi+openmp quick, 100, 0.000387, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000033, 8
-mpi+openmp merge, 100, 0.000051, 8
-serial merge, 100, 0.000021, 8
-mpi enum, 100, 0.000039, 8
-mpi+openmp enum, 100, 0.000016, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.000364, 8
-mpi+openmp quick, 100, 0.000080, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000622, 8
-mpi+openmp merge, 100, 0.000402, 8
-serial merge, 100, 0.000045, 8
-mpi enum, 100, 0.000456, 8
-mpi+openmp enum, 100, 0.000027, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.000326, 8
-mpi+openmp quick, 100, 0.000163, 8
-serial quick, 100, 0.000008, 8
-mpi merge, 100, 0.000422, 8
-mpi+openmp merge, 100, 0.000022, 8
-serial merge, 100, 0.000021, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000017, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000344, 8
-mpi+openmp quick, 100, 0.000383, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000051, 8
-mpi+openmp merge, 100, 0.000018, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000053, 8
-mpi+openmp enum, 100, 0.000018, 8
-serial enum, 100, 0.000036, 8
-mpi quick, 100, 0.000374, 8
-mpi+openmp quick, 100, 0.000474, 8
-serial quick, 100, 0.000017, 8
-mpi merge, 100, 0.000047, 8
-mpi+openmp merge, 100, 0.000027, 8
-serial merge, 100, 0.000043, 8
-mpi enum, 100, 0.000026, 8
-mpi+openmp enum, 100, 0.000027, 8
-serial enum, 100, 0.000041, 8
-mpi quick, 100, 0.000311, 8
-mpi+openmp quick, 100, 0.000095, 8
-serial quick, 100, 0.000008, 8
-mpi merge, 100, 0.000232, 8
-mpi+openmp merge, 100, 0.000055, 8
-serial merge, 100, 0.000017, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000489, 8
-serial enum, 100, 0.000039, 8
-mpi quick, 100, 0.000369, 8
-mpi+openmp quick, 100, 0.000488, 8
-serial quick, 100, 0.000016, 8
-mpi merge, 100, 0.000046, 8
-mpi+openmp merge, 100, 0.000020, 8
-serial merge, 100, 0.000040, 8
-mpi enum, 100, 0.000019, 8
-mpi+openmp enum, 100, 0.000166, 8
-serial enum, 100, 0.000036, 8
-mpi quick, 100, 0.000345, 8
-mpi+openmp quick, 100, 0.000452, 8
-serial quick, 100, 0.000010, 8
-mpi merge, 100, 0.000162, 8
-mpi+openmp merge, 100, 0.000015, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000014, 8
-mpi+openmp enum, 100, 0.000333, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000371, 8
-mpi+openmp quick, 100, 0.000161, 8
-serial quick, 100, 0.000009, 8
-mpi merge, 100, 0.000155, 8
-mpi+openmp merge, 100, 0.000016, 8
-serial merge, 100, 0.000027, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000210, 8
-serial enum, 100, 0.000038, 8
-mpi quick, 100, 0.000473, 8
-mpi+openmp quick, 100, 0.000097, 8
-serial quick, 100, 0.000008, 8
-mpi merge, 100, 0.000300, 8
-mpi+openmp merge, 100, 0.000328, 8
-serial merge, 100, 0.000022, 8
-mpi enum, 100, 0.000017, 8
-mpi+openmp enum, 100, 0.000190, 8
-serial enum, 100, 0.000089, 8
-mpi quick, 100, 0.000256, 8
-mpi+openmp quick, 100, 0.000244, 8
-serial quick, 100, 0.000015, 8
-mpi merge, 100, 0.000040, 8
-mpi+openmp merge, 100, 0.000064, 8
-serial merge, 100, 0.000042, 8
-mpi enum, 100, 0.000020, 8
-mpi+openmp enum, 100, 0.000198, 8
-serial enum, 100, 0.000037, 8
-mpi quick, 100, 0.000549, 8
-mpi+openmp quick, 100, 0.000128, 8
-serial quick, 100, 0.000018, 8
-mpi merge, 100, 0.000123, 8
-mpi+openmp merge, 100, 0.000693, 8
-serial merge, 100, 0.000019, 8
-mpi enum, 100, 0.000059, 8
-mpi+openmp enum, 100, 0.000163, 8
-serial enum, 100, 0.000040, 8
-mpi quick, 20, 0.000264, 8
-mpi+openmp quick, 20, 0.000200, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000175, 8
-mpi+openmp merge, 20, 0.000017, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000013, 8
-mpi+openmp enum, 20, 0.000018, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000308, 8
-mpi+openmp quick, 20, 0.000054, 8
-serial quick, 20, 0.000005, 8
-mpi merge, 20, 0.000238, 8
-mpi+openmp merge, 20, 0.000283, 8
-serial merge, 20, 0.000013, 8
-mpi enum, 20, 0.000252, 8
-mpi+openmp enum, 20, 0.000022, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000337, 8
-mpi+openmp quick, 20, 0.000136, 8
-serial quick, 20, 0.000003, 8
-mpi merge, 20, 0.000122, 8
-mpi+openmp merge, 20, 0.000022, 8
-serial merge, 20, 0.000004, 8
-mpi enum, 20, 0.000786, 8
-mpi+openmp enum, 20, 0.000060, 8
-serial enum, 20, 0.000005, 8
-mpi quick, 20, 0.000313, 8
-mpi+openmp quick, 20, 0.000128, 8
-serial quick, 20, 0.000002, 8
-mpi merge, 20, 0.000121, 8
-mpi+openmp merge, 20, 0.000562, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000021, 8
-mpi+openmp enum, 20, 0.000019, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000170, 8
-mpi+openmp quick, 20, 0.000526, 8
-serial quick, 20, 0.000005, 8
-mpi merge, 20, 0.000115, 8
-mpi+openmp merge, 20, 0.000652, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000018, 8
-mpi+openmp enum, 20, 0.000018, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000215, 8
-mpi+openmp quick, 20, 0.000211, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000400, 8
-mpi+openmp merge, 20, 0.000020, 8
-serial merge, 20, 0.000004, 8
-mpi enum, 20, 0.000147, 8
-mpi+openmp enum, 20, 0.000066, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000168, 8
-mpi+openmp quick, 20, 0.000021, 8
-serial quick, 20, 0.000005, 8
-mpi merge, 20, 0.000024, 8
-mpi+openmp merge, 20, 0.000185, 8
-serial merge, 20, 0.000546, 8
-mpi enum, 20, 0.000018, 8
-mpi+openmp enum, 20, 0.000014, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000224, 8
-mpi+openmp quick, 20, 0.000204, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000039, 8
-mpi+openmp merge, 20, 0.000438, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000053, 8
-mpi+openmp enum, 20, 0.000015, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000265, 8
-mpi+openmp quick, 20, 0.000164, 8
-serial quick, 20, 0.000007, 8
-mpi merge, 20, 0.000402, 8
-mpi+openmp merge, 20, 0.000192, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000015, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000323, 8
-mpi+openmp quick, 20, 0.000202, 8
-serial quick, 20, 0.000003, 8
-mpi merge, 20, 0.000150, 8
-mpi+openmp merge, 20, 0.000089, 8
-serial merge, 20, 0.000004, 8
-mpi enum, 20, 0.000142, 8
-mpi+openmp enum, 20, 0.000039, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000308, 8
-mpi+openmp quick, 20, 0.000401, 8
-serial quick, 20, 0.000009, 8
-mpi merge, 20, 0.000345, 8
-mpi+openmp merge, 20, 0.000682, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000101, 8
-mpi+openmp enum, 20, 0.000067, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000201, 8
-mpi+openmp quick, 20, 0.000115, 8
-serial quick, 20, 0.000004, 8
-mpi merge, 20, 0.000529, 8
-mpi+openmp merge, 20, 0.000596, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000015, 8
-mpi+openmp enum, 20, 0.000022, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000525, 8
-mpi+openmp quick, 20, 0.000365, 8
-serial quick, 20, 0.001113, 8
-mpi merge, 20, 0.000432, 8
-mpi+openmp merge, 20, 0.000294, 8
-serial merge, 20, 0.001478, 8
-mpi enum, 20, 0.000022, 8
-mpi+openmp enum, 20, 0.000018, 8
-serial enum, 20, 0.000024, 8
-mpi quick, 20, 0.000266, 8
-mpi+openmp quick, 20, 0.000159, 8
-serial quick, 20, 0.000049, 8
-mpi merge, 20, 0.000447, 8
-mpi+openmp merge, 20, 0.000298, 8
-serial merge, 20, 0.000047, 8
-mpi enum, 20, 0.000020, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000023, 8
-mpi quick, 20, 0.000189, 8
-mpi+openmp quick, 20, 0.000115, 8
-serial quick, 20, 0.000044, 8
-mpi merge, 20, 0.000240, 8
-mpi+openmp merge, 20, 0.000425, 8
-serial merge, 20, 0.000048, 8
-mpi enum, 20, 0.000024, 8
-mpi+openmp enum, 20, 0.000020, 8
-serial enum, 20, 0.000047, 8
-mpi quick, 20, 0.000207, 8
-mpi+openmp quick, 20, 0.000185, 8
-serial quick, 20, 0.000044, 8
-mpi merge, 20, 0.000043, 8
-mpi+openmp merge, 20, 0.000094, 8
-serial merge, 20, 0.001062, 8
-mpi enum, 20, 0.000025, 8
-mpi+openmp enum, 20, 0.000013, 8
-serial enum, 20, 0.000082, 8
-mpi quick, 20, 0.002685, 8
-mpi+openmp quick, 20, 0.006549, 8
-serial quick, 20, 0.004021, 8
-mpi merge, 20, 0.006052, 8
-mpi+openmp merge, 20, 0.000212, 8
-serial merge, 20, 0.001988, 8
-mpi enum, 20, 0.006432, 8
-mpi+openmp enum, 20, 0.000959, 8
-serial enum, 20, 0.000025, 8
-mpi quick, 20, 0.000182, 8
-mpi+openmp quick, 20, 0.000126, 8
-serial quick, 20, 0.005877, 8
-mpi merge, 20, 0.000239, 8
-mpi+openmp merge, 20, 0.000207, 8
-serial merge, 20, 0.000048, 8
-mpi enum, 20, 0.000032, 8
-mpi+openmp enum, 20, 0.000081, 8
-serial enum, 20, 0.000022, 8
-mpi quick, 20, 0.000342, 8
-mpi+openmp quick, 20, 0.000049, 8
-serial quick, 20, 0.000019, 8
-mpi merge, 20, 0.000111, 8
-mpi+openmp merge, 20, 0.000133, 8
-serial merge, 20, 0.000020, 8
-mpi enum, 20, 0.000372, 8
-mpi+openmp enum, 20, 0.000014, 8
-serial enum, 20, 0.000020, 8
-mpi quick, 20, 0.000318, 8
-mpi+openmp quick, 20, 0.000128, 8
-serial quick, 20, 0.000003, 8
-mpi merge, 20, 0.000088, 8
-mpi+openmp merge, 20, 0.000474, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000013, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000005, 8
-mpi quick, 20, 0.000370, 8
-mpi+openmp quick, 20, 0.000212, 8
-serial quick, 20, 0.000004, 8
-mpi merge, 20, 0.000145, 8
-mpi+openmp merge, 20, 0.000447, 8
-serial merge, 20, 0.000004, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000015, 8
-serial enum, 20, 0.000002, 8
-mpi quick, 20, 0.000283, 8
-mpi+openmp quick, 20, 0.000237, 8
-mpi quick, 20, 0.000166, 8
-mpi+openmp quick, 20, 0.000231, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000262, 8
-mpi+openmp merge, 20, 0.000155, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000019, 8
-mpi+openmp enum, 20, 0.000137, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000200, 8
-mpi+openmp quick, 20, 0.000349, 8
-serial quick, 20, 0.000005, 8
-mpi merge, 20, 0.000187, 8
-mpi+openmp merge, 20, 0.000037, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000061, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000233, 8
-mpi+openmp quick, 20, 0.000515, 8
-serial quick, 20, 0.000003, 8
-mpi merge, 20, 0.000039, 8
-mpi+openmp merge, 20, 0.000013, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000012, 8
-serial enum, 20, 0.000005, 8
-mpi quick, 20, 0.000241, 8
-mpi+openmp quick, 20, 0.000282, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000175, 8
-mpi+openmp merge, 20, 0.000020, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000017, 8
-mpi+openmp enum, 20, 0.000016, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000226, 8
-mpi+openmp quick, 20, 0.001028, 8
-serial quick, 20, 0.000002, 8
-mpi merge, 20, 0.000532, 8
-mpi+openmp merge, 20, 0.008633, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000964, 8
-mpi+openmp enum, 20, 0.000125, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000323, 8
-mpi+openmp quick, 20, 0.000123, 8
-serial quick, 20, 0.000004, 8
-mpi merge, 20, 0.000334, 8
-mpi+openmp merge, 20, 0.000016, 8
-serial merge, 20, 0.000010, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000016, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000391, 8
-mpi+openmp quick, 20, 0.000143, 8
-serial quick, 20, 0.000002, 8
-mpi merge, 20, 0.000156, 8
-mpi+openmp merge, 20, 0.000478, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000025, 8
-mpi+openmp enum, 20, 0.000014, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000261, 8
-mpi+openmp quick, 20, 0.000200, 8
-serial quick, 20, 0.000006, 8
-mpi merge, 20, 0.000167, 8
-mpi+openmp merge, 20, 0.000033, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000014, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000169, 8
-mpi+openmp quick, 20, 0.000130, 8
-serial quick, 20, 0.000041, 8
-mpi merge, 20, 0.000125, 8
-mpi+openmp merge, 20, 0.000017, 8
-serial merge, 20, 0.000047, 8
-mpi enum, 20, 0.000032, 8
-mpi+openmp enum, 20, 0.000018, 8
-serial enum, 20, 0.000024, 8
-mpi quick, 20, 0.000873, 8
-mpi+openmp quick, 20, 0.000042, 8
-serial quick, 20, 0.000045, 8
-mpi merge, 20, 0.000413, 8
-mpi+openmp merge, 20, 0.000121, 8
-mpi quick, 20, 0.006154, 8
-mpi+openmp quick, 20, 0.001436, 8
-serial quick, 20, 0.000192, 8
-mpi merge, 20, 0.001320, 8
-mpi+openmp merge, 20, 0.017764, 8
-mpi quick, 20, 0.000341, 8
-mpi+openmp quick, 20, 0.000108, 8
-serial quick, 20, 0.000081, 8
-mpi merge, 20, 0.000042, 8
-mpi+openmp merge, 20, 0.000017, 8
-mpi quick, 20, 0.000236, 8
-mpi+openmp quick, 20, 0.000171, 8
-serial quick, 20, 0.000007, 8
-mpi merge, 20, 0.000387, 8
-mpi+openmp merge, 20, 0.000017, 8
-serial merge, 20, 0.000013, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000016, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000245, 8
-mpi+openmp quick, 20, 0.000173, 8
-serial quick, 20, 0.000011, 8
-mpi merge, 20, 0.000114, 8
-mpi+openmp merge, 20, 0.000020, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000014, 8
-mpi+openmp enum, 20, 0.000014, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000484, 8
-mpi+openmp quick, 20, 0.000377, 8
-serial quick, 20, 0.000004, 8
-mpi merge, 20, 0.000073, 8
-mpi+openmp merge, 20, 0.000015, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000009, 8
-mpi+openmp enum, 20, 0.000014, 8
-serial enum, 20, 0.000033, 8
-mpi quick, 20, 0.001722, 8
-mpi+openmp quick, 20, 0.000059, 8
-serial quick, 20, 0.000011, 8
-mpi merge, 20, 0.000128, 8
-mpi+openmp merge, 20, 0.000041, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000111, 8
-mpi+openmp enum, 20, 0.000067, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000266, 8
-mpi+openmp quick, 20, 0.000093, 8
-serial quick, 20, 0.000011, 8
-mpi merge, 20, 0.000192, 8
-mpi+openmp merge, 20, 0.000454, 8
-mpi quick, 20, 0.010236, 8
-mpi+openmp quick, 20, 0.000060, 8
-serial quick, 20, 0.000005, 8
-mpi merge, 20, 0.000032, 8
-mpi+openmp merge, 20, 0.000017, 8
-mpi quick, 20, 0.000336, 8
-mpi+openmp quick, 20, 0.000154, 8
-mpi quick, 20, 0.000266, 8
-mpi+openmp quick, 20, 0.000202, 8
-mpi quick, 20, 0.000287, 8
-mpi+openmp quick, 20, 0.000091, 8
-serial quick, 20, 0.000101, 8
-mpi merge, 20, 0.000056, 8
-mpi+openmp merge, 20, 0.000021, 8
-mpi quick, 20, 0.000498, 8
-mpi+openmp quick, 20, 0.000187, 8
-mpi quick, 20, 0.000472, 8
-mpi+openmp quick, 20, 0.000396, 8
-serial quick, 20, 0.000004, 8
-mpi merge, 20, 0.000230, 8
-mpi+openmp merge, 20, 0.000056, 8
-mpi quick, 20, 0.000221, 8
-mpi+openmp quick, 20, 0.000061, 8
-mpi quick, 20, 0.000269, 8
-mpi+openmp quick, 20, 0.000098, 8
-mpi quick, 20, 0.000251, 8
-mpi+openmp quick, 20, 0.000291, 8
-serial quick, 20, 0.000015, 8
-mpi merge, 20, 0.000062, 8
-mpi+openmp merge, 20, 0.000094, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000017, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000217, 8
-mpi+openmp quick, 20, 0.001912, 8
-serial quick, 20, 0.000011, 8
-mpi merge, 20, 0.000287, 8
-mpi+openmp merge, 20, 0.000013, 8
-serial merge, 20, 0.000012, 8
-mpi enum, 20, 0.000011, 8
-mpi+openmp enum, 20, 0.000012, 8
-serial enum, 20, 0.000006, 8
-mpi quick, 20, 0.000248, 8
-mpi+openmp quick, 20, 0.000145, 8
-serial quick, 20, 0.000010, 8
-mpi merge, 20, 0.000046, 8
-mpi+openmp merge, 20, 0.000013, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000011, 8
-mpi+openmp enum, 20, 0.000012, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000162, 8
-mpi+openmp quick, 20, 0.000095, 8
-serial quick, 20, 0.000008, 8
-mpi merge, 20, 0.000430, 8
-mpi+openmp merge, 20, 0.000018, 8
-serial merge, 20, 0.000011, 8
-mpi enum, 20, 0.000012, 8
-mpi+openmp enum, 20, 0.000016, 8
-serial enum, 20, 0.000006, 8
-mpi quick, 20, 0.000697, 8
-mpi+openmp quick, 20, 0.000465, 8
-serial quick, 20, 0.000008, 8
-mpi merge, 20, 0.000378, 8
-mpi+openmp merge, 20, 0.001094, 8
-serial merge, 20, 0.000005, 8
-mpi enum, 20, 0.000011, 8
-mpi+openmp enum, 20, 0.000012, 8
-serial enum, 20, 0.000003, 8
-mpi quick, 20, 0.000500, 8
-mpi+openmp quick, 20, 0.000063, 8
-serial quick, 20, 0.000012, 8
-mpi merge, 20, 0.000139, 8
-mpi+openmp merge, 20, 0.000021, 8
-serial merge, 20, 0.000014, 8
-mpi enum, 20, 0.000014, 8
-mpi+openmp enum, 20, 0.000016, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 20, 0.000199, 8
-mpi+openmp quick, 20, 0.000084, 8
-serial quick, 20, 0.000014, 8
-mpi merge, 20, 0.000098, 8
-mpi+openmp merge, 20, 0.000480, 8
-serial merge, 20, 0.000035, 8
-mpi enum, 20, 0.000029, 8
-mpi+openmp enum, 20, 0.000019, 8
-serial enum, 20, 0.000004, 8
-mpi quick, 10, 0.000050, 3
-mpi+openmp quick, 10, 0.000010, 3
-serial quick, 10, 0.000013, 3
-mpi merge, 10, 0.000043, 3
-mpi+openmp merge, 10, 0.000041, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000013, 3
-mpi+openmp enum, 10, 0.000038, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000051, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000005, 3
-mpi merge, 10, 0.000010, 3
-mpi+openmp merge, 10, 0.000053, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000212, 3
-mpi+openmp enum, 10, 0.000020, 3
-serial enum, 10, 0.000001, 3
-mpi quick, 10, 0.000069, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000006, 3
-mpi merge, 10, 0.000145, 3
-mpi+openmp merge, 10, 0.000026, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000034, 3
-mpi+openmp enum, 10, 0.000003, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000061, 3
-mpi+openmp quick, 10, 0.000043, 3
-serial quick, 10, 0.000008, 3
-mpi merge, 10, 0.000014, 3
-mpi+openmp merge, 10, 0.000005, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000057, 3
-mpi+openmp enum, 10, 0.000021, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000054, 3
-mpi+openmp quick, 10, 0.000061, 3
-serial quick, 10, 0.000004, 3
-mpi merge, 10, 0.000107, 3
-mpi+openmp merge, 10, 0.000088, 3
-serial merge, 10, 0.000003, 3
-mpi enum, 10, 0.000041, 3
-mpi+openmp enum, 10, 0.000012, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000068, 3
-mpi+openmp quick, 10, 0.000054, 3
-serial quick, 10, 0.000006, 3
-mpi merge, 10, 0.000012, 3
-mpi+openmp merge, 10, 0.000064, 3
-serial merge, 10, 0.000006, 3
-mpi enum, 10, 0.000035, 3
-mpi+openmp enum, 10, 0.000015, 3
-serial enum, 10, 0.000001, 3
-mpi quick, 10, 0.000063, 3
-mpi+openmp quick, 10, 0.000004, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000040, 3
-mpi+openmp merge, 10, 0.000029, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000032, 3
-mpi+openmp enum, 10, 0.000078, 3
-serial enum, 10, 0.000001, 3
-mpi quick, 10, 0.000056, 3
-mpi+openmp quick, 10, 0.000045, 3
-serial quick, 10, 0.000005, 3
-mpi merge, 10, 0.000016, 3
-mpi+openmp merge, 10, 0.000088, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000053, 3
-mpi+openmp enum, 10, 0.000053, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000052, 3
-mpi+openmp quick, 10, 0.000205, 3
-serial quick, 10, 0.000014, 3
-mpi merge, 10, 0.000017, 3
-mpi+openmp merge, 10, 0.000028, 3
-serial merge, 10, 0.000006, 3
-mpi enum, 10, 0.000077, 3
-mpi+openmp enum, 10, 0.000044, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000054, 3
-mpi+openmp quick, 10, 0.000008, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000011, 3
-mpi+openmp merge, 10, 0.000169, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000033, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000055, 3
-mpi+openmp quick, 10, 0.000062, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000053, 3
-mpi+openmp merge, 10, 0.000042, 3
-serial merge, 10, 0.000007, 3
-mpi enum, 10, 0.000030, 3
-mpi+openmp enum, 10, 0.000024, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000058, 3
-mpi+openmp quick, 10, 0.000036, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000013, 3
-mpi+openmp merge, 10, 0.000056, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000067, 3
-mpi+openmp enum, 10, 0.000051, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000056, 3
-mpi+openmp quick, 10, 0.000050, 3
-serial quick, 10, 0.000004, 3
-mpi merge, 10, 0.000014, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000006, 3
-mpi enum, 10, 0.000032, 3
-mpi+openmp enum, 10, 0.000050, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000235, 3
-mpi+openmp quick, 10, 0.000010, 3
-serial quick, 10, 0.000004, 3
-mpi merge, 10, 0.000044, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000051, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000063, 3
-mpi+openmp quick, 10, 0.000053, 3
-serial quick, 10, 0.000004, 3
-mpi merge, 10, 0.000017, 3
-mpi+openmp merge, 10, 0.000005, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000117, 3
-mpi+openmp enum, 10, 0.000007, 3
-serial enum, 10, 0.000001, 3
-mpi quick, 10, 0.000055, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000035, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000005, 3
-mpi enum, 10, 0.000026, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000359, 3
-mpi+openmp quick, 10, 0.000019, 3
-serial quick, 10, 0.000004, 3
-mpi merge, 10, 0.000011, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000004, 3
-mpi enum, 10, 0.000044, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000054, 3
-mpi+openmp quick, 10, 0.000058, 3
-serial quick, 10, 0.000002, 3
-mpi merge, 10, 0.000012, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000015, 3
-mpi enum, 10, 0.000033, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000055, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000002, 3
-mpi quick, 10, 0.000053, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000002, 3
-mpi quick, 10, 0.000056, 3
-mpi+openmp quick, 10, 0.000035, 3
-serial quick, 10, 0.000005, 3
-mpi merge, 10, 0.000012, 3
-mpi+openmp merge, 10, 0.000004, 3
-mpi quick, 10, 0.000055, 3
-mpi+openmp quick, 10, 0.000058, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000013, 3
-mpi+openmp merge, 10, 0.000004, 3
-serial merge, 10, 0.000008, 3
-mpi enum, 10, 0.000078, 3
-mpi+openmp enum, 10, 0.000025, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000054, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000004, 3
-mpi quick, 10, 0.000054, 3
-mpi+openmp quick, 10, 0.000004, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000199, 3
-mpi+openmp merge, 10, 0.000050, 3
-serial merge, 10, 0.000004, 3
-mpi enum, 10, 0.000037, 3
-mpi+openmp enum, 10, 0.000004, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000074, 3
-mpi+openmp quick, 10, 0.000183, 3
-serial quick, 10, 0.000002, 3
-mpi merge, 10, 0.000067, 3
-mpi+openmp merge, 10, 0.000008, 3
-serial merge, 10, 0.000004, 3
-mpi enum, 10, 0.000203, 3
-mpi+openmp enum, 10, 0.000045, 3
-serial enum, 10, 0.000001, 3
-mpi quick, 10, 0.000063, 3
-mpi+openmp quick, 10, 0.000059, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000014, 3
-mpi+openmp merge, 10, 0.000004, 3
-mpi quick, 10, 0.000061, 3
-mpi+openmp quick, 10, 0.000005, 3
-serial quick, 10, 0.000003, 3
-mpi merge, 10, 0.000063, 3
-mpi+openmp merge, 10, 0.000005, 3
-serial merge, 10, 0.000004, 3
-mpi enum, 10, 0.000098, 3
-mpi+openmp enum, 10, 0.000007, 3
-serial enum, 10, 0.000002, 3
-mpi quick, 10, 0.000253
-mpi+openmp quick, 10, 0.000174
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000058
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000064
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000047
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000036
-mpi+openmp enum, 10, 0.000003
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000063
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000233
-mpi+openmp merge, 10, 0.000045
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000048
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000061
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000012
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000036
-mpi+openmp enum, 10, 0.000061
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000056
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000035
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000031
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000053
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000054
-mpi+openmp enum, 10, 0.000136
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000054
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000097
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000069
-mpi+openmp enum, 10, 0.000018
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000069
-mpi+openmp quick, 10, 0.000056
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000011
-mpi+openmp merge, 10, 0.000065
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000028
-mpi+openmp enum, 10, 0.000017
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000053
-mpi+openmp quick, 10, 0.000082
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000012
-mpi+openmp merge, 10, 0.000020
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000035
-mpi+openmp enum, 10, 0.000003
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000054
-mpi+openmp quick, 10, 0.000119
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000053
-mpi+openmp merge, 10, 0.000013
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000032
-mpi+openmp enum, 10, 0.000027
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000062
-mpi+openmp quick, 10, 0.000044
-serial quick, 10, 0.000022
-mpi merge, 10, 0.000102
-mpi+openmp merge, 10, 0.000053
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000028
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000064
-mpi+openmp quick, 10, 0.000028
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000013
-mpi+openmp merge, 10, 0.000054
-serial merge, 10, 0.000008
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000160
-mpi+openmp quick, 10, 0.000062
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000038
-mpi+openmp merge, 10, 0.000022
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000052
-mpi+openmp enum, 10, 0.000006
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000056
-mpi+openmp quick, 10, 0.000006
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000013
-mpi+openmp merge, 10, 0.000008
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000055
-mpi+openmp enum, 10, 0.000005
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000054
-mpi+openmp quick, 10, 0.000109
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000053
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000030
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000061
-mpi+openmp quick, 10, 0.000150
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000013
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000023
-mpi enum, 10, 0.000006
-mpi+openmp enum, 10, 0.000054
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000170
-mpi+openmp quick, 10, 0.000023
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000041
-mpi+openmp merge, 10, 0.000016
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000004
-mpi+openmp enum, 10, 0.000105
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000061
-mpi+openmp quick, 10, 0.000042
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000015
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000038
-mpi+openmp enum, 10, 0.000007
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000120
-mpi+openmp quick, 10, 0.000055
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000059
-mpi+openmp merge, 10, 0.000047
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000052
-mpi+openmp enum, 10, 0.000030
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000194
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000014
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000012
-mpi enum, 10, 0.000005
-mpi+openmp enum, 10, 0.000077
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000053
-mpi+openmp quick, 10, 0.000018
-serial quick, 10, 0.000007
-mpi merge, 10, 0.000013
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000035
-mpi enum, 10, 0.000004
-mpi+openmp enum, 10, 0.000008
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000237
-mpi+openmp quick, 10, 0.000037
-serial quick, 10, 0.000012
-mpi merge, 10, 0.000015
-mpi+openmp merge, 10, 0.000099
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000012
-mpi+openmp enum, 10, 0.000023
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000043
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000011
-mpi+openmp merge, 10, 0.000049
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000006
-mpi+openmp enum, 10, 0.000008
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000046
-mpi+openmp merge, 10, 0.000110
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000050
-mpi+openmp enum, 10, 0.000005
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000056
-mpi+openmp quick, 10, 0.000049
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000062
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000043
-mpi+openmp enum, 10, 0.000015
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000062
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000048
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000031
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000041
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000015
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000095
-mpi+openmp enum, 10, 0.000007
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000060
-mpi+openmp quick, 10, 0.000065
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000099
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000022
-mpi+openmp enum, 10, 0.000024
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000062
-mpi+openmp quick, 10, 0.000067
-serial quick, 10, 0.000019
-mpi merge, 10, 0.000014
-mpi+openmp merge, 10, 0.000083
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000006
-mpi+openmp enum, 10, 0.000006
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000052
-mpi+openmp quick, 10, 0.000023
-serial quick, 10, 0.000007
-mpi merge, 10, 0.000059
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000056
-mpi+openmp enum, 10, 0.000018
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000056
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000066
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000004
-mpi+openmp enum, 10, 0.000024
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000063
-mpi+openmp quick, 10, 0.000174
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000016
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000059
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000058
-mpi+openmp quick, 10, 0.000047
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000016
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000032
-mpi+openmp enum, 10, 0.000047
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000057
-mpi+openmp quick, 10, 0.000008
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000085
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000219
-mpi+openmp enum, 10, 0.000010
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000062
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000064
-mpi+openmp merge, 10, 0.000053
-serial merge, 10, 0.000024
-mpi enum, 10, 0.000032
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000054
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000077
-mpi+openmp merge, 10, 0.000011
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000065
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000328
-mpi+openmp quick, 10, 0.000101
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000049
-mpi+openmp merge, 10, 0.000055
-serial merge, 10, 0.000008
-mpi enum, 10, 0.000060
-mpi+openmp enum, 10, 0.000005
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000062
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000010
-mpi merge, 10, 0.000015
-mpi+openmp merge, 10, 0.000164
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000153
-mpi+openmp enum, 10, 0.000094
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000320
-mpi+openmp quick, 10, 0.000010
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000095
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000012
-mpi enum, 10, 0.000063
-mpi+openmp enum, 10, 0.000016
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000042
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000013
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000067
-mpi+openmp enum, 10, 0.000004
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000202
-mpi+openmp quick, 10, 0.000029
-serial quick, 10, 0.000023
-mpi merge, 10, 0.000024
-mpi+openmp merge, 10, 0.000199
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000051
-mpi+openmp enum, 10, 0.000019
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000054
-mpi+openmp quick, 10, 0.000046
-serial quick, 10, 0.000014
-mpi merge, 10, 0.000114
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000032
-mpi enum, 10, 0.000171
-mpi+openmp enum, 10, 0.000009
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000068
-mpi+openmp quick, 10, 0.000047
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000030
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000015
-mpi enum, 10, 0.000129
-mpi+openmp enum, 10, 0.000042
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000062
-mpi+openmp quick, 10, 0.000046
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000058
-mpi+openmp merge, 10, 0.000008
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000178
-mpi+openmp enum, 10, 0.000027
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000128
-mpi+openmp merge, 10, 0.000004
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000197
-mpi+openmp enum, 10, 0.000006
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000055
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000038
-mpi+openmp merge, 10, 0.000005
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000060
-mpi+openmp enum, 10, 0.000018
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000065
-mpi+openmp quick, 10, 0.000005
-serial quick, 10, 0.000012
-mpi merge, 10, 0.000015
-mpi+openmp merge, 10, 0.000093
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000072
-mpi+openmp enum, 10, 0.000003
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000105
-serial quick, 10, 0.000007
-mpi merge, 10, 0.000047
-mpi+openmp merge, 10, 0.000030
-serial merge, 10, 0.000011
-mpi enum, 10, 0.000057
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000085
-mpi+openmp quick, 10, 0.000040
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000053
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000008
-mpi enum, 10, 0.000068
-mpi+openmp enum, 10, 0.000070
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000040
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000077
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000153
-mpi+openmp enum, 10, 0.000042
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000360
-mpi+openmp quick, 10, 0.000151
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000102
-serial merge, 10, 0.000008
-mpi enum, 10, 0.000099
-mpi+openmp enum, 10, 0.000032
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000129
-mpi+openmp merge, 10, 0.000035
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000200
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000087
-mpi+openmp quick, 10, 0.000068
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000096
-mpi+openmp merge, 10, 0.000035
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000057
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000074
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000046
-mpi+openmp merge, 10, 0.000146
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000095
-mpi+openmp enum, 10, 0.000064
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000068
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000088
-mpi+openmp merge, 10, 0.000054
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000050
-mpi+openmp enum, 10, 0.000071
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000155
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000077
-mpi+openmp merge, 10, 0.000080
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000165
-mpi+openmp enum, 10, 0.000044
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000078
-mpi+openmp quick, 10, 0.000051
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000205
-mpi+openmp merge, 10, 0.000075
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000055
-mpi+openmp enum, 10, 0.000041
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000037
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000105
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000048
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000139
-mpi+openmp merge, 10, 0.000039
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000052
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000036
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000075
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000003
-mpi quick, 10, 0.000087
-mpi+openmp quick, 10, 0.000051
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000112
-mpi+openmp merge, 10, 0.000056
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000066
-mpi+openmp enum, 10, 0.000078
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000086
-mpi+openmp merge, 10, 0.000116
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000084
-mpi+openmp enum, 10, 0.000140
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000031
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000123
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000052
-mpi+openmp enum, 10, 0.000031
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000074
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000107
-mpi+openmp merge, 10, 0.000049
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000107
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000081
-mpi+openmp quick, 10, 0.000123
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000078
-mpi+openmp merge, 10, 0.000044
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000050
-mpi+openmp enum, 10, 0.000044
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000079
-mpi+openmp quick, 10, 0.000132
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000052
-mpi+openmp merge, 10, 0.000041
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000054
-mpi+openmp enum, 10, 0.000029
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000074
-mpi+openmp quick, 10, 0.000053
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000110
-mpi+openmp merge, 10, 0.000162
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000051
-mpi+openmp enum, 10, 0.000032
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000032
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000148
-mpi+openmp merge, 10, 0.000038
-serial merge, 10, 0.000013
-mpi enum, 10, 0.000050
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000226
-mpi+openmp quick, 10, 0.000230
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000073
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000050
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000032
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000115
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000049
-mpi+openmp enum, 10, 0.000030
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000045
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000101
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000175
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000067
-mpi quick, 10, 0.000199
-mpi+openmp quick, 10, 0.000048
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000069
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000079
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000298
-mpi+openmp quick, 10, 0.000038
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000036
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000086
-mpi+openmp enum, 10, 0.000060
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000090
-mpi+openmp quick, 10, 0.000070
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000059
-mpi+openmp enum, 10, 0.000031
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000036
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000039
-mpi+openmp merge, 10, 0.000052
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000049
-mpi+openmp enum, 10, 0.000099
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000089
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000070
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000055
-mpi+openmp enum, 10, 0.000128
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000254
-mpi+openmp quick, 10, 0.000048
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000059
-mpi+openmp merge, 10, 0.000095
-serial merge, 10, 0.000009
-mpi enum, 10, 0.000056
-mpi+openmp enum, 10, 0.000092
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000080
-mpi+openmp quick, 10, 0.000102
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000040
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000060
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000060
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000037
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000051
-mpi+openmp enum, 10, 0.000032
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000037
-serial merge, 10, 0.000036
-mpi enum, 10, 0.000137
-mpi+openmp enum, 10, 0.000037
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000081
-mpi+openmp quick, 10, 0.000084
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000060
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000055
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000061
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000084
-mpi+openmp merge, 10, 0.000040
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000059
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000083
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000120
-mpi+openmp merge, 10, 0.000079
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000056
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000389
-mpi+openmp quick, 10, 0.000103
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000037
-mpi+openmp merge, 10, 0.000054
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000061
-mpi+openmp enum, 10, 0.000032
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000226
-mpi+openmp quick, 10, 0.000214
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000042
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000093
-mpi+openmp enum, 10, 0.000038
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000078
-mpi+openmp quick, 10, 0.000036
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000090
-mpi+openmp merge, 10, 0.000296
-serial merge, 10, 0.000008
-mpi enum, 10, 0.000036
-mpi+openmp enum, 10, 0.000087
-serial enum, 10, 0.000003
-mpi quick, 10, 0.000079
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000065
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000070
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000079
-mpi+openmp quick, 10, 0.000144
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000042
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000082
-mpi+openmp enum, 10, 0.000064
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000222
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000064
-serial merge, 10, 0.000014
-mpi enum, 10, 0.000102
-mpi+openmp enum, 10, 0.000087
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000273
-mpi+openmp quick, 10, 0.000041
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000072
-mpi+openmp merge, 10, 0.000072
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000057
-mpi+openmp enum, 10, 0.000061
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000088
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000154
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000102
-mpi+openmp enum, 10, 0.000123
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000091
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000088
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000015
-mpi enum, 10, 0.000041
-mpi+openmp enum, 10, 0.000054
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000089
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000067
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000041
-mpi+openmp enum, 10, 0.000037
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000045
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000094
-mpi+openmp merge, 10, 0.000140
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000097
-mpi+openmp enum, 10, 0.000056
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000092
-mpi+openmp quick, 10, 0.000145
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000038
-mpi+openmp merge, 10, 0.000088
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000081
-mpi+openmp enum, 10, 0.000122
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000040
-serial quick, 10, 0.000010
-mpi merge, 10, 0.000041
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000032
-mpi+openmp enum, 10, 0.000040
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000068
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000145
-mpi+openmp merge, 10, 0.000064
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000044
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000041
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000066
-mpi+openmp enum, 10, 0.000049
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000227
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000148
-mpi+openmp merge, 10, 0.000076
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000055
-mpi+openmp enum, 10, 0.000128
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000061
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000100
-mpi+openmp merge, 10, 0.000035
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000059
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000121
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000100
-mpi+openmp merge, 10, 0.000094
-serial merge, 10, 0.000042
-mpi enum, 10, 0.000041
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000087
-mpi+openmp quick, 10, 0.000051
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000040
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000015
-mpi enum, 10, 0.000030
-mpi+openmp enum, 10, 0.000082
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000126
-serial quick, 10, 0.000014
-mpi merge, 10, 0.000045
-mpi+openmp merge, 10, 0.000157
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000041
-mpi+openmp enum, 10, 0.000037
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000009
-mpi merge, 10, 0.000206
-mpi+openmp merge, 10, 0.000085
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000047
-mpi+openmp enum, 10, 0.000116
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000038
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000072
-mpi+openmp merge, 10, 0.000071
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000128
-mpi+openmp enum, 10, 0.000039
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000059
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000039
-mpi+openmp merge, 10, 0.000075
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000057
-mpi+openmp enum, 10, 0.000109
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000072
-mpi+openmp quick, 10, 0.000146
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000053
-mpi+openmp merge, 10, 0.000074
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000087
-mpi+openmp enum, 10, 0.000047
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000061
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000076
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000034
-mpi+openmp enum, 10, 0.000031
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000030
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000083
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000048
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000080
-mpi+openmp quick, 10, 0.000091
-serial quick, 10, 0.000026
-mpi merge, 10, 0.000070
-mpi+openmp merge, 10, 0.000054
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000029
-mpi+openmp enum, 10, 0.000090
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000135
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000116
-mpi+openmp merge, 10, 0.000040
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000038
-mpi+openmp enum, 10, 0.000030
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000062
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000087
-mpi+openmp merge, 10, 0.000042
-serial merge, 10, 0.000014
-mpi enum, 10, 0.000074
-mpi+openmp enum, 10, 0.000046
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000080
-mpi+openmp quick, 10, 0.000117
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000084
-mpi+openmp merge, 10, 0.000046
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000085
-mpi+openmp enum, 10, 0.000095
-mpi quick, 10, 0.000085
-mpi+openmp quick, 10, 0.000036
-serial quick, 10, 0.000011
-mpi merge, 10, 0.000078
-mpi+openmp merge, 10, 0.000036
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000058
-mpi+openmp enum, 10, 0.000089
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000054
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000039
-mpi+openmp merge, 10, 0.000040
-serial merge, 10, 0.000011
-mpi enum, 10, 0.000085
-mpi+openmp enum, 10, 0.000134
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000235
-mpi+openmp quick, 10, 0.000062
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000134
-mpi+openmp merge, 10, 0.000089
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000053
-mpi+openmp enum, 10, 0.000036
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000424
-mpi+openmp quick, 10, 0.000041
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000075
-mpi+openmp merge, 10, 0.000057
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000028
-mpi+openmp enum, 10, 0.000045
-serial enum, 10, 0.000043
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000035
-mpi+openmp merge, 10, 0.000036
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000096
-mpi+openmp enum, 10, 0.000052
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000078
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000136
-mpi+openmp merge, 10, 0.000055
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000125
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000075
-mpi+openmp quick, 10, 0.000041
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000125
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000031
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000096
-mpi+openmp merge, 10, 0.000051
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000034
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000254
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000040
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000057
-mpi+openmp enum, 10, 0.000042
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000172
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000042
-mpi+openmp merge, 10, 0.000035
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000099
-mpi+openmp enum, 10, 0.000082
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000037
-mpi+openmp merge, 10, 0.000102
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000090
-mpi+openmp enum, 10, 0.000038
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000073
-mpi+openmp quick, 10, 0.000114
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000043
-mpi+openmp merge, 10, 0.000088
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000084
-mpi+openmp enum, 10, 0.000045
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000088
-mpi+openmp quick, 10, 0.000035
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000108
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000032
-mpi+openmp enum, 10, 0.000089
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000085
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000179
-mpi+openmp merge, 10, 0.000039
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000053
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000074
-mpi+openmp quick, 10, 0.000050
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000112
-mpi+openmp merge, 10, 0.000039
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000077
-mpi+openmp enum, 10, 0.000095
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000038
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000028
-mpi+openmp enum, 10, 0.000043
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000060
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000092
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000049
-mpi+openmp enum, 10, 0.000045
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000080
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000079
-mpi+openmp merge, 10, 0.000050
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000077
-mpi+openmp quick, 10, 0.000031
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000072
-mpi+openmp merge, 10, 0.000033
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000030
-mpi+openmp enum, 10, 0.000031
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000396
-mpi+openmp quick, 10, 0.000081
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000039
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000041
-mpi+openmp enum, 10, 0.000062
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000059
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000037
-mpi+openmp merge, 10, 0.000032
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000046
-mpi+openmp enum, 10, 0.000035
-serial enum, 10, 0.000004
-mpi quick, 10, 0.000085
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000035
-mpi+openmp merge, 10, 0.000031
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000109
-mpi+openmp enum, 10, 0.000056
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000053
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000160
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000073
-mpi+openmp enum, 10, 0.000090
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000040
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000045
-mpi+openmp enum, 10, 0.000030
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000038
-mpi+openmp merge, 10, 0.000030
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000095
-mpi+openmp enum, 10, 0.000126
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000121
-mpi+openmp merge, 10, 0.000034
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000093
-mpi+openmp enum, 10, 0.000140
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000087
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000057
-mpi+openmp merge, 10, 0.000048
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000028
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000043
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000035
-mpi+openmp merge, 10, 0.000106
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000083
-mpi+openmp enum, 10, 0.000128
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000073
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000129
-mpi+openmp merge, 10, 0.000050
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000103
-mpi+openmp enum, 10, 0.000084
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000086
-mpi+openmp quick, 10, 0.000086
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000076
-mpi+openmp merge, 10, 0.000139
-serial merge, 10, 0.000020
-mpi enum, 10, 0.000038
-mpi+openmp enum, 10, 0.000100
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000215
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000090
-mpi+openmp merge, 10, 0.000216
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000035
-mpi+openmp enum, 10, 0.000033
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000224
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000044
-mpi+openmp merge, 10, 0.000041
-serial merge, 10, 0.000012
-mpi enum, 10, 0.000110
-mpi+openmp enum, 10, 0.000052
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000080
-mpi+openmp quick, 10, 0.000034
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000289
-mpi+openmp merge, 10, 0.000061
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000053
-mpi+openmp enum, 10, 0.000034
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000079
-mpi+openmp quick, 10, 0.000053
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000109
-mpi+openmp merge, 10, 0.000063
-serial merge, 10, 0.000004
-mpi enum, 10, 0.000035
-mpi+openmp enum, 10, 0.000043
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000068
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000075
-mpi+openmp merge, 10, 0.000035
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000079
-mpi+openmp enum, 10, 0.000113
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000218
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000045
-mpi+openmp merge, 10, 0.000128
-serial merge, 10, 0.000018
-mpi enum, 10, 0.000036
-mpi+openmp enum, 10, 0.000080
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000083
-mpi+openmp quick, 10, 0.000091
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000098
-mpi+openmp merge, 10, 0.000042
-serial merge, 10, 0.000005
-mpi enum, 10, 0.000084
-mpi+openmp enum, 10, 0.000110
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000082
-mpi+openmp quick, 10, 0.000109
-serial quick, 10, 0.000004
-mpi merge, 10, 0.000066
-mpi+openmp merge, 10, 0.000151
-serial merge, 10, 0.000007
-mpi enum, 10, 0.000062
-mpi+openmp enum, 10, 0.000063
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000074
-mpi+openmp quick, 10, 0.000088
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000099
-mpi+openmp merge, 10, 0.000085
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000031
-mpi+openmp enum, 10, 0.000159
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000076
-mpi+openmp quick, 10, 0.000037
-serial quick, 10, 0.000002
-mpi merge, 10, 0.000062
-mpi+openmp merge, 10, 0.000050
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000029
-mpi+openmp enum, 10, 0.000031
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000078
-mpi+openmp quick, 10, 0.000033
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000118
-mpi+openmp merge, 10, 0.000097
-serial merge, 10, 0.000003
-mpi enum, 10, 0.000042
-mpi+openmp enum, 10, 0.000057
-serial enum, 10, 0.000002
-mpi quick, 10, 0.000084
-mpi+openmp quick, 10, 0.000043
-serial quick, 10, 0.000003
-mpi merge, 10, 0.000095
-mpi+openmp merge, 10, 0.000058
-serial merge, 10, 0.000011
-mpi enum, 10, 0.000218
-mpi+openmp enum, 10, 0.000086
-serial enum, 10, 0.000001
-mpi quick, 10, 0.000285
-mpi+openmp quick, 10, 0.000010
-serial quick, 10, 0.000005
-mpi merge, 10, 0.000012
-mpi+openmp merge, 10, 0.000057
-serial merge, 10, 0.000006
-mpi enum, 10, 0.000022
-mpi+openmp enum, 10, 0.000037
-serial enum, 10, 0.000002
-mpi quick, 1000, 0.000171
-serial quick, 1000, 0.000101
-mpi merge, 1000, 0.000145
-serial merge, 1000, 0.000195
-mpi enum, 1000, 0.000415
-serial enum, 1000, 0.003487
-mpi quick, 1000, 0.000188
-serial quick, 1000, 0.000098
-mpi merge, 1000, 0.000139
-serial merge, 1000, 0.000201
-mpi enum, 1000, 0.000359
-serial enum, 1000, 0.003437
-mpi quick, 1000, 0.000144
-serial quick, 1000, 0.000223
-mpi merge, 1000, 0.000338
-serial merge, 1000, 0.000187
-mpi enum, 1000, 0.000360
-serial enum, 1000, 0.003511
-mpi quick, 1000, 0.000148
-serial quick, 1000, 0.000096
-mpi merge, 1000, 0.000118
-serial merge, 1000, 0.000183
-mpi enum, 1000, 0.000659
-serial enum, 1000, 0.003645
-mpi quick, 1000, 0.000190
-serial quick, 1000, 0.000101
-mpi merge, 1000, 0.000248
-serial merge, 1000, 0.000189
-mpi enum, 1000, 0.000368
-serial enum, 1000, 0.003539
-mpi quick, 1000, 0.000138
-serial quick, 1000, 0.000097
-mpi merge, 1000, 0.000126
-serial merge, 1000, 0.000199
-mpi enum, 1000, 0.000364
-serial enum, 1000, 0.003465
-mpi quick, 1000, 0.000151
-serial quick, 1000, 0.000097
-mpi merge, 1000, 0.000125
-serial merge, 1000, 0.000190
-mpi enum, 1000, 0.000447
-serial enum, 1000, 0.003519
-mpi quick, 1000, 0.000169
-serial quick, 1000, 0.000112
-mpi merge, 1000, 0.000094
-serial merge, 1000, 0.000261
-mpi enum, 1000, 0.000363
-serial enum, 1000, 0.003501
-mpi quick, 1000, 0.000179
-serial quick, 1000, 0.000179
-mpi merge, 1000, 0.000099
-serial merge, 1000, 0.000181
-mpi enum, 1000, 0.000412
-serial enum, 1000, 0.003442
-mpi quick, 1000, 0.000142
-serial quick, 1000, 0.000195
-mpi merge, 1000, 0.000158
-serial merge, 1000, 0.000185
-mpi enum, 1000, 0.000363
-serial enum, 1000, 0.003373
+sorting_algorithm, array_size, run_time, num_of_process, num_of_thread
+mpi_openmp_quick, 10000000, 1.973068, 1, 1
+mpi_openmp_merge, 10000000, 3.112205, 1, 1
+mpi_openmp_quick, 10000000, 1.974512, 1, 2
+mpi_openmp_merge, 10000000, 3.115610, 1, 2
+mpi_openmp_quick, 10000000, 1.959080, 1, 3
+mpi_openmp_merge, 10000000, 3.038377, 1, 3
+mpi_openmp_quick, 10000000, 2.010075, 1, 4
+mpi_openmp_merge, 10000000, 3.055694, 1, 4
+mpi_openmp_quick, 10000000, 1.944641, 1, 5
+mpi_openmp_merge, 10000000, 3.021390, 1, 5
+mpi_openmp_quick, 10000000, 1.955853, 1, 6
+mpi_openmp_merge, 10000000, 2.962855, 1, 6
+mpi_openmp_quick, 10000000, 1.962219, 1, 7
+mpi_openmp_merge, 10000000, 3.003171, 1, 7
+mpi_openmp_quick, 10000000, 1.967038, 1, 8
+mpi_openmp_merge, 10000000, 3.032065, 1, 8
+mpi_openmp_quick, 10000000, 1.107479, 2, 1
+mpi_openmp_merge, 10000000, 1.642232, 2, 1
+mpi_openmp_quick, 10000000, 1.123078, 2, 2
+mpi_openmp_merge, 10000000, 1.677282, 2, 2
+mpi_openmp_quick, 10000000, 1.121292, 2, 3
+mpi_openmp_merge, 10000000, 1.636239, 2, 3
+mpi_openmp_quick, 10000000, 1.118554, 2, 4
+mpi_openmp_merge, 10000000, 1.632852, 2, 4
+mpi_openmp_quick, 10000000, 1.110204, 2, 5
+mpi_openmp_merge, 10000000, 1.661985, 2, 5
+mpi_openmp_quick, 10000000, 1.120912, 2, 6
+mpi_openmp_merge, 10000000, 1.652298, 2, 6
+mpi_openmp_quick, 10000000, 1.120650, 2, 7
+mpi_openmp_merge, 10000000, 1.649201, 2, 7
+mpi_openmp_quick, 10000000, 1.115030, 2, 8
+mpi_openmp_merge, 10000000, 1.643384, 2, 8
+mpi_openmp_quick, 10000000, 0.865357, 3, 1
+mpi_openmp_merge, 10000000, 1.284690, 3, 1
+mpi_openmp_quick, 10000000, 0.876879, 3, 2
+mpi_openmp_merge, 10000000, 1.253502, 3, 2
+mpi_openmp_quick, 10000000, 0.880698, 3, 3
+mpi_openmp_merge, 10000000, 1.285956, 3, 3
+mpi_openmp_quick, 10000000, 0.868327, 3, 4
+mpi_openmp_merge, 10000000, 1.399091, 3, 4
+mpi_openmp_quick, 10000000, 0.867848, 3, 5
+mpi_openmp_merge, 10000000, 1.243282, 3, 5
+mpi_openmp_quick, 10000000, 0.862402, 3, 6
+mpi_openmp_merge, 10000000, 1.239217, 3, 6
+mpi_openmp_quick, 10000000, 0.875848, 3, 7
+mpi_openmp_merge, 10000000, 1.242134, 3, 7
+mpi_openmp_quick, 10000000, 0.873328, 3, 8
+mpi_openmp_merge, 10000000, 1.237695, 3, 8
+mpi_openmp_quick, 10000000, 0.701807, 4, 1
+mpi_openmp_merge, 10000000, 0.998387, 4, 1
+mpi_openmp_quick, 10000000, 0.727034, 4, 2
+mpi_openmp_merge, 10000000, 0.988379, 4, 2
+mpi_openmp_quick, 10000000, 0.710300, 4, 3
+mpi_openmp_merge, 10000000, 0.983770, 4, 3
+mpi_openmp_quick, 10000000, 0.698916, 4, 4
+mpi_openmp_merge, 10000000, 1.033488, 4, 4
+mpi_openmp_quick, 10000000, 0.702099, 4, 5
+mpi_openmp_merge, 10000000, 0.997393, 4, 5
+mpi_openmp_quick, 10000000, 0.722479, 4, 6
+mpi_openmp_merge, 10000000, 0.988418, 4, 6
+mpi_openmp_quick, 10000000, 0.717510, 4, 7
+mpi_openmp_merge, 10000000, 1.010232, 4, 7
+mpi_openmp_quick, 10000000, 0.715476, 4, 8
+mpi_openmp_merge, 10000000, 1.042109, 4, 8
+mpi_openmp_quick, 10000000, 0.702979, 5, 1
+mpi_openmp_merge, 10000000, 0.979456, 5, 1
+mpi_openmp_quick, 10000000, 0.717679, 5, 2
+mpi_openmp_merge, 10000000, 0.990591, 5, 2
+mpi_openmp_quick, 10000000, 0.701995, 5, 3
+mpi_openmp_merge, 10000000, 0.999973, 5, 3
+mpi_openmp_quick, 10000000, 0.734778, 5, 4
+mpi_openmp_merge, 10000000, 0.973996, 5, 4
+mpi_openmp_quick, 10000000, 0.722622, 5, 5
+mpi_openmp_merge, 10000000, 0.959588, 5, 5
+mpi_openmp_quick, 10000000, 0.706489, 5, 6
+mpi_openmp_merge, 10000000, 1.034609, 5, 6
+mpi_openmp_quick, 10000000, 0.723630, 5, 7
+mpi_openmp_merge, 10000000, 0.978251, 5, 7
+mpi_openmp_quick, 10000000, 0.727339, 5, 8
+mpi_openmp_merge, 10000000, 0.977286, 5, 8
+mpi_openmp_quick, 10000000, 0.679362, 6, 1
+mpi_openmp_merge, 10000000, 0.920747, 6, 1
+mpi_openmp_quick, 10000000, 0.684727, 6, 2
+mpi_openmp_merge, 10000000, 0.902843, 6, 2
+mpi_openmp_quick, 10000000, 0.662897, 6, 3
+mpi_openmp_merge, 10000000, 0.918413, 6, 3
+mpi_openmp_quick, 10000000, 0.665182, 6, 4
+mpi_openmp_merge, 10000000, 0.895731, 6, 4
+mpi_openmp_quick, 10000000, 0.681290, 6, 5
+mpi_openmp_merge, 10000000, 0.947564, 6, 5
+mpi_openmp_quick, 10000000, 0.666278, 6, 6
+mpi_openmp_merge, 10000000, 0.919069, 6, 6
+mpi_openmp_quick, 10000000, 0.663749, 6, 7
+mpi_openmp_merge, 10000000, 0.901163, 6, 7
+mpi_openmp_quick, 10000000, 0.648865, 6, 8
+mpi_openmp_merge, 10000000, 0.948552, 6, 8
+mpi_openmp_quick, 10000000, 0.689541, 7, 1
+mpi_openmp_merge, 10000000, 0.958082, 7, 1
+mpi_openmp_quick, 10000000, 0.604997, 7, 2
+mpi_openmp_merge, 10000000, 0.863201, 7, 2
+mpi_openmp_quick, 10000000, 0.628526, 7, 3
+mpi_openmp_merge, 10000000, 0.848513, 7, 3
+mpi_openmp_quick, 10000000, 0.616819, 7, 4
+mpi_openmp_merge, 10000000, 0.873463, 7, 4
+mpi_openmp_quick, 10000000, 0.624973, 7, 5
+mpi_openmp_merge, 10000000, 0.945384, 7, 5
+mpi_openmp_quick, 10000000, 0.620586, 7, 6
+mpi_openmp_merge, 10000000, 0.883300, 7, 6
+mpi_openmp_quick, 10000000, 0.685677, 7, 7
+mpi_openmp_merge, 10000000, 0.845686, 7, 7
+mpi_openmp_quick, 10000000, 0.622776, 7, 8
+mpi_openmp_merge, 10000000, 0.892539, 7, 8
+mpi_openmp_quick, 10000000, 0.650732, 8, 1
+mpi_openmp_merge, 10000000, 0.840651, 8, 1
+mpi_openmp_quick, 10000000, 0.601706, 8, 2
+mpi_openmp_merge, 10000000, 0.857414, 8, 2
+mpi_openmp_quick, 10000000, 0.641921, 8, 3
+mpi_openmp_merge, 10000000, 0.855586, 8, 3
+mpi_openmp_quick, 10000000, 0.590481, 8, 4
+mpi_openmp_merge, 10000000, 0.847042, 8, 4
+mpi_openmp_quick, 10000000, 0.688058, 8, 5
+mpi_openmp_merge, 10000000, 0.929829, 8, 5
+mpi_openmp_quick, 10000000, 0.640109, 8, 6
+mpi_openmp_merge, 10000000, 0.871924, 8, 6
+mpi_openmp_quick, 10000000, 0.647354, 8, 7
+mpi_openmp_merge, 10000000, 0.999144, 8, 7
+mpi_openmp_quick, 10000000, 0.661406, 8, 8
+mpi_openmp_merge, 10000000, 0.883758, 8, 8
+mpi_openmp_quick, 50000000, 10.841541, 1, 1
+mpi_openmp_merge, 50000000, 16.880428, 1, 1
+mpi_openmp_quick, 50000000, 10.734951, 1, 2
+mpi_openmp_merge, 50000000, 16.464781, 1, 2
+mpi_openmp_quick, 50000000, 10.610662, 1, 3
+mpi_openmp_merge, 50000000, 16.454984, 1, 3
+mpi_openmp_quick, 50000000, 10.649842, 1, 4
+mpi_openmp_merge, 50000000, 16.470529, 1, 4
+mpi_openmp_quick, 50000000, 10.638120, 1, 5
+mpi_openmp_merge, 50000000, 16.481032, 1, 5
+mpi_openmp_quick, 50000000, 10.629555, 1, 6
+mpi_openmp_merge, 50000000, 16.310938, 1, 6
+mpi_openmp_quick, 50000000, 10.649441, 1, 7
+mpi_openmp_merge, 50000000, 16.374689, 1, 7
+mpi_openmp_quick, 50000000, 10.641484, 1, 8
+mpi_openmp_merge, 50000000, 16.282257, 1, 8
+mpi_openmp_quick, 50000000, 6.211505, 2, 1
+mpi_openmp_merge, 50000000, 8.993473, 2, 1
+mpi_openmp_quick, 50000000, 5.999720, 2, 2
+mpi_openmp_merge, 50000000, 9.034251, 2, 2
+mpi_openmp_quick, 50000000, 6.020361, 2, 3
+mpi_openmp_merge, 50000000, 8.962635, 2, 3
+mpi_openmp_quick, 50000000, 5.974288, 2, 4
+mpi_openmp_merge, 50000000, 8.903459, 2, 4
+mpi_openmp_quick, 50000000, 5.950123, 2, 5
+mpi_openmp_merge, 50000000, 8.860749, 2, 5
+mpi_openmp_quick, 50000000, 5.957268, 2, 6
+mpi_openmp_merge, 50000000, 9.300454, 2, 6
+mpi_openmp_quick, 50000000, 6.039920, 2, 7
+mpi_openmp_merge, 50000000, 8.921593, 2, 7
+mpi_openmp_quick, 50000000, 6.058068, 2, 8
+mpi_openmp_merge, 50000000, 8.823611, 2, 8
+mpi_openmp_quick, 50000000, 4.665912, 3, 1
+mpi_openmp_merge, 50000000, 6.716278, 3, 1
+mpi_openmp_quick, 50000000, 4.656121, 3, 2
+mpi_openmp_merge, 50000000, 6.317126, 3, 2
+mpi_openmp_quick, 50000000, 4.657861, 3, 3
+mpi_openmp_merge, 50000000, 6.276245, 3, 3
+mpi_openmp_quick, 50000000, 4.636870, 3, 4
+mpi_openmp_merge, 50000000, 6.443319, 3, 4
+mpi_openmp_quick, 50000000, 4.668844, 3, 5
+mpi_openmp_merge, 50000000, 6.324712, 3, 5
+mpi_openmp_quick, 50000000, 4.703193, 3, 6
+mpi_openmp_merge, 50000000, 6.701142, 3, 6
+mpi_openmp_quick, 50000000, 4.696119, 3, 7
+mpi_openmp_merge, 50000000, 6.467600, 3, 7
+mpi_openmp_quick, 50000000, 4.648796, 3, 8
+mpi_openmp_merge, 50000000, 6.362016, 3, 8
+mpi_openmp_quick, 50000000, 3.807810, 4, 1
+mpi_openmp_merge, 50000000, 5.264629, 4, 1
+mpi_openmp_quick, 50000000, 3.728612, 4, 2
+mpi_openmp_merge, 50000000, 5.303041, 4, 2
+mpi_openmp_quick, 50000000, 3.739007, 4, 3
+mpi_openmp_merge, 50000000, 5.433027, 4, 3
+mpi_openmp_quick, 50000000, 3.772753, 4, 4
+mpi_openmp_merge, 50000000, 5.354326, 4, 4
+mpi_openmp_quick, 50000000, 3.699766, 4, 5
+mpi_openmp_merge, 50000000, 5.514912, 4, 5
+mpi_openmp_quick, 50000000, 3.737471, 4, 6
+mpi_openmp_merge, 50000000, 5.236605, 4, 6
+mpi_openmp_quick, 50000000, 3.717283, 4, 7
+mpi_openmp_merge, 50000000, 5.531194, 4, 7
+mpi_openmp_quick, 50000000, 3.723868, 4, 8
+mpi_openmp_merge, 50000000, 5.309440, 4, 8
+mpi_openmp_quick, 50000000, 3.760212, 5, 1
+mpi_openmp_merge, 50000000, 5.584464, 5, 1
+mpi_openmp_quick, 50000000, 3.729215, 5, 2
+mpi_openmp_merge, 50000000, 5.170413, 5, 2
+mpi_openmp_quick, 50000000, 3.681833, 5, 3
+mpi_openmp_merge, 50000000, 5.245627, 5, 3
+mpi_openmp_quick, 50000000, 3.898818, 5, 4
+mpi_openmp_merge, 50000000, 5.391806, 5, 4
+mpi_openmp_quick, 50000000, 3.690703, 5, 5
+mpi_openmp_merge, 50000000, 5.222020, 5, 5
+mpi_openmp_quick, 50000000, 3.726642, 5, 6
+mpi_openmp_merge, 50000000, 5.397305, 5, 6
+mpi_openmp_quick, 50000000, 3.801304, 5, 7
+mpi_openmp_merge, 50000000, 5.398831, 5, 7
+mpi_openmp_quick, 50000000, 3.679223, 5, 8
+mpi_openmp_merge, 50000000, 5.276217, 5, 8
+mpi_openmp_quick, 50000000, 3.409881, 6, 1
+mpi_openmp_merge, 50000000, 4.840593, 6, 1
+mpi_openmp_quick, 50000000, 3.348027, 6, 2
+mpi_openmp_merge, 50000000, 4.924182, 6, 2
+mpi_openmp_quick, 50000000, 3.448556, 6, 3
+mpi_openmp_merge, 50000000, 4.581812, 6, 3
+mpi_openmp_quick, 50000000, 3.429967, 6, 4
+mpi_openmp_merge, 50000000, 4.637382, 6, 4
+mpi_openmp_quick, 50000000, 3.384666, 6, 5
+mpi_openmp_merge, 50000000, 4.897165, 6, 5
+mpi_openmp_quick, 50000000, 3.375188, 6, 6
+mpi_openmp_merge, 50000000, 4.677466, 6, 6
+mpi_openmp_quick, 50000000, 3.585104, 6, 7
+mpi_openmp_merge, 50000000, 4.687926, 6, 7
+mpi_openmp_quick, 50000000, 3.407623, 6, 8
+mpi_openmp_merge, 50000000, 4.609477, 6, 8
+mpi_openmp_quick, 50000000, 3.228998, 7, 1
+mpi_openmp_merge, 50000000, 4.422440, 7, 1
+mpi_openmp_quick, 50000000, 3.146276, 7, 2
+mpi_openmp_merge, 50000000, 4.603858, 7, 2
+mpi_openmp_quick, 50000000, 3.198632, 7, 3
+mpi_openmp_merge, 50000000, 4.619206, 7, 3
+mpi_openmp_quick, 50000000, 3.205793, 7, 4
+mpi_openmp_merge, 50000000, 4.722461, 7, 4
+mpi_openmp_quick, 50000000, 3.194118, 7, 5
+mpi_openmp_merge, 50000000, 4.488851, 7, 5
+mpi_openmp_quick, 50000000, 3.173649, 7, 6
+mpi_openmp_merge, 50000000, 4.610838, 7, 6
+mpi_openmp_quick, 50000000, 3.195004, 7, 7
+mpi_openmp_merge, 50000000, 4.645083, 7, 7
+mpi_openmp_quick, 50000000, 3.185192, 7, 8
+mpi_openmp_merge, 50000000, 4.544818, 7, 8
+mpi_openmp_quick, 50000000, 3.206780, 8, 1
+mpi_openmp_merge, 50000000, 4.478390, 8, 1
+mpi_openmp_quick, 50000000, 3.066249, 8, 2
+mpi_openmp_merge, 50000000, 4.728011, 8, 2
+mpi_openmp_quick, 50000000, 3.057859, 8, 3
+mpi_openmp_merge, 50000000, 4.653841, 8, 3
+mpi_openmp_quick, 50000000, 3.180458, 8, 4
+mpi_openmp_merge, 50000000, 4.513405, 8, 4
+mpi_openmp_quick, 50000000, 3.109103, 8, 5
+mpi_openmp_merge, 50000000, 4.634256, 8, 5
+mpi_openmp_quick, 50000000, 3.219967, 8, 6
+mpi_openmp_merge, 50000000, 4.801472, 8, 6
+mpi_openmp_quick, 50000000, 3.119911, 8, 7
+mpi_openmp_merge, 50000000, 4.336927, 8, 7
+mpi_openmp_quick, 50000000, 3.108387, 8, 8
+mpi_openmp_merge, 50000000, 4.403678, 8, 8
+mpi_openmp_quick, 100000000, 22.571826, 1, 1
+mpi_openmp_merge, 100000000, 34.828830, 1, 1
+mpi_openmp_quick, 100000000, 22.291303, 1, 2
+mpi_openmp_merge, 100000000, 33.922551, 1, 2
+mpi_openmp_quick, 100000000, 22.216030, 1, 3
+mpi_openmp_merge, 100000000, 33.795089, 1, 3
+mpi_openmp_quick, 100000000, 22.451868, 1, 4
+mpi_openmp_merge, 100000000, 34.160999, 1, 4
+mpi_openmp_quick, 100000000, 22.249602, 1, 5
+mpi_openmp_merge, 100000000, 34.122891, 1, 5
+mpi_openmp_quick, 100000000, 22.105997, 1, 6
+mpi_openmp_merge, 100000000, 34.177001, 1, 6
+mpi_openmp_quick, 100000000, 22.188067, 1, 7
+mpi_openmp_merge, 100000000, 34.194487, 1, 7
+mpi_openmp_quick, 100000000, 22.112200, 1, 8
+mpi_openmp_merge, 100000000, 33.857083, 1, 8
+mpi_openmp_quick, 100000000, 12.515943, 2, 1
+mpi_openmp_merge, 100000000, 19.184731, 2, 1
+mpi_openmp_quick, 100000000, 12.373185, 2, 2
+mpi_openmp_merge, 100000000, 18.605056, 2, 2
+mpi_openmp_quick, 100000000, 12.505751, 2, 3
+mpi_openmp_merge, 100000000, 18.879925, 2, 3
+mpi_openmp_quick, 100000000, 12.378450, 2, 4
+mpi_openmp_merge, 100000000, 18.406512, 2, 4
+mpi_openmp_quick, 100000000, 12.471891, 2, 5
+mpi_openmp_merge, 100000000, 18.727252, 2, 5
+mpi_openmp_quick, 100000000, 12.405807, 2, 6
+mpi_openmp_merge, 100000000, 18.938063, 2, 6
+mpi_openmp_quick, 100000000, 12.488290, 2, 7
+mpi_openmp_merge, 100000000, 18.596107, 2, 7
+mpi_openmp_quick, 100000000, 12.441487, 2, 8
+mpi_openmp_merge, 100000000, 18.977645, 2, 8
+mpi_openmp_quick, 100000000, 10.378406, 3, 1
+mpi_openmp_merge, 100000000, 13.139506, 3, 1
+mpi_openmp_quick, 100000000, 9.560623, 3, 2
+mpi_openmp_merge, 100000000, 13.282996, 3, 2
+mpi_openmp_quick, 100000000, 9.532075, 3, 3
+mpi_openmp_merge, 100000000, 13.126145, 3, 3
+mpi_openmp_quick, 100000000, 9.604523, 3, 4
+mpi_openmp_merge, 100000000, 13.157026, 3, 4
+mpi_openmp_quick, 100000000, 9.497299, 3, 5
+mpi_openmp_merge, 100000000, 13.168962, 3, 5
+mpi_openmp_quick, 100000000, 9.491944, 3, 6
+mpi_openmp_merge, 100000000, 13.185140, 3, 6
+mpi_openmp_quick, 100000000, 9.612393, 3, 7
+mpi_openmp_merge, 100000000, 13.134104, 3, 7
+mpi_openmp_quick, 100000000, 9.604595, 3, 8
+mpi_openmp_merge, 100000000, 13.308415, 3, 8
+mpi_openmp_quick, 100000000, 7.784113, 4, 1
+mpi_openmp_merge, 100000000, 11.860742, 4, 1
+mpi_openmp_quick, 100000000, 7.819513, 4, 2
+mpi_openmp_merge, 100000000, 11.015253, 4, 2
+mpi_openmp_quick, 100000000, 7.931815, 4, 3
+mpi_openmp_merge, 100000000, 12.021717, 4, 3
+mpi_openmp_quick, 100000000, 8.098612, 4, 4
+mpi_openmp_merge, 100000000, 11.254691, 4, 4
+mpi_openmp_quick, 100000000, 7.947191, 4, 5
+mpi_openmp_merge, 100000000, 11.195255, 4, 5
+mpi_openmp_quick, 100000000, 7.825179, 4, 6
+mpi_openmp_merge, 100000000, 11.373055, 4, 6
+mpi_openmp_quick, 100000000, 7.831022, 4, 7
+mpi_openmp_merge, 100000000, 10.969383, 4, 7
+mpi_openmp_quick, 100000000, 7.681558, 4, 8
+mpi_openmp_merge, 100000000, 10.753786, 4, 8
+mpi_openmp_quick, 100000000, 8.085948, 5, 1
+mpi_openmp_merge, 100000000, 11.773585, 5, 1
+mpi_openmp_quick, 100000000, 7.956297, 5, 2
+mpi_openmp_merge, 100000000, 11.022999, 5, 2
+mpi_openmp_quick, 100000000, 7.988763, 5, 3
+mpi_openmp_merge, 100000000, 11.078940, 5, 3
+mpi_openmp_quick, 100000000, 7.867883, 5, 4
+mpi_openmp_merge, 100000000, 11.500789, 5, 4
+mpi_openmp_quick, 100000000, 7.957351, 5, 5
+mpi_openmp_merge, 100000000, 11.097720, 5, 5
+mpi_openmp_quick, 100000000, 7.865228, 5, 6
+mpi_openmp_merge, 100000000, 10.971255, 5, 6
+mpi_openmp_quick, 100000000, 7.878886, 5, 7
+mpi_openmp_merge, 100000000, 11.077952, 5, 7
+mpi_openmp_quick, 100000000, 8.328080, 5, 8
+mpi_openmp_merge, 100000000, 11.070558, 5, 8
+mpi_openmp_quick, 100000000, 7.393623, 6, 1
+mpi_openmp_merge, 100000000, 10.379682, 6, 1
+mpi_openmp_quick, 100000000, 6.959021, 6, 2
+mpi_openmp_merge, 100000000, 9.822064, 6, 2
+mpi_openmp_quick, 100000000, 6.949273, 6, 3
+mpi_openmp_merge, 100000000, 9.829765, 6, 3
+mpi_openmp_quick, 100000000, 7.175057, 6, 4
+mpi_openmp_merge, 100000000, 10.332077, 6, 4
+mpi_openmp_quick, 100000000, 6.972776, 6, 5
+mpi_openmp_merge, 100000000, 10.014075, 6, 5
+mpi_openmp_quick, 100000000, 6.964104, 6, 6
+mpi_openmp_merge, 100000000, 9.961106, 6, 6
+mpi_openmp_quick, 100000000, 6.973928, 6, 7
+mpi_openmp_merge, 100000000, 10.211842, 6, 7
+mpi_openmp_quick, 100000000, 7.002042, 6, 8
+mpi_openmp_merge, 100000000, 10.711531, 6, 8
+mpi_openmp_quick, 100000000, 6.565868, 7, 1
+mpi_openmp_merge, 100000000, 10.374686, 7, 1
+mpi_openmp_quick, 100000000, 6.619455, 7, 2
+mpi_openmp_merge, 100000000, 10.121551, 7, 2
+mpi_openmp_quick, 100000000, 6.539022, 7, 3
+mpi_openmp_merge, 100000000, 10.196892, 7, 3
+mpi_openmp_quick, 100000000, 6.499381, 7, 4
+mpi_openmp_merge, 100000000, 9.940848, 7, 4
+mpi_openmp_quick, 100000000, 7.222246, 7, 5
+mpi_openmp_merge, 100000000, 10.762409, 7, 5
+mpi_openmp_quick, 100000000, 6.855973, 7, 6
+mpi_openmp_merge, 100000000, 10.272617, 7, 6
+mpi_openmp_quick, 100000000, 6.558518, 7, 7
+mpi_openmp_merge, 100000000, 10.212916, 7, 7
+mpi_openmp_quick, 100000000, 6.545530, 7, 8
+mpi_openmp_merge, 100000000, 9.852195, 7, 8
+mpi_openmp_quick, 100000000, 6.361391, 8, 1
+mpi_openmp_merge, 100000000, 10.054747, 8, 1
+mpi_openmp_quick, 100000000, 6.424872, 8, 2
+mpi_openmp_merge, 100000000, 10.172781, 8, 2
+mpi_openmp_quick, 100000000, 6.245064, 8, 3
+mpi_openmp_merge, 100000000, 10.180001, 8, 3
+mpi_openmp_quick, 100000000, 6.273927, 8, 4
+mpi_openmp_merge, 100000000, 9.865756, 8, 4
+mpi_openmp_quick, 100000000, 6.315166, 8, 5
+mpi_openmp_merge, 100000000, 10.039774, 8, 5
+mpi_openmp_quick, 100000000, 6.283582, 8, 6
+mpi_openmp_merge, 100000000, 9.832984, 8, 6
+mpi_openmp_quick, 100000000, 6.207756, 8, 7
+mpi_openmp_merge, 100000000, 10.361368, 8, 7
+mpi_openmp_quick, 100000000, 6.280736, 8, 8
+mpi_openmp_merge, 100000000, 9.456518, 8, 8
+mpi_openmp_quick, 10000000, 1.954786, 1, 1
+mpi_openmp_merge, 10000000, 3.052751, 1, 1
+mpi_openmp_quick, 10000000, 1.986654, 1, 2
+mpi_openmp_merge, 10000000, 3.042336, 1, 2
+mpi_openmp_quick, 10000000, 1.991419, 1, 3
+mpi_openmp_merge, 10000000, 3.022096, 1, 3
+mpi_openmp_quick, 10000000, 1.986832, 1, 4
+mpi_openmp_merge, 10000000, 3.046919, 1, 4
+mpi_openmp_quick, 10000000, 1.960484, 1, 5
+mpi_openmp_merge, 10000000, 3.082695, 1, 5
+mpi_openmp_quick, 10000000, 1.959613, 1, 6
+mpi_openmp_merge, 10000000, 3.100471, 1, 6
+mpi_openmp_quick, 10000000, 1.979099, 1, 7
+mpi_openmp_merge, 10000000, 3.083801, 1, 7
+mpi_openmp_quick, 10000000, 1.965904, 1, 8
+mpi_openmp_merge, 10000000, 3.046514, 1, 8
+mpi_openmp_quick, 10000000, 1.112853, 2, 1
+mpi_openmp_merge, 10000000, 1.621492, 2, 1
+mpi_openmp_quick, 10000000, 1.124437, 2, 2
+mpi_openmp_merge, 10000000, 1.663483, 2, 2
+mpi_openmp_quick, 10000000, 1.117464, 2, 3
+mpi_openmp_merge, 10000000, 1.660626, 2, 3
+mpi_openmp_quick, 10000000, 1.112831, 2, 4
+mpi_openmp_merge, 10000000, 1.629157, 2, 4
+mpi_openmp_quick, 10000000, 1.120288, 2, 5
+mpi_openmp_merge, 10000000, 1.702524, 2, 5
+mpi_openmp_quick, 10000000, 1.116782, 2, 6
+mpi_openmp_merge, 10000000, 1.628853, 2, 6
+mpi_openmp_quick, 10000000, 1.123596, 2, 7
+mpi_openmp_merge, 10000000, 1.615991, 2, 7
+mpi_openmp_quick, 10000000, 1.108518, 2, 8
+mpi_openmp_merge, 10000000, 1.617767, 2, 8
+mpi_openmp_quick, 10000000, 0.866455, 3, 1
+mpi_openmp_merge, 10000000, 1.242314, 3, 1
+mpi_openmp_quick, 10000000, 0.860592, 3, 2
+mpi_openmp_merge, 10000000, 1.224435, 3, 2
+mpi_openmp_quick, 10000000, 0.883842, 3, 3
+mpi_openmp_merge, 10000000, 1.219100, 3, 3
+mpi_openmp_quick, 10000000, 0.864298, 3, 4
+mpi_openmp_merge, 10000000, 1.233664, 3, 4
+mpi_openmp_quick, 10000000, 0.868443, 3, 5
+mpi_openmp_merge, 10000000, 1.242220, 3, 5
+mpi_openmp_quick, 10000000, 0.869225, 3, 6
+mpi_openmp_merge, 10000000, 1.233642, 3, 6
+mpi_openmp_quick, 10000000, 0.863430, 3, 7
+mpi_openmp_merge, 10000000, 1.238766, 3, 7
+mpi_openmp_quick, 10000000, 0.872108, 3, 8
+mpi_openmp_merge, 10000000, 1.233222, 3, 8
+mpi_openmp_quick, 10000000, 0.708342, 4, 1
+mpi_openmp_merge, 10000000, 0.980222, 4, 1
+mpi_openmp_quick, 10000000, 0.716880, 4, 2
+mpi_openmp_merge, 10000000, 0.995955, 4, 2
+mpi_openmp_quick, 10000000, 0.713136, 4, 3
+mpi_openmp_merge, 10000000, 0.975419, 4, 3
+mpi_openmp_quick, 10000000, 0.701027, 4, 4
+mpi_openmp_merge, 10000000, 1.010215, 4, 4
+mpi_openmp_quick, 10000000, 0.721984, 4, 5
+mpi_openmp_merge, 10000000, 0.990905, 4, 5
+mpi_openmp_quick, 10000000, 0.698105, 4, 6
+mpi_openmp_merge, 10000000, 0.993735, 4, 6
+mpi_openmp_quick, 10000000, 0.699355, 4, 7
+mpi_openmp_merge, 10000000, 1.005446, 4, 7
+mpi_openmp_quick, 10000000, 0.714971, 4, 8
+mpi_openmp_merge, 10000000, 0.992198, 4, 8
+mpi_openmp_quick, 10000000, 0.710127, 5, 1
+mpi_openmp_merge, 10000000, 0.957191, 5, 1
+mpi_openmp_quick, 10000000, 0.718764, 5, 2
+mpi_openmp_merge, 10000000, 0.947918, 5, 2
+mpi_openmp_quick, 10000000, 0.703705, 5, 3
+mpi_openmp_merge, 10000000, 0.945610, 5, 3
+mpi_openmp_quick, 10000000, 0.700031, 5, 4
+mpi_openmp_merge, 10000000, 0.971845, 5, 4
+mpi_openmp_quick, 10000000, 0.723859, 5, 5
+mpi_openmp_merge, 10000000, 0.939063, 5, 5
+mpi_openmp_quick, 10000000, 0.713889, 5, 6
+mpi_openmp_merge, 10000000, 0.967691, 5, 6
+mpi_openmp_quick, 10000000, 0.719567, 5, 7
+mpi_openmp_merge, 10000000, 0.944851, 5, 7
+mpi_openmp_quick, 10000000, 0.707994, 5, 8
+mpi_openmp_merge, 10000000, 0.977492, 5, 8
+mpi_openmp_quick, 10000000, 0.664569, 6, 1
+mpi_openmp_merge, 10000000, 0.950396, 6, 1
+mpi_openmp_quick, 10000000, 0.665434, 6, 2
+mpi_openmp_merge, 10000000, 0.978737, 6, 2
+mpi_openmp_quick, 10000000, 0.650235, 6, 3
+mpi_openmp_merge, 10000000, 0.901269, 6, 3
+mpi_openmp_quick, 10000000, 0.645096, 6, 4
+mpi_openmp_merge, 10000000, 0.896046, 6, 4
+mpi_openmp_quick, 10000000, 0.760174, 6, 5
+mpi_openmp_merge, 10000000, 0.895482, 6, 5
+mpi_openmp_quick, 10000000, 0.655689, 6, 6
+mpi_openmp_merge, 10000000, 0.922395, 6, 6
+mpi_openmp_quick, 10000000, 0.673672, 6, 7
+mpi_openmp_merge, 10000000, 0.903170, 6, 7
+mpi_openmp_quick, 10000000, 0.663466, 6, 8
+mpi_openmp_merge, 10000000, 0.903429, 6, 8
+mpi_openmp_quick, 10000000, 0.606986, 7, 1
+mpi_openmp_merge, 10000000, 0.841351, 7, 1
+mpi_openmp_quick, 10000000, 0.635892, 7, 2
+mpi_openmp_merge, 10000000, 0.873403, 7, 2
+mpi_openmp_quick, 10000000, 0.599476, 7, 3
+mpi_openmp_merge, 10000000, 0.901284, 7, 3
+mpi_openmp_quick, 10000000, 0.600897, 7, 4
+mpi_openmp_merge, 10000000, 0.852909, 7, 4
+mpi_openmp_quick, 10000000, 0.695454, 7, 5
+mpi_openmp_merge, 10000000, 0.877140, 7, 5
+mpi_openmp_quick, 10000000, 0.605456, 7, 6
+mpi_openmp_merge, 10000000, 0.882540, 7, 6
+mpi_openmp_quick, 10000000, 0.622966, 7, 7
+mpi_openmp_merge, 10000000, 0.855040, 7, 7
+mpi_openmp_quick, 10000000, 0.610129, 7, 8
+mpi_openmp_merge, 10000000, 0.877612, 7, 8
+mpi_openmp_quick, 10000000, 0.633461, 8, 1
+mpi_openmp_merge, 10000000, 0.835213, 8, 1
+mpi_openmp_quick, 10000000, 0.624917, 8, 2
+mpi_openmp_merge, 10000000, 0.825670, 8, 2
+mpi_openmp_quick, 10000000, 0.598190, 8, 3
+mpi_openmp_merge, 10000000, 0.804552, 8, 3
+mpi_openmp_quick, 10000000, 0.617595, 8, 4
+mpi_openmp_merge, 10000000, 0.849699, 8, 4
+mpi_openmp_quick, 10000000, 0.658535, 8, 5
+mpi_openmp_merge, 10000000, 0.945649, 8, 5
+mpi_openmp_quick, 10000000, 0.603144, 8, 6
+mpi_openmp_merge, 10000000, 0.824672, 8, 6
+mpi_openmp_quick, 10000000, 0.611753, 8, 7
+mpi_openmp_merge, 10000000, 0.843821, 8, 7
+mpi_openmp_quick, 10000000, 0.680988, 8, 8
+mpi_openmp_merge, 10000000, 0.865072, 8, 8
+mpi_openmp_quick, 50000000, 10.819431, 1, 1
+mpi_openmp_merge, 50000000, 16.654925, 1, 1
+mpi_openmp_quick, 50000000, 10.712891, 1, 2
+mpi_openmp_merge, 50000000, 16.373660, 1, 2
+mpi_openmp_quick, 50000000, 10.709255, 1, 3
+mpi_openmp_merge, 50000000, 16.458373, 1, 3
+mpi_openmp_quick, 50000000, 10.692888, 1, 4
+mpi_openmp_merge, 50000000, 16.474335, 1, 4
+mpi_openmp_quick, 50000000, 10.642191, 1, 5
+mpi_openmp_merge, 50000000, 16.308015, 1, 5
+mpi_openmp_quick, 50000000, 10.670338, 1, 6
+mpi_openmp_merge, 50000000, 16.166977, 1, 6
+mpi_openmp_quick, 50000000, 10.707317, 1, 7
+mpi_openmp_merge, 50000000, 16.338932, 1, 7
+mpi_openmp_quick, 50000000, 10.673070, 1, 8
+mpi_openmp_merge, 50000000, 16.253076, 1, 8
+mpi_openmp_quick, 50000000, 6.005202, 2, 1
+mpi_openmp_merge, 50000000, 8.852770, 2, 1
+mpi_openmp_quick, 50000000, 6.040702, 2, 2
+mpi_openmp_merge, 50000000, 8.806221, 2, 2
+mpi_openmp_quick, 50000000, 5.976313, 2, 3
+mpi_openmp_merge, 50000000, 8.907309, 2, 3
+mpi_openmp_quick, 50000000, 6.016257, 2, 4
+mpi_openmp_merge, 50000000, 8.777731, 2, 4
+mpi_openmp_quick, 50000000, 5.986191, 2, 5
+mpi_openmp_merge, 50000000, 8.875495, 2, 5
+mpi_openmp_quick, 50000000, 6.062865, 2, 6
+mpi_openmp_merge, 50000000, 8.780516, 2, 6
+mpi_openmp_quick, 50000000, 6.024242, 2, 7
+mpi_openmp_merge, 50000000, 8.905704, 2, 7
+mpi_openmp_quick, 50000000, 5.974341, 2, 8
+mpi_openmp_merge, 50000000, 8.881590, 2, 8
+mpi_openmp_quick, 50000000, 4.624824, 3, 1
+mpi_openmp_merge, 50000000, 6.220907, 3, 1
+mpi_openmp_quick, 50000000, 4.650036, 3, 2
+mpi_openmp_merge, 50000000, 6.442485, 3, 2
+mpi_openmp_quick, 50000000, 4.624980, 3, 3
+mpi_openmp_merge, 50000000, 6.381957, 3, 3
+mpi_openmp_quick, 50000000, 4.619740, 3, 4
+mpi_openmp_merge, 50000000, 6.352175, 3, 4
+mpi_openmp_quick, 50000000, 4.641313, 3, 5
+mpi_openmp_merge, 50000000, 6.374486, 3, 5
+mpi_openmp_quick, 50000000, 4.670639, 3, 6
+mpi_openmp_merge, 50000000, 6.443314, 3, 6
+mpi_openmp_quick, 50000000, 4.653859, 3, 7
+mpi_openmp_merge, 50000000, 6.319349, 3, 7
+mpi_openmp_quick, 50000000, 4.632867, 3, 8
+mpi_openmp_merge, 50000000, 6.276798, 3, 8
+mpi_openmp_quick, 50000000, 3.741704, 4, 1
+mpi_openmp_merge, 50000000, 5.207736, 4, 1
+mpi_openmp_quick, 50000000, 3.892529, 4, 2
+mpi_openmp_merge, 50000000, 5.161631, 4, 2
+mpi_openmp_quick, 50000000, 3.722797, 4, 3
+mpi_openmp_merge, 50000000, 5.122564, 4, 3
+mpi_openmp_quick, 50000000, 3.730341, 4, 4
+mpi_openmp_merge, 50000000, 5.224101, 4, 4
+mpi_openmp_quick, 50000000, 3.704520, 4, 5
+mpi_openmp_merge, 50000000, 5.099293, 4, 5
+mpi_openmp_quick, 50000000, 3.743856, 4, 6
+mpi_openmp_merge, 50000000, 5.193083, 4, 6
+mpi_openmp_quick, 50000000, 3.902285, 4, 7
+mpi_openmp_merge, 50000000, 5.110414, 4, 7
+mpi_openmp_quick, 50000000, 3.753016, 4, 8
+mpi_openmp_merge, 50000000, 5.205170, 4, 8
+mpi_openmp_quick, 50000000, 3.701654, 5, 1
+mpi_openmp_merge, 50000000, 5.178222, 5, 1
+mpi_openmp_quick, 50000000, 3.727667, 5, 2
+mpi_openmp_merge, 50000000, 4.983201, 5, 2
+mpi_openmp_quick, 50000000, 3.695354, 5, 3
+mpi_openmp_merge, 50000000, 5.014018, 5, 3
+mpi_openmp_quick, 50000000, 3.738626, 5, 4
+mpi_openmp_merge, 50000000, 4.988629, 5, 4
+mpi_openmp_quick, 50000000, 3.766406, 5, 5
+mpi_openmp_merge, 50000000, 5.060416, 5, 5
+mpi_openmp_quick, 50000000, 3.698615, 5, 6
+mpi_openmp_merge, 50000000, 5.025986, 5, 6
+mpi_openmp_quick, 50000000, 3.710705, 5, 7
+mpi_openmp_merge, 50000000, 5.043550, 5, 7
+mpi_openmp_quick, 50000000, 3.695874, 5, 8
+mpi_openmp_merge, 50000000, 5.013810, 5, 8
+mpi_openmp_quick, 50000000, 3.398532, 6, 1
+mpi_openmp_merge, 50000000, 4.520440, 6, 1
+mpi_openmp_quick, 50000000, 3.466229, 6, 2
+mpi_openmp_merge, 50000000, 4.470412, 6, 2
+mpi_openmp_quick, 50000000, 3.392142, 6, 3
+mpi_openmp_merge, 50000000, 4.557515, 6, 3
+mpi_openmp_quick, 50000000, 3.481844, 6, 4
+mpi_openmp_merge, 50000000, 4.509330, 6, 4
+mpi_openmp_quick, 50000000, 3.490092, 6, 5
+mpi_openmp_merge, 50000000, 4.509582, 6, 5
+mpi_openmp_quick, 50000000, 3.414814, 6, 6
+mpi_openmp_merge, 50000000, 4.505202, 6, 6
+mpi_openmp_quick, 50000000, 3.409378, 6, 7
+mpi_openmp_merge, 50000000, 4.532391, 6, 7
+mpi_openmp_quick, 50000000, 3.446362, 6, 8
+mpi_openmp_merge, 50000000, 4.491201, 6, 8
+mpi_openmp_quick, 50000000, 3.240858, 7, 1
+mpi_openmp_merge, 50000000, 4.354980, 7, 1
+mpi_openmp_quick, 50000000, 3.180560, 7, 2
+mpi_openmp_merge, 50000000, 4.474321, 7, 2
+mpi_openmp_quick, 50000000, 3.173834, 7, 3
+mpi_openmp_merge, 50000000, 4.300416, 7, 3
+mpi_openmp_quick, 50000000, 3.184034, 7, 4
+mpi_openmp_merge, 50000000, 4.350425, 7, 4
+mpi_openmp_quick, 50000000, 3.134287, 7, 5
+mpi_openmp_merge, 50000000, 4.328770, 7, 5
+mpi_openmp_quick, 50000000, 3.212104, 7, 6
+mpi_openmp_merge, 50000000, 4.288860, 7, 6
+mpi_openmp_quick, 50000000, 3.214296, 7, 7
+mpi_openmp_merge, 50000000, 4.317717, 7, 7
+mpi_openmp_quick, 50000000, 3.170715, 7, 8
+mpi_openmp_merge, 50000000, 4.306965, 7, 8
+mpi_openmp_quick, 50000000, 3.049674, 8, 1
+mpi_openmp_merge, 50000000, 4.350102, 8, 1
+mpi_openmp_quick, 50000000, 3.033086, 8, 2
+mpi_openmp_merge, 50000000, 4.244281, 8, 2
+mpi_openmp_quick, 50000000, 3.123392, 8, 3
+mpi_openmp_merge, 50000000, 4.163819, 8, 3
+mpi_openmp_quick, 50000000, 3.269076, 8, 4
+mpi_openmp_merge, 50000000, 4.239789, 8, 4
+mpi_openmp_quick, 50000000, 3.185274, 8, 5
+mpi_openmp_merge, 50000000, 4.237935, 8, 5
+mpi_openmp_quick, 50000000, 3.112785, 8, 6
+mpi_openmp_merge, 50000000, 4.211857, 8, 6
+mpi_openmp_quick, 50000000, 3.129471, 8, 7
+mpi_openmp_merge, 50000000, 4.191421, 8, 7
+mpi_openmp_quick, 50000000, 3.176498, 8, 8
+mpi_openmp_merge, 50000000, 4.277522, 8, 8
+mpi_openmp_quick, 100000000, 22.352486, 1, 1
+mpi_openmp_merge, 100000000, 34.055744, 1, 1
+mpi_openmp_quick, 100000000, 22.061692, 1, 2
+mpi_openmp_merge, 100000000, 33.934085, 1, 2
+mpi_openmp_quick, 100000000, 22.174541, 1, 3
+mpi_openmp_merge, 100000000, 33.698685, 1, 3
+mpi_openmp_quick, 100000000, 22.178776, 1, 4
+mpi_openmp_merge, 100000000, 33.259016, 1, 4
+mpi_openmp_quick, 100000000, 22.089872, 1, 5
+mpi_openmp_merge, 100000000, 33.873167, 1, 5
+mpi_openmp_quick, 100000000, 22.210905, 1, 6
+mpi_openmp_merge, 100000000, 34.048772, 1, 6
+mpi_openmp_quick, 100000000, 22.133094, 1, 7
+mpi_openmp_merge, 100000000, 33.955391, 1, 7
+mpi_openmp_quick, 100000000, 22.185463, 1, 8
+mpi_openmp_merge, 100000000, 33.937528, 1, 8
+mpi_openmp_quick, 100000000, 12.468016, 2, 1
+mpi_openmp_merge, 100000000, 18.209424, 2, 1
+mpi_openmp_quick, 100000000, 12.396830, 2, 2
+mpi_openmp_merge, 100000000, 18.329502, 2, 2
+mpi_openmp_quick, 100000000, 12.377089, 2, 3
+mpi_openmp_merge, 100000000, 17.996312, 2, 3
+mpi_openmp_quick, 100000000, 12.447268, 2, 4
+mpi_openmp_merge, 100000000, 18.451250, 2, 4
+mpi_openmp_quick, 100000000, 12.386210, 2, 5
+mpi_openmp_merge, 100000000, 18.169830, 2, 5
+mpi_openmp_quick, 100000000, 12.379353, 2, 6
+mpi_openmp_merge, 100000000, 18.311148, 2, 6
+mpi_openmp_quick, 100000000, 12.405683, 2, 7
+mpi_openmp_merge, 100000000, 18.567278, 2, 7
+mpi_openmp_quick, 100000000, 12.343328, 2, 8
+mpi_openmp_merge, 100000000, 18.407776, 2, 8
+mpi_openmp_quick, 100000000, 9.586518, 3, 1
+mpi_openmp_merge, 100000000, 13.084588, 3, 1
+mpi_openmp_quick, 100000000, 9.599752, 3, 2
+mpi_openmp_merge, 100000000, 13.074696, 3, 2
+mpi_openmp_quick, 100000000, 9.560905, 3, 3
+mpi_openmp_merge, 100000000, 13.101933, 3, 3
+mpi_openmp_quick, 100000000, 9.557260, 3, 4
+mpi_openmp_merge, 100000000, 13.147911, 3, 4
+mpi_openmp_quick, 100000000, 9.619056, 3, 5
+mpi_openmp_merge, 100000000, 13.246736, 3, 5
+mpi_openmp_quick, 100000000, 9.592955, 3, 6
+mpi_openmp_merge, 100000000, 13.183776, 3, 6
+mpi_openmp_quick, 100000000, 9.607504, 3, 7
+mpi_openmp_merge, 100000000, 13.066083, 3, 7
+mpi_openmp_quick, 100000000, 9.547779, 3, 8
+mpi_openmp_merge, 100000000, 13.045496, 3, 8
+mpi_openmp_quick, 100000000, 7.623084, 4, 1
+mpi_openmp_merge, 100000000, 10.861165, 4, 1
+mpi_openmp_quick, 100000000, 7.624298, 4, 2
+mpi_openmp_merge, 100000000, 10.726620, 4, 2
+mpi_openmp_quick, 100000000, 7.669796, 4, 3
+mpi_openmp_merge, 100000000, 10.725458, 4, 3
+mpi_openmp_quick, 100000000, 7.652981, 4, 4
+mpi_openmp_merge, 100000000, 11.044181, 4, 4
+mpi_openmp_quick, 100000000, 7.652822, 4, 5
+mpi_openmp_merge, 100000000, 10.710745, 4, 5
+mpi_openmp_quick, 100000000, 7.648212, 4, 6
+mpi_openmp_merge, 100000000, 10.688773, 4, 6
+mpi_openmp_quick, 100000000, 7.639648, 4, 7
+mpi_openmp_merge, 100000000, 10.834331, 4, 7
+mpi_openmp_quick, 100000000, 7.608113, 4, 8
+mpi_openmp_merge, 100000000, 10.565919, 4, 8
+mpi_openmp_quick, 100000000, 7.731932, 5, 1
+mpi_openmp_merge, 100000000, 10.543160, 5, 1
+mpi_openmp_quick, 100000000, 7.621463, 5, 2
+mpi_openmp_merge, 100000000, 10.679416, 5, 2
+mpi_openmp_quick, 100000000, 7.760950, 5, 3
+mpi_openmp_merge, 100000000, 10.472766, 5, 3
+mpi_openmp_quick, 100000000, 7.593050, 5, 4
+mpi_openmp_merge, 100000000, 10.437776, 5, 4
+mpi_openmp_quick, 100000000, 7.709294, 5, 5
+mpi_openmp_merge, 100000000, 10.790703, 5, 5
+mpi_openmp_quick, 100000000, 7.788405, 5, 6
+mpi_openmp_merge, 100000000, 10.512619, 5, 6
+mpi_openmp_quick, 100000000, 7.608131, 5, 7
+mpi_openmp_merge, 100000000, 10.458107, 5, 7
+mpi_openmp_quick, 100000000, 7.654930, 5, 8
+mpi_openmp_merge, 100000000, 10.685349, 5, 8
+mpi_openmp_quick, 100000000, 6.950193, 6, 1
+mpi_openmp_merge, 100000000, 10.441631, 6, 1
+mpi_openmp_quick, 100000000, 6.940550, 6, 2
+mpi_openmp_merge, 100000000, 9.883379, 6, 2
+mpi_openmp_quick, 100000000, 7.031933, 6, 3
+mpi_openmp_merge, 100000000, 9.961655, 6, 3
+mpi_openmp_quick, 100000000, 6.920604, 6, 4
+mpi_openmp_merge, 100000000, 9.833100, 6, 4
+mpi_openmp_quick, 100000000, 6.986388, 6, 5
+mpi_openmp_merge, 100000000, 9.807504, 6, 5
+mpi_openmp_quick, 100000000, 6.918013, 6, 6
+mpi_openmp_merge, 100000000, 9.873789, 6, 6
+mpi_openmp_quick, 100000000, 6.981077, 6, 7
+mpi_openmp_merge, 100000000, 9.855745, 6, 7
+mpi_openmp_quick, 100000000, 6.961271, 6, 8
+mpi_openmp_merge, 100000000, 9.875437, 6, 8
+mpi_openmp_quick, 100000000, 6.565509, 7, 1
+mpi_openmp_merge, 100000000, 9.828190, 7, 1
+mpi_openmp_quick, 100000000, 6.539602, 7, 2
+mpi_openmp_merge, 100000000, 10.192457, 7, 2
+mpi_openmp_quick, 100000000, 6.545760, 7, 3
+mpi_openmp_merge, 100000000, 10.005603, 7, 3
+mpi_openmp_quick, 100000000, 6.483710, 7, 4
+mpi_openmp_merge, 100000000, 10.246445, 7, 4
+mpi_openmp_quick, 100000000, 6.535201, 7, 5
+mpi_openmp_merge, 100000000, 10.468777, 7, 5
+mpi_openmp_quick, 100000000, 6.529051, 7, 6
+mpi_openmp_merge, 100000000, 9.634661, 7, 6
+mpi_openmp_quick, 100000000, 6.472770, 7, 7
+mpi_openmp_merge, 100000000, 9.513525, 7, 7
+mpi_openmp_quick, 100000000, 6.539498, 7, 8
+mpi_openmp_merge, 100000000, 9.961695, 7, 8
+mpi_openmp_quick, 100000000, 6.241710, 8, 1
+mpi_openmp_merge, 100000000, 9.942055, 8, 1
+mpi_openmp_quick, 100000000, 6.281607, 8, 2
+mpi_openmp_merge, 100000000, 9.653966, 8, 2
+mpi_openmp_quick, 100000000, 6.253698, 8, 3
+mpi_openmp_merge, 100000000, 9.647472, 8, 3
+mpi_openmp_quick, 100000000, 6.411323, 8, 4
+mpi_openmp_merge, 100000000, 9.745812, 8, 4
+mpi_openmp_quick, 100000000, 6.350821, 8, 5
+mpi_openmp_merge, 100000000, 9.287920, 8, 5
+mpi_openmp_quick, 100000000, 6.379861, 8, 6
+mpi_openmp_merge, 100000000, 9.689246, 8, 6
+mpi_openmp_quick, 100000000, 6.402407, 8, 7
+mpi_openmp_merge, 100000000, 9.713970, 8, 7
+mpi_openmp_quick, 100000000, 6.251247, 8, 8
+mpi_openmp_merge, 100000000, 9.646892, 8, 8
+mpi_openmp_quick, 10000000, 1.976709, 1, 1
+mpi_openmp_merge, 10000000, 3.047641, 1, 1
+mpi_openmp_quick, 10000000, 1.968682, 1, 2
+mpi_openmp_merge, 10000000, 3.069572, 1, 2
+mpi_openmp_quick, 10000000, 1.953656, 1, 3
+mpi_openmp_merge, 10000000, 3.021676, 1, 3
+mpi_openmp_quick, 10000000, 1.972014, 1, 4
+mpi_openmp_merge, 10000000, 3.055654, 1, 4
+mpi_openmp_quick, 10000000, 1.976818, 1, 5
+mpi_openmp_merge, 10000000, 3.027902, 1, 5
+mpi_openmp_quick, 10000000, 1.968104, 1, 6
+mpi_openmp_merge, 10000000, 3.037946, 1, 6
+mpi_openmp_quick, 10000000, 1.958186, 1, 7
+mpi_openmp_merge, 10000000, 3.009555, 1, 7
+mpi_openmp_quick, 10000000, 1.964081, 1, 8
+mpi_openmp_merge, 10000000, 3.019164, 1, 8
+mpi_openmp_quick, 10000000, 1.099405, 2, 1
+mpi_openmp_merge, 10000000, 1.633827, 2, 1
+mpi_openmp_quick, 10000000, 1.107653, 2, 2
+mpi_openmp_merge, 10000000, 1.630743, 2, 2
+mpi_openmp_quick, 10000000, 1.097680, 2, 3
+mpi_openmp_merge, 10000000, 1.640472, 2, 3
+mpi_openmp_quick, 10000000, 1.107108, 2, 4
+mpi_openmp_merge, 10000000, 1.675495, 2, 4
+mpi_openmp_quick, 10000000, 1.107914, 2, 5
+mpi_openmp_merge, 10000000, 1.638846, 2, 5
+mpi_openmp_quick, 10000000, 1.101412, 2, 6
+mpi_openmp_merge, 10000000, 1.621319, 2, 6
+mpi_openmp_quick, 10000000, 1.112596, 2, 7
+mpi_openmp_merge, 10000000, 1.618459, 2, 7
+mpi_openmp_quick, 10000000, 1.096999, 2, 8
+mpi_openmp_merge, 10000000, 1.636198, 2, 8
+mpi_openmp_quick, 10000000, 0.863818, 3, 1
+mpi_openmp_merge, 10000000, 1.240589, 3, 1
+mpi_openmp_quick, 10000000, 0.858344, 3, 2
+mpi_openmp_merge, 10000000, 1.225089, 3, 2
+mpi_openmp_quick, 10000000, 0.864261, 3, 3
+mpi_openmp_merge, 10000000, 1.237210, 3, 3
+mpi_openmp_quick, 10000000, 0.871721, 3, 4
+mpi_openmp_merge, 10000000, 1.230570, 3, 4
+mpi_openmp_quick, 10000000, 0.865463, 3, 5
+mpi_openmp_merge, 10000000, 1.242031, 3, 5
+mpi_openmp_quick, 10000000, 0.863075, 3, 6
+mpi_openmp_merge, 10000000, 1.228940, 3, 6
+mpi_openmp_quick, 10000000, 0.863938, 3, 7
+mpi_openmp_merge, 10000000, 1.221543, 3, 7
+mpi_openmp_quick, 10000000, 0.863845, 3, 8
+mpi_openmp_merge, 10000000, 1.242107, 3, 8
+mpi_openmp_quick, 10000000, 0.720422, 4, 1
+mpi_openmp_merge, 10000000, 1.003917, 4, 1
+mpi_openmp_quick, 10000000, 0.711187, 4, 2
+mpi_openmp_merge, 10000000, 0.979838, 4, 2
+mpi_openmp_quick, 10000000, 0.703787, 4, 3
+mpi_openmp_merge, 10000000, 0.990886, 4, 3
+mpi_openmp_quick, 10000000, 0.714518, 4, 4
+mpi_openmp_merge, 10000000, 0.981792, 4, 4
+mpi_openmp_quick, 10000000, 0.707577, 4, 5
+mpi_openmp_merge, 10000000, 0.974354, 4, 5
+mpi_openmp_quick, 10000000, 0.709910, 4, 6
+mpi_openmp_merge, 10000000, 0.998273, 4, 6
+mpi_openmp_quick, 10000000, 0.697878, 4, 7
+mpi_openmp_merge, 10000000, 1.024106, 4, 7
+mpi_openmp_quick, 10000000, 0.711513, 4, 8
+mpi_openmp_merge, 10000000, 0.992850, 4, 8
+mpi_openmp_quick, 10000000, 0.707367, 5, 1
+mpi_openmp_merge, 10000000, 0.956696, 5, 1
+mpi_openmp_quick, 10000000, 0.708068, 5, 2
+mpi_openmp_merge, 10000000, 0.969190, 5, 2
+mpi_openmp_quick, 10000000, 0.711657, 5, 3
+mpi_openmp_merge, 10000000, 0.966677, 5, 3
+mpi_openmp_quick, 10000000, 0.699807, 5, 4
+mpi_openmp_merge, 10000000, 0.939364, 5, 4
+mpi_openmp_quick, 10000000, 0.702247, 5, 5
+mpi_openmp_merge, 10000000, 0.956732, 5, 5
+mpi_openmp_quick, 10000000, 0.750345, 5, 6
+mpi_openmp_merge, 10000000, 0.960852, 5, 6
+mpi_openmp_quick, 10000000, 0.696361, 5, 7
+mpi_openmp_merge, 10000000, 0.950306, 5, 7
+mpi_openmp_quick, 10000000, 0.718386, 5, 8
+mpi_openmp_merge, 10000000, 0.986563, 5, 8
+mpi_openmp_quick, 10000000, 0.662198, 6, 1
+mpi_openmp_merge, 10000000, 0.913004, 6, 1
+mpi_openmp_quick, 10000000, 0.646465, 6, 2
+mpi_openmp_merge, 10000000, 0.903502, 6, 2
+mpi_openmp_quick, 10000000, 0.681586, 6, 3
+mpi_openmp_merge, 10000000, 0.975235, 6, 3
+mpi_openmp_quick, 10000000, 0.663689, 6, 4
+mpi_openmp_merge, 10000000, 0.917573, 6, 4
+mpi_openmp_quick, 10000000, 0.659558, 6, 5
+mpi_openmp_merge, 10000000, 0.915289, 6, 5
+mpi_openmp_quick, 10000000, 0.674674, 6, 6
+mpi_openmp_merge, 10000000, 0.914589, 6, 6
+mpi_openmp_quick, 10000000, 0.719231, 6, 7
+mpi_openmp_merge, 10000000, 0.876250, 6, 7
+mpi_openmp_quick, 10000000, 0.633359, 6, 8
+mpi_openmp_merge, 10000000, 0.906097, 6, 8
+mpi_openmp_quick, 10000000, 0.667772, 7, 1
+mpi_openmp_merge, 10000000, 0.895287, 7, 1
+mpi_openmp_quick, 10000000, 0.615932, 7, 2
+mpi_openmp_merge, 10000000, 0.865278, 7, 2
+mpi_openmp_quick, 10000000, 0.613987, 7, 3
+mpi_openmp_merge, 10000000, 0.902571, 7, 3
+mpi_openmp_quick, 10000000, 0.656819, 7, 4
+mpi_openmp_merge, 10000000, 0.864970, 7, 4
+mpi_openmp_quick, 10000000, 0.602648, 7, 5
+mpi_openmp_merge, 10000000, 0.850372, 7, 5
+mpi_openmp_quick, 10000000, 0.623799, 7, 6
+mpi_openmp_merge, 10000000, 0.858172, 7, 6
+mpi_openmp_quick, 10000000, 0.652141, 7, 7
+mpi_openmp_merge, 10000000, 0.856987, 7, 7
+mpi_openmp_quick, 10000000, 0.603308, 7, 8
+mpi_openmp_merge, 10000000, 0.906857, 7, 8
+mpi_openmp_quick, 10000000, 0.656536, 8, 1
+mpi_openmp_merge, 10000000, 0.878269, 8, 1
+mpi_openmp_quick, 10000000, 0.606206, 8, 2
+mpi_openmp_merge, 10000000, 0.819979, 8, 2
+mpi_openmp_quick, 10000000, 0.624371, 8, 3
+mpi_openmp_merge, 10000000, 0.903863, 8, 3
+mpi_openmp_quick, 10000000, 0.639047, 8, 4
+mpi_openmp_merge, 10000000, 0.900618, 8, 4
+mpi_openmp_quick, 10000000, 0.640561, 8, 5
+mpi_openmp_merge, 10000000, 0.833664, 8, 5
+mpi_openmp_quick, 10000000, 0.596782, 8, 6
+mpi_openmp_merge, 10000000, 0.830434, 8, 6
+mpi_openmp_quick, 10000000, 0.614789, 8, 7
+mpi_openmp_merge, 10000000, 0.932375, 8, 7
+mpi_openmp_quick, 10000000, 0.655993, 8, 8
+mpi_openmp_merge, 10000000, 0.839576, 8, 8
+mpi_openmp_quick, 50000000, 10.779954, 1, 1
+mpi_openmp_merge, 50000000, 16.651837, 1, 1
+mpi_openmp_quick, 50000000, 10.725498, 1, 2
+mpi_openmp_merge, 50000000, 16.505145, 1, 2
+mpi_openmp_quick, 50000000, 10.626197, 1, 3
+mpi_openmp_merge, 50000000, 16.060357, 1, 3
+mpi_openmp_quick, 50000000, 10.639402, 1, 4
+mpi_openmp_merge, 50000000, 16.409559, 1, 4
+mpi_openmp_quick, 50000000, 10.740333, 1, 5
+mpi_openmp_merge, 50000000, 16.357596, 1, 5
+mpi_openmp_quick, 50000000, 10.670415, 1, 6
+mpi_openmp_merge, 50000000, 16.338688, 1, 6
+mpi_openmp_quick, 50000000, 10.600348, 1, 7
+mpi_openmp_merge, 50000000, 16.376769, 1, 7
+mpi_openmp_quick, 50000000, 10.594352, 1, 8
+mpi_openmp_merge, 50000000, 16.386037, 1, 8
+mpi_openmp_quick, 50000000, 5.990271, 2, 1
+mpi_openmp_merge, 50000000, 8.772009, 2, 1
+mpi_openmp_quick, 50000000, 6.024032, 2, 2
+mpi_openmp_merge, 50000000, 8.852747, 2, 2
+mpi_openmp_quick, 50000000, 6.021604, 2, 3
+mpi_openmp_merge, 50000000, 8.900831, 2, 3
+mpi_openmp_quick, 50000000, 5.979744, 2, 4
+mpi_openmp_merge, 50000000, 8.873846, 2, 4
+mpi_openmp_quick, 50000000, 5.987465, 2, 5
+mpi_openmp_merge, 50000000, 8.792317, 2, 5
+mpi_openmp_quick, 50000000, 5.987018, 2, 6
+mpi_openmp_merge, 50000000, 8.839549, 2, 6
+mpi_openmp_quick, 50000000, 6.049617, 2, 7
+mpi_openmp_merge, 50000000, 8.800432, 2, 7
+mpi_openmp_quick, 50000000, 6.022615, 2, 8
+mpi_openmp_merge, 50000000, 8.803667, 2, 8
+mpi_openmp_quick, 50000000, 4.660212, 3, 1
+mpi_openmp_merge, 50000000, 6.300652, 3, 1
+mpi_openmp_quick, 50000000, 4.652399, 3, 2
+mpi_openmp_merge, 50000000, 6.326814, 3, 2
+mpi_openmp_quick, 50000000, 4.642294, 3, 3
+mpi_openmp_merge, 50000000, 6.311125, 3, 3
+mpi_openmp_quick, 50000000, 4.649223, 3, 4
+mpi_openmp_merge, 50000000, 6.217901, 3, 4
+mpi_openmp_quick, 50000000, 4.593055, 3, 5
+mpi_openmp_merge, 50000000, 6.341135, 3, 5
+mpi_openmp_quick, 50000000, 4.683214, 3, 6
+mpi_openmp_merge, 50000000, 6.391156, 3, 6
+mpi_openmp_quick, 50000000, 4.632301, 3, 7
+mpi_openmp_merge, 50000000, 6.260208, 3, 7
+mpi_openmp_quick, 50000000, 4.677571, 3, 8
+mpi_openmp_merge, 50000000, 6.284692, 3, 8
+mpi_openmp_quick, 50000000, 3.752005, 4, 1
+mpi_openmp_merge, 50000000, 5.115169, 4, 1
+mpi_openmp_quick, 50000000, 3.710265, 4, 2
+mpi_openmp_merge, 50000000, 5.265835, 4, 2
+mpi_openmp_quick, 50000000, 3.682938, 4, 3
+mpi_openmp_merge, 50000000, 5.181974, 4, 3
+mpi_openmp_quick, 50000000, 3.706962, 4, 4
+mpi_openmp_merge, 50000000, 5.190340, 4, 4
+mpi_openmp_quick, 50000000, 3.819281, 4, 5
+mpi_openmp_merge, 50000000, 5.179405, 4, 5
+mpi_openmp_quick, 50000000, 3.702490, 4, 6
+mpi_openmp_merge, 50000000, 5.200260, 4, 6
+mpi_openmp_quick, 50000000, 3.709878, 4, 7
+mpi_openmp_merge, 50000000, 5.120190, 4, 7
+mpi_openmp_quick, 50000000, 3.704419, 4, 8
+mpi_openmp_merge, 50000000, 5.318331, 4, 8
+mpi_openmp_quick, 50000000, 3.680627, 5, 1
+mpi_openmp_merge, 50000000, 4.994976, 5, 1
+mpi_openmp_quick, 50000000, 3.695460, 5, 2
+mpi_openmp_merge, 50000000, 5.035139, 5, 2
+mpi_openmp_quick, 50000000, 3.709609, 5, 3
+mpi_openmp_merge, 50000000, 4.978532, 5, 3
+mpi_openmp_quick, 50000000, 3.793297, 5, 4
+mpi_openmp_merge, 50000000, 4.961994, 5, 4
+mpi_openmp_quick, 50000000, 3.734057, 5, 5
+mpi_openmp_merge, 50000000, 5.067347, 5, 5
+mpi_openmp_quick, 50000000, 3.684384, 5, 6
+mpi_openmp_merge, 50000000, 5.008199, 5, 6
+mpi_openmp_quick, 50000000, 3.679262, 5, 7
+mpi_openmp_merge, 50000000, 5.096024, 5, 7
+mpi_openmp_quick, 50000000, 3.662270, 5, 8
+mpi_openmp_merge, 50000000, 5.000437, 5, 8
+mpi_openmp_quick, 50000000, 3.429635, 6, 1
+mpi_openmp_merge, 50000000, 4.502191, 6, 1
+mpi_openmp_quick, 50000000, 3.430225, 6, 2
+mpi_openmp_merge, 50000000, 4.453337, 6, 2
+mpi_openmp_quick, 50000000, 3.397557, 6, 3
+mpi_openmp_merge, 50000000, 4.674627, 6, 3
+mpi_openmp_quick, 50000000, 3.440460, 6, 4
+mpi_openmp_merge, 50000000, 4.439688, 6, 4
+mpi_openmp_quick, 50000000, 3.423054, 6, 5
+mpi_openmp_merge, 50000000, 4.466507, 6, 5
+mpi_openmp_quick, 50000000, 3.406368, 6, 6
+mpi_openmp_merge, 50000000, 4.532597, 6, 6
+mpi_openmp_quick, 50000000, 3.393861, 6, 7
+mpi_openmp_merge, 50000000, 4.587040, 6, 7
+mpi_openmp_quick, 50000000, 3.448182, 6, 8
+mpi_openmp_merge, 50000000, 4.631681, 6, 8
+mpi_openmp_quick, 50000000, 3.231442, 7, 1
+mpi_openmp_merge, 50000000, 4.301110, 7, 1
+mpi_openmp_quick, 50000000, 3.174983, 7, 2
+mpi_openmp_merge, 50000000, 4.381778, 7, 2
+mpi_openmp_quick, 50000000, 3.193921, 7, 3
+mpi_openmp_merge, 50000000, 4.253976, 7, 3
+mpi_openmp_quick, 50000000, 3.185635, 7, 4
+mpi_openmp_merge, 50000000, 4.308901, 7, 4
+mpi_openmp_quick, 50000000, 3.165258, 7, 5
+mpi_openmp_merge, 50000000, 4.333708, 7, 5
+mpi_openmp_quick, 50000000, 3.180776, 7, 6
+mpi_openmp_merge, 50000000, 4.356382, 7, 6
+mpi_openmp_quick, 50000000, 3.237413, 7, 7
+mpi_openmp_merge, 50000000, 4.383619, 7, 7
+mpi_openmp_quick, 50000000, 3.215915, 7, 8
+mpi_openmp_merge, 50000000, 4.296746, 7, 8
+mpi_openmp_quick, 50000000, 3.069544, 8, 1
+mpi_openmp_merge, 50000000, 4.260927, 8, 1
+mpi_openmp_quick, 50000000, 3.182794, 8, 2
+mpi_openmp_merge, 50000000, 4.212441, 8, 2
+mpi_openmp_quick, 50000000, 3.055424, 8, 3
+mpi_openmp_merge, 50000000, 4.135325, 8, 3
+mpi_openmp_quick, 50000000, 3.095793, 8, 4
+mpi_openmp_merge, 50000000, 4.172278, 8, 4
+mpi_openmp_quick, 50000000, 3.169244, 8, 5
+mpi_openmp_merge, 50000000, 4.213494, 8, 5
+mpi_openmp_quick, 50000000, 3.062431, 8, 6
+mpi_openmp_merge, 50000000, 4.184729, 8, 6
+mpi_openmp_quick, 50000000, 3.064263, 8, 7
+mpi_openmp_merge, 50000000, 4.209843, 8, 7
+mpi_openmp_quick, 50000000, 3.200206, 8, 8
+mpi_openmp_merge, 50000000, 4.153050, 8, 8
+mpi_openmp_quick, 100000000, 22.388039, 1, 1
+mpi_openmp_merge, 100000000, 34.100382, 1, 1
+mpi_openmp_quick, 100000000, 22.106879, 1, 2
+mpi_openmp_merge, 100000000, 33.359758, 1, 2
+mpi_openmp_quick, 100000000, 21.892763, 1, 3
+mpi_openmp_merge, 100000000, 33.333751, 1, 3
+mpi_openmp_quick, 100000000, 22.031347, 1, 4
+mpi_openmp_merge, 100000000, 33.612906, 1, 4
+mpi_openmp_quick, 100000000, 22.181427, 1, 5
+mpi_openmp_merge, 100000000, 33.619543, 1, 5
+mpi_openmp_quick, 100000000, 22.165443, 1, 6
+mpi_openmp_merge, 100000000, 33.667446, 1, 6
+mpi_openmp_quick, 100000000, 22.327718, 1, 7
+mpi_openmp_merge, 100000000, 34.000225, 1, 7
+mpi_openmp_quick, 100000000, 22.152855, 1, 8
+mpi_openmp_merge, 100000000, 33.710750, 1, 8
+mpi_openmp_quick, 100000000, 12.279948, 2, 1
+mpi_openmp_merge, 100000000, 18.444321, 2, 1
+mpi_openmp_quick, 100000000, 12.434368, 2, 2
+mpi_openmp_merge, 100000000, 18.320626, 2, 2
+mpi_openmp_quick, 100000000, 12.368052, 2, 3
+mpi_openmp_merge, 100000000, 18.257628, 2, 3
+mpi_openmp_quick, 100000000, 12.461230, 2, 4
+mpi_openmp_merge, 100000000, 18.354409, 2, 4
+mpi_openmp_quick, 100000000, 12.484841, 2, 5
+mpi_openmp_merge, 100000000, 18.334487, 2, 5
+mpi_openmp_quick, 100000000, 12.484994, 2, 6
+mpi_openmp_merge, 100000000, 18.403726, 2, 6
+mpi_openmp_quick, 100000000, 12.298260, 2, 7
+mpi_openmp_merge, 100000000, 18.325894, 2, 7
+mpi_openmp_quick, 100000000, 12.282155, 2, 8
+mpi_openmp_merge, 100000000, 18.225664, 2, 8
+mpi_openmp_quick, 100000000, 9.758721, 3, 1
+mpi_openmp_merge, 100000000, 13.117173, 3, 1
+mpi_openmp_quick, 100000000, 9.545140, 3, 2
+mpi_openmp_merge, 100000000, 13.107679, 3, 2
+mpi_openmp_quick, 100000000, 9.469144, 3, 3
+mpi_openmp_merge, 100000000, 13.081128, 3, 3
+mpi_openmp_quick, 100000000, 9.512809, 3, 4
+mpi_openmp_merge, 100000000, 13.014673, 3, 4
+mpi_openmp_quick, 100000000, 9.564456, 3, 5
+mpi_openmp_merge, 100000000, 12.997242, 3, 5
+mpi_openmp_quick, 100000000, 9.609011, 3, 6
+mpi_openmp_merge, 100000000, 13.217361, 3, 6
+mpi_openmp_quick, 100000000, 9.542035, 3, 7
+mpi_openmp_merge, 100000000, 13.006637, 3, 7
+mpi_openmp_quick, 100000000, 9.556274, 3, 8
+mpi_openmp_merge, 100000000, 12.842745, 3, 8
+mpi_openmp_quick, 100000000, 7.699141, 4, 1
+mpi_openmp_merge, 100000000, 10.741160, 4, 1
+mpi_openmp_quick, 100000000, 7.896875, 4, 2
+mpi_openmp_merge, 100000000, 10.714635, 4, 2
+mpi_openmp_quick, 100000000, 7.654518, 4, 3
+mpi_openmp_merge, 100000000, 10.831870, 4, 3
+mpi_openmp_quick, 100000000, 7.625268, 4, 4
+mpi_openmp_merge, 100000000, 10.872625, 4, 4
+mpi_openmp_quick, 100000000, 7.620933, 4, 5
+mpi_openmp_merge, 100000000, 10.930355, 4, 5
+mpi_openmp_quick, 100000000, 7.633579, 4, 6
+mpi_openmp_merge, 100000000, 10.805468, 4, 6
+mpi_openmp_quick, 100000000, 7.598825, 4, 7
+mpi_openmp_merge, 100000000, 10.731692, 4, 7
+mpi_openmp_quick, 100000000, 7.597946, 4, 8
+mpi_openmp_merge, 100000000, 10.617135, 4, 8
+mpi_openmp_quick, 100000000, 7.643512, 5, 1
+mpi_openmp_merge, 100000000, 11.125064, 5, 1
+mpi_openmp_quick, 100000000, 7.630513, 5, 2
+mpi_openmp_merge, 100000000, 10.516099, 5, 2
+mpi_openmp_quick, 100000000, 7.585086, 5, 3
+mpi_openmp_merge, 100000000, 10.369955, 5, 3
+mpi_openmp_quick, 100000000, 7.586451, 5, 4
+mpi_openmp_merge, 100000000, 10.549764, 5, 4
+mpi_openmp_quick, 100000000, 7.595250, 5, 5
+mpi_openmp_merge, 100000000, 11.398860, 5, 5
+mpi_openmp_quick, 100000000, 7.652746, 5, 6
+mpi_openmp_merge, 100000000, 10.695706, 5, 6
+mpi_openmp_quick, 100000000, 7.624434, 5, 7
+mpi_openmp_merge, 100000000, 10.477702, 5, 7
+mpi_openmp_quick, 100000000, 7.606272, 5, 8
+mpi_openmp_merge, 100000000, 10.423058, 5, 8
+mpi_openmp_quick, 100000000, 7.166782, 6, 1
+mpi_openmp_merge, 100000000, 10.292562, 6, 1
+mpi_openmp_quick, 100000000, 7.369639, 6, 2
+mpi_openmp_merge, 100000000, 10.323575, 6, 2
+mpi_openmp_quick, 100000000, 6.967470, 6, 3
+mpi_openmp_merge, 100000000, 9.963686, 6, 3
+mpi_openmp_quick, 100000000, 6.965325, 6, 4
+mpi_openmp_merge, 100000000, 9.959463, 6, 4
+mpi_openmp_quick, 100000000, 6.914082, 6, 5
+mpi_openmp_merge, 100000000, 10.305478, 6, 5
+mpi_openmp_quick, 100000000, 6.957377, 6, 6
+mpi_openmp_merge, 100000000, 9.859690, 6, 6
+mpi_openmp_quick, 100000000, 7.339873, 6, 7
+mpi_openmp_merge, 100000000, 10.412538, 6, 7
+mpi_openmp_quick, 100000000, 6.932020, 6, 8
+mpi_openmp_merge, 100000000, 10.064796, 6, 8
+mpi_openmp_quick, 100000000, 6.452983, 7, 1
+mpi_openmp_merge, 100000000, 9.687510, 7, 1
+mpi_openmp_quick, 100000000, 6.426890, 7, 2
+mpi_openmp_merge, 100000000, 10.231625, 7, 2
+mpi_openmp_quick, 100000000, 6.444446, 7, 3
+mpi_openmp_merge, 100000000, 10.205744, 7, 3
+mpi_openmp_quick, 100000000, 6.442951, 7, 4
+mpi_openmp_merge, 100000000, 10.843713, 7, 4
+mpi_openmp_quick, 100000000, 6.469730, 7, 5
+mpi_openmp_merge, 100000000, 10.764019, 7, 5
+mpi_openmp_quick, 100000000, 6.498214, 7, 6
+mpi_openmp_merge, 100000000, 10.075885, 7, 6
+mpi_openmp_quick, 100000000, 6.575321, 7, 7
+mpi_openmp_merge, 100000000, 9.907400, 7, 7
+mpi_openmp_quick, 100000000, 6.435846, 7, 8
+mpi_openmp_merge, 100000000, 10.097559, 7, 8
+mpi_openmp_quick, 100000000, 6.311856, 8, 1
+mpi_openmp_merge, 100000000, 10.313334, 8, 1
+mpi_openmp_quick, 100000000, 6.224372, 8, 2
+mpi_openmp_merge, 100000000, 9.513840, 8, 2
+mpi_openmp_quick, 100000000, 6.308662, 8, 3
+mpi_openmp_merge, 100000000, 10.518114, 8, 3
+mpi_openmp_quick, 100000000, 6.362091, 8, 4
+mpi_openmp_merge, 100000000, 10.135547, 8, 4
+mpi_openmp_quick, 100000000, 6.223260, 8, 5
+mpi_openmp_merge, 100000000, 9.877685, 8, 5
+mpi_openmp_quick, 100000000, 6.139529, 8, 6
+mpi_openmp_merge, 100000000, 10.109890, 8, 6
+mpi_openmp_quick, 100000000, 6.318198, 8, 7
+mpi_openmp_merge, 100000000, 9.922118, 8, 7
+mpi_openmp_quick, 100000000, 6.300391, 8, 8
+mpi_openmp_merge, 100000000, 9.953699, 8, 8
+mpi_openmp_quick, 10000000, 1.977218, 1, 1
+mpi_openmp_merge, 10000000, 3.043394, 1, 1
+mpi_openmp_quick, 10000000, 2.072035, 1, 2
+mpi_openmp_merge, 10000000, 3.060459, 1, 2
+mpi_openmp_quick, 10000000, 1.964903, 1, 3
+mpi_openmp_merge, 10000000, 3.041916, 1, 3
+mpi_openmp_quick, 10000000, 1.991464, 1, 4
+mpi_openmp_merge, 10000000, 3.031113, 1, 4
+mpi_openmp_quick, 10000000, 1.987259, 1, 5
+mpi_openmp_merge, 10000000, 3.058922, 1, 5
+mpi_openmp_quick, 10000000, 1.981857, 1, 6
+mpi_openmp_merge, 10000000, 3.076079, 1, 6
+mpi_openmp_quick, 10000000, 1.960154, 1, 7
+mpi_openmp_merge, 10000000, 3.020810, 1, 7
+mpi_openmp_quick, 10000000, 1.973289, 1, 8
+mpi_openmp_merge, 10000000, 3.050678, 1, 8
+mpi_openmp_quick, 10000000, 1.132144, 2, 1
+mpi_openmp_merge, 10000000, 1.675074, 2, 1
+mpi_openmp_quick, 10000000, 1.107048, 2, 2
+mpi_openmp_merge, 10000000, 1.664030, 2, 2
+mpi_openmp_quick, 10000000, 1.110674, 2, 3
+mpi_openmp_merge, 10000000, 1.646741, 2, 3
+mpi_openmp_quick, 10000000, 1.120716, 2, 4
+mpi_openmp_merge, 10000000, 1.646061, 2, 4
+mpi_openmp_quick, 10000000, 1.109553, 2, 5
+mpi_openmp_merge, 10000000, 1.639330, 2, 5
+mpi_openmp_quick, 10000000, 1.120756, 2, 6
+mpi_openmp_merge, 10000000, 1.638317, 2, 6
+mpi_openmp_quick, 10000000, 1.115582, 2, 7
+mpi_openmp_merge, 10000000, 1.641243, 2, 7
+mpi_openmp_quick, 10000000, 1.109356, 2, 8
+mpi_openmp_merge, 10000000, 1.639756, 2, 8
+mpi_openmp_quick, 10000000, 0.868366, 3, 1
+mpi_openmp_merge, 10000000, 1.235744, 3, 1
+mpi_openmp_quick, 10000000, 0.868832, 3, 2
+mpi_openmp_merge, 10000000, 1.235354, 3, 2
+mpi_openmp_quick, 10000000, 0.862474, 3, 3
+mpi_openmp_merge, 10000000, 1.224203, 3, 3
+mpi_openmp_quick, 10000000, 0.871471, 3, 4
+mpi_openmp_merge, 10000000, 1.235879, 3, 4
+mpi_openmp_quick, 10000000, 0.860515, 3, 5
+mpi_openmp_merge, 10000000, 1.230475, 3, 5
+mpi_openmp_quick, 10000000, 0.857965, 3, 6
+mpi_openmp_merge, 10000000, 1.232304, 3, 6
+mpi_openmp_quick, 10000000, 0.862334, 3, 7
+mpi_openmp_merge, 10000000, 1.241345, 3, 7
+mpi_openmp_quick, 10000000, 0.865593, 3, 8
+mpi_openmp_merge, 10000000, 1.237074, 3, 8
+mpi_openmp_quick, 10000000, 0.704897, 4, 1
+mpi_openmp_merge, 10000000, 0.983059, 4, 1
+mpi_openmp_quick, 10000000, 0.707219, 4, 2
+mpi_openmp_merge, 10000000, 0.992469, 4, 2
+mpi_openmp_quick, 10000000, 0.708039, 4, 3
+mpi_openmp_merge, 10000000, 1.001394, 4, 3
+mpi_openmp_quick, 10000000, 0.704655, 4, 4
+mpi_openmp_merge, 10000000, 0.991678, 4, 4
+mpi_openmp_quick, 10000000, 0.709885, 4, 5
+mpi_openmp_merge, 10000000, 0.979306, 4, 5
+mpi_openmp_quick, 10000000, 0.710343, 4, 6
+mpi_openmp_merge, 10000000, 0.998139, 4, 6
+mpi_openmp_quick, 10000000, 0.699008, 4, 7
+mpi_openmp_merge, 10000000, 0.972388, 4, 7
+mpi_openmp_quick, 10000000, 0.703918, 4, 8
+mpi_openmp_merge, 10000000, 0.981432, 4, 8
+mpi_openmp_quick, 10000000, 0.701698, 5, 1
+mpi_openmp_merge, 10000000, 0.943461, 5, 1
+mpi_openmp_quick, 10000000, 0.684511, 5, 2
+mpi_openmp_merge, 10000000, 0.961427, 5, 2
+mpi_openmp_quick, 10000000, 0.697747, 5, 3
+mpi_openmp_merge, 10000000, 1.016175, 5, 3
+mpi_openmp_quick, 10000000, 0.706860, 5, 4
+mpi_openmp_merge, 10000000, 0.943026, 5, 4
+mpi_openmp_quick, 10000000, 0.709344, 5, 5
+mpi_openmp_merge, 10000000, 0.957641, 5, 5
+mpi_openmp_quick, 10000000, 0.700238, 5, 6
+mpi_openmp_merge, 10000000, 0.951815, 5, 6
+mpi_openmp_quick, 10000000, 0.713277, 5, 7
+mpi_openmp_merge, 10000000, 0.943123, 5, 7
+mpi_openmp_quick, 10000000, 0.699010, 5, 8
+mpi_openmp_merge, 10000000, 0.967751, 5, 8
+mpi_openmp_quick, 10000000, 0.659819, 6, 1
+mpi_openmp_merge, 10000000, 0.951691, 6, 1
+mpi_openmp_quick, 10000000, 0.648715, 6, 2
+mpi_openmp_merge, 10000000, 0.900148, 6, 2
+mpi_openmp_quick, 10000000, 0.653107, 6, 3
+mpi_openmp_merge, 10000000, 0.937297, 6, 3
+mpi_openmp_quick, 10000000, 0.684057, 6, 4
+mpi_openmp_merge, 10000000, 0.912891, 6, 4
+mpi_openmp_quick, 10000000, 0.648229, 6, 5
+mpi_openmp_merge, 10000000, 1.002726, 6, 5
+mpi_openmp_quick, 10000000, 0.645113, 6, 6
+mpi_openmp_merge, 10000000, 0.980184, 6, 6
+mpi_openmp_quick, 10000000, 0.662736, 6, 7
+mpi_openmp_merge, 10000000, 0.942191, 6, 7
+mpi_openmp_quick, 10000000, 0.663173, 6, 8
+mpi_openmp_merge, 10000000, 0.911843, 6, 8
+mpi_openmp_quick, 10000000, 0.624510, 7, 1
+mpi_openmp_merge, 10000000, 0.855767, 7, 1
+mpi_openmp_quick, 10000000, 0.628518, 7, 2
+mpi_openmp_merge, 10000000, 0.905465, 7, 2
+mpi_openmp_quick, 10000000, 0.618776, 7, 3
+mpi_openmp_merge, 10000000, 0.873465, 7, 3
+mpi_openmp_quick, 10000000, 0.622894, 7, 4
+mpi_openmp_merge, 10000000, 0.879470, 7, 4
+mpi_openmp_quick, 10000000, 0.609364, 7, 5
+mpi_openmp_merge, 10000000, 0.867912, 7, 5
+mpi_openmp_quick, 10000000, 0.602473, 7, 6
+mpi_openmp_merge, 10000000, 0.913567, 7, 6
+mpi_openmp_quick, 10000000, 0.604611, 7, 7
+mpi_openmp_merge, 10000000, 0.901740, 7, 7
+mpi_openmp_quick, 10000000, 0.617113, 7, 8
+mpi_openmp_merge, 10000000, 0.871304, 7, 8
+mpi_openmp_quick, 10000000, 0.607502, 8, 1
+mpi_openmp_merge, 10000000, 0.828946, 8, 1
+mpi_openmp_quick, 10000000, 0.647823, 8, 2
+mpi_openmp_merge, 10000000, 0.839504, 8, 2
+mpi_openmp_quick, 10000000, 0.590340, 8, 3
+mpi_openmp_merge, 10000000, 0.829212, 8, 3
+mpi_openmp_quick, 10000000, 0.619573, 8, 4
+mpi_openmp_merge, 10000000, 0.876703, 8, 4
+mpi_openmp_quick, 10000000, 0.621166, 8, 5
+mpi_openmp_merge, 10000000, 0.841243, 8, 5
+mpi_openmp_quick, 10000000, 0.660190, 8, 6
+mpi_openmp_merge, 10000000, 0.821557, 8, 6
+mpi_openmp_quick, 10000000, 0.653575, 8, 7
+mpi_openmp_merge, 10000000, 0.819151, 8, 7
+mpi_openmp_quick, 10000000, 0.589866, 8, 8
+mpi_openmp_merge, 10000000, 0.832842, 8, 8
+mpi_openmp_quick, 50000000, 10.864007, 1, 1
+mpi_openmp_merge, 50000000, 16.543731, 1, 1
+mpi_openmp_quick, 50000000, 10.711232, 1, 2
+mpi_openmp_merge, 50000000, 16.232533, 1, 2
+mpi_openmp_quick, 50000000, 10.702415, 1, 3
+mpi_openmp_merge, 50000000, 16.425156, 1, 3
+mpi_openmp_quick, 50000000, 10.646853, 1, 4
+mpi_openmp_merge, 50000000, 16.174560, 1, 4
+mpi_openmp_quick, 50000000, 10.735933, 1, 5
+mpi_openmp_merge, 50000000, 16.349653, 1, 5
+mpi_openmp_quick, 50000000, 10.595777, 1, 6
+mpi_openmp_merge, 50000000, 16.230675, 1, 6
+mpi_openmp_quick, 50000000, 10.725913, 1, 7
+mpi_openmp_merge, 50000000, 16.277894, 1, 7
+mpi_openmp_quick, 50000000, 10.670584, 1, 8
+mpi_openmp_merge, 50000000, 16.254800, 1, 8
+mpi_openmp_quick, 50000000, 6.028419, 2, 1
+mpi_openmp_merge, 50000000, 8.940356, 2, 1
+mpi_openmp_quick, 50000000, 5.989295, 2, 2
+mpi_openmp_merge, 50000000, 8.899090, 2, 2
+mpi_openmp_quick, 50000000, 6.017229, 2, 3
+mpi_openmp_merge, 50000000, 8.771806, 2, 3
+mpi_openmp_quick, 50000000, 6.015003, 2, 4
+mpi_openmp_merge, 50000000, 8.623102, 2, 4
+mpi_openmp_quick, 50000000, 6.047964, 2, 5
+mpi_openmp_merge, 50000000, 8.914789, 2, 5
+mpi_openmp_quick, 50000000, 5.959285, 2, 6
+mpi_openmp_merge, 50000000, 8.775302, 2, 6
+mpi_openmp_quick, 50000000, 5.995704, 2, 7
+mpi_openmp_merge, 50000000, 8.868638, 2, 7
+mpi_openmp_quick, 50000000, 6.003618, 2, 8
+mpi_openmp_merge, 50000000, 8.873873, 2, 8
+mpi_openmp_quick, 50000000, 4.622845, 3, 1
+mpi_openmp_merge, 50000000, 6.293901, 3, 1
+mpi_openmp_quick, 50000000, 4.614120, 3, 2
+mpi_openmp_merge, 50000000, 6.376853, 3, 2
+mpi_openmp_quick, 50000000, 4.618028, 3, 3
+mpi_openmp_merge, 50000000, 6.298004, 3, 3
+mpi_openmp_quick, 50000000, 4.620614, 3, 4
+mpi_openmp_merge, 50000000, 6.232603, 3, 4
+mpi_openmp_quick, 50000000, 4.606344, 3, 5
+mpi_openmp_merge, 50000000, 6.291566, 3, 5
+mpi_openmp_quick, 50000000, 4.630759, 3, 6
+mpi_openmp_merge, 50000000, 6.342999, 3, 6
+mpi_openmp_quick, 50000000, 4.616543, 3, 7
+mpi_openmp_merge, 50000000, 6.300262, 3, 7
+mpi_openmp_quick, 50000000, 4.681904, 3, 8
+mpi_openmp_merge, 50000000, 6.384669, 3, 8
+mpi_openmp_quick, 50000000, 3.700896, 4, 1
+mpi_openmp_merge, 50000000, 5.151592, 4, 1
+mpi_openmp_quick, 50000000, 3.702187, 4, 2
+mpi_openmp_merge, 50000000, 5.310938, 4, 2
+mpi_openmp_quick, 50000000, 3.961977, 4, 3
+mpi_openmp_merge, 50000000, 5.389059, 4, 3
+mpi_openmp_quick, 50000000, 3.732600, 4, 4
+mpi_openmp_merge, 50000000, 5.132471, 4, 4
+mpi_openmp_quick, 50000000, 3.790967, 4, 5
+mpi_openmp_merge, 50000000, 5.164794, 4, 5
+mpi_openmp_quick, 50000000, 3.840876, 4, 6
+mpi_openmp_merge, 50000000, 5.194831, 4, 6
+mpi_openmp_quick, 50000000, 3.739945, 4, 7
+mpi_openmp_merge, 50000000, 5.203634, 4, 7
+mpi_openmp_quick, 50000000, 3.728472, 4, 8
+mpi_openmp_merge, 50000000, 5.150959, 4, 8
+mpi_openmp_quick, 50000000, 3.727882, 5, 1
+mpi_openmp_merge, 50000000, 5.021665, 5, 1
+mpi_openmp_quick, 50000000, 3.757934, 5, 2
+mpi_openmp_merge, 50000000, 5.562695, 5, 2
+mpi_openmp_quick, 50000000, 3.758371, 5, 3
+mpi_openmp_merge, 50000000, 5.841192, 5, 3
+mpi_openmp_quick, 50000000, 3.752491, 5, 4
+mpi_openmp_merge, 50000000, 5.158740, 5, 4
+mpi_openmp_quick, 50000000, 3.742876, 5, 5
+mpi_openmp_merge, 50000000, 5.126505, 5, 5
+mpi_openmp_quick, 50000000, 3.780565, 5, 6
+mpi_openmp_merge, 50000000, 5.041804, 5, 6
+mpi_openmp_quick, 50000000, 3.735821, 5, 7
+mpi_openmp_merge, 50000000, 5.091005, 5, 7
+mpi_openmp_quick, 50000000, 3.799935, 5, 8
+mpi_openmp_merge, 50000000, 5.064941, 5, 8
+mpi_openmp_quick, 50000000, 3.436774, 6, 1
+mpi_openmp_merge, 50000000, 4.570303, 6, 1
+mpi_openmp_quick, 50000000, 3.461273, 6, 2
+mpi_openmp_merge, 50000000, 4.521171, 6, 2
+mpi_openmp_quick, 50000000, 3.474659, 6, 3
+mpi_openmp_merge, 50000000, 4.502548, 6, 3
+mpi_openmp_quick, 50000000, 3.407289, 6, 4
+mpi_openmp_merge, 50000000, 4.521169, 6, 4
+mpi_openmp_quick, 50000000, 3.447561, 6, 5
+mpi_openmp_merge, 50000000, 4.497872, 6, 5
+mpi_openmp_quick, 50000000, 3.383858, 6, 6
+mpi_openmp_merge, 50000000, 4.599677, 6, 6
+mpi_openmp_quick, 50000000, 3.432649, 6, 7
+mpi_openmp_merge, 50000000, 4.581943, 6, 7
+mpi_openmp_quick, 50000000, 3.456711, 6, 8
+mpi_openmp_merge, 50000000, 4.501821, 6, 8
+mpi_openmp_quick, 50000000, 3.290704, 7, 1
+mpi_openmp_merge, 50000000, 4.297994, 7, 1
+mpi_openmp_quick, 50000000, 3.173558, 7, 2
+mpi_openmp_merge, 50000000, 4.301428, 7, 2
+mpi_openmp_quick, 50000000, 3.218678, 7, 3
+mpi_openmp_merge, 50000000, 4.302732, 7, 3
+mpi_openmp_quick, 50000000, 3.261892, 7, 4
+mpi_openmp_merge, 50000000, 4.377614, 7, 4
+mpi_openmp_quick, 50000000, 3.258014, 7, 5
+mpi_openmp_merge, 50000000, 4.375103, 7, 5
+mpi_openmp_quick, 50000000, 3.192920, 7, 6
+mpi_openmp_merge, 50000000, 4.273950, 7, 6
+mpi_openmp_quick, 50000000, 3.234737, 7, 7
+mpi_openmp_merge, 50000000, 4.311105, 7, 7
+mpi_openmp_quick, 50000000, 3.217897, 7, 8
+mpi_openmp_merge, 50000000, 4.291330, 7, 8
+mpi_openmp_quick, 50000000, 3.147934, 8, 1
+mpi_openmp_merge, 50000000, 4.217340, 8, 1
+mpi_openmp_quick, 50000000, 3.159658, 8, 2
+mpi_openmp_merge, 50000000, 4.188479, 8, 2
+mpi_openmp_quick, 50000000, 3.064425, 8, 3
+mpi_openmp_merge, 50000000, 4.151116, 8, 3
+mpi_openmp_quick, 50000000, 3.124532, 8, 4
+mpi_openmp_merge, 50000000, 4.387300, 8, 4
+mpi_openmp_quick, 50000000, 3.165871, 8, 5
+mpi_openmp_merge, 50000000, 4.210649, 8, 5
+mpi_openmp_quick, 50000000, 3.243877, 8, 6
+mpi_openmp_merge, 50000000, 4.303099, 8, 6
+mpi_openmp_quick, 50000000, 3.256843, 8, 7
+mpi_openmp_merge, 50000000, 4.204013, 8, 7
+mpi_openmp_quick, 50000000, 3.263980, 8, 8
+mpi_openmp_merge, 50000000, 4.190042, 8, 8
+mpi_openmp_quick, 100000000, 22.383402, 1, 1
+mpi_openmp_merge, 100000000, 34.314449, 1, 1
+mpi_openmp_quick, 100000000, 22.144060, 1, 2
+mpi_openmp_merge, 100000000, 33.696699, 1, 2
+mpi_openmp_quick, 100000000, 21.888338, 1, 3
+mpi_openmp_merge, 100000000, 33.244101, 1, 3
+mpi_openmp_quick, 100000000, 22.158021, 1, 4
+mpi_openmp_merge, 100000000, 34.127089, 1, 4
+mpi_openmp_quick, 100000000, 22.184942, 1, 5
+mpi_openmp_merge, 100000000, 34.011384, 1, 5
+mpi_openmp_quick, 100000000, 22.157133, 1, 6
+mpi_openmp_merge, 100000000, 33.899383, 1, 6
+mpi_openmp_quick, 100000000, 22.227761, 1, 7
+mpi_openmp_merge, 100000000, 33.902690, 1, 7
+mpi_openmp_quick, 100000000, 22.007206, 1, 8
+mpi_openmp_merge, 100000000, 33.821443, 1, 8
+mpi_openmp_quick, 100000000, 12.446064, 2, 1
+mpi_openmp_merge, 100000000, 18.236998, 2, 1
+mpi_openmp_quick, 100000000, 12.351005, 2, 2
+mpi_openmp_merge, 100000000, 18.488316, 2, 2
+mpi_openmp_quick, 100000000, 12.439019, 2, 3
+mpi_openmp_merge, 100000000, 18.361812, 2, 3
+mpi_openmp_quick, 100000000, 12.341843, 2, 4
+mpi_openmp_merge, 100000000, 18.399058, 2, 4
+mpi_openmp_quick, 100000000, 12.465843, 2, 5
+mpi_openmp_merge, 100000000, 18.295539, 2, 5
+mpi_openmp_quick, 100000000, 12.377620, 2, 6
+mpi_openmp_merge, 100000000, 18.223555, 2, 6
+mpi_openmp_quick, 100000000, 12.372627, 2, 7
+mpi_openmp_merge, 100000000, 18.178386, 2, 7
+mpi_openmp_quick, 100000000, 12.325139, 2, 8
+mpi_openmp_merge, 100000000, 18.229825, 2, 8
+mpi_openmp_quick, 100000000, 9.698264, 3, 1
+mpi_openmp_merge, 100000000, 13.239281, 3, 1
+mpi_openmp_quick, 100000000, 9.521458, 3, 2
+mpi_openmp_merge, 100000000, 13.254528, 3, 2
+mpi_openmp_quick, 100000000, 9.552628, 3, 3
+mpi_openmp_merge, 100000000, 13.216520, 3, 3
+mpi_openmp_quick, 100000000, 9.655183, 3, 4
+mpi_openmp_merge, 100000000, 13.163704, 3, 4
+mpi_openmp_quick, 100000000, 9.614697, 3, 5
+mpi_openmp_merge, 100000000, 13.281373, 3, 5
+mpi_openmp_quick, 100000000, 9.493597, 3, 6
+mpi_openmp_merge, 100000000, 13.134376, 3, 6
+mpi_openmp_quick, 100000000, 9.535623, 3, 7
+mpi_openmp_merge, 100000000, 13.007997, 3, 7
+mpi_openmp_quick, 100000000, 9.571941, 3, 8
+mpi_openmp_merge, 100000000, 13.025957, 3, 8
+mpi_openmp_quick, 100000000, 7.648267, 4, 1
+mpi_openmp_merge, 100000000, 10.712226, 4, 1
+mpi_openmp_quick, 100000000, 7.679446, 4, 2
+mpi_openmp_merge, 100000000, 11.942445, 4, 2
+mpi_openmp_quick, 100000000, 7.651667, 4, 3
+mpi_openmp_merge, 100000000, 10.887866, 4, 3
+mpi_openmp_quick, 100000000, 7.665213, 4, 4
+mpi_openmp_merge, 100000000, 10.784859, 4, 4
+mpi_openmp_quick, 100000000, 7.580477, 4, 5
+mpi_openmp_merge, 100000000, 11.098299, 4, 5
+mpi_openmp_quick, 100000000, 7.890675, 4, 6
+mpi_openmp_merge, 100000000, 11.223171, 4, 6
+mpi_openmp_quick, 100000000, 7.745787, 4, 7
+mpi_openmp_merge, 100000000, 10.788241, 4, 7
+mpi_openmp_quick, 100000000, 7.691801, 4, 8
+mpi_openmp_merge, 100000000, 11.241422, 4, 8
+mpi_openmp_quick, 100000000, 8.052525, 5, 1
+mpi_openmp_merge, 100000000, 10.938386, 5, 1
+mpi_openmp_quick, 100000000, 7.821016, 5, 2
+mpi_openmp_merge, 100000000, 10.836162, 5, 2
+mpi_openmp_quick, 100000000, 7.689700, 5, 3
+mpi_openmp_merge, 100000000, 10.598765, 5, 3
+mpi_openmp_quick, 100000000, 8.523301, 5, 4
+mpi_openmp_merge, 100000000, 11.085894, 5, 4
+mpi_openmp_quick, 100000000, 7.760884, 5, 5
+mpi_openmp_merge, 100000000, 10.573723, 5, 5
+mpi_openmp_quick, 100000000, 7.858465, 5, 6
+mpi_openmp_merge, 100000000, 11.047062, 5, 6
+mpi_openmp_quick, 100000000, 7.803885, 5, 7
+mpi_openmp_merge, 100000000, 11.086870, 5, 7
+mpi_openmp_quick, 100000000, 8.243497, 5, 8
+mpi_openmp_merge, 100000000, 11.102888, 5, 8
+mpi_openmp_quick, 100000000, 7.311830, 6, 1
+mpi_openmp_merge, 100000000, 10.273415, 6, 1
+mpi_openmp_quick, 100000000, 7.002727, 6, 2
+mpi_openmp_merge, 100000000, 9.930503, 6, 2
+mpi_openmp_quick, 100000000, 6.965459, 6, 3
+mpi_openmp_merge, 100000000, 9.889002, 6, 3
+mpi_openmp_quick, 100000000, 7.411884, 6, 4
+mpi_openmp_merge, 100000000, 10.719319, 6, 4
+mpi_openmp_quick, 100000000, 7.112925, 6, 5
+mpi_openmp_merge, 100000000, 10.382633, 6, 5
+mpi_openmp_quick, 100000000, 7.054668, 6, 6
+mpi_openmp_merge, 100000000, 10.345375, 6, 6
+mpi_openmp_quick, 100000000, 6.992945, 6, 7
+mpi_openmp_merge, 100000000, 10.306178, 6, 7
+mpi_openmp_quick, 100000000, 7.063012, 6, 8
+mpi_openmp_merge, 100000000, 9.880661, 6, 8
+mpi_openmp_quick, 100000000, 6.687167, 7, 1
+mpi_openmp_merge, 100000000, 10.417489, 7, 1
+mpi_openmp_quick, 100000000, 6.487944, 7, 2
+mpi_openmp_merge, 100000000, 10.087129, 7, 2
+mpi_openmp_quick, 100000000, 6.548509, 7, 3
+mpi_openmp_merge, 100000000, 10.515884, 7, 3
+mpi_openmp_quick, 100000000, 6.627799, 7, 4
+mpi_openmp_merge, 100000000, 10.625251, 7, 4
+mpi_openmp_quick, 100000000, 6.515184, 7, 5
+mpi_openmp_merge, 100000000, 9.522008, 7, 5
+mpi_openmp_quick, 100000000, 6.571698, 7, 6
+mpi_openmp_merge, 100000000, 9.872579, 7, 6
+mpi_openmp_quick, 100000000, 6.452453, 7, 7
+mpi_openmp_merge, 100000000, 9.504208, 7, 7
+mpi_openmp_quick, 100000000, 6.511824, 7, 8
+mpi_openmp_merge, 100000000, 9.780568, 7, 8
+mpi_openmp_quick, 100000000, 6.404043, 8, 1
+mpi_openmp_merge, 100000000, 9.949243, 8, 1
+mpi_openmp_quick, 100000000, 6.346725, 8, 2
+mpi_openmp_merge, 100000000, 9.771557, 8, 2
+mpi_openmp_quick, 100000000, 6.471438, 8, 3
+mpi_openmp_merge, 100000000, 9.907488, 8, 3
+mpi_openmp_quick, 100000000, 6.478411, 8, 4
+mpi_openmp_merge, 100000000, 9.694318, 8, 4
+mpi_openmp_quick, 100000000, 6.469575, 8, 5
+mpi_openmp_merge, 100000000, 9.950445, 8, 5
+mpi_openmp_quick, 100000000, 6.457848, 8, 6
+mpi_openmp_merge, 100000000, 10.407773, 8, 6
+mpi_openmp_quick, 100000000, 6.396095, 8, 7
+mpi_openmp_merge, 100000000, 9.854565, 8, 7
+mpi_openmp_quick, 100000000, 6.438763, 8, 8
+mpi_openmp_merge, 100000000, 9.683084, 8, 8
+mpi_openmp_quick, 10000000, 1.976577, 1, 1
+mpi_openmp_merge, 10000000, 3.029855, 1, 1
+mpi_openmp_quick, 10000000, 2.005670, 1, 2
+mpi_openmp_merge, 10000000, 3.045320, 1, 2
+mpi_openmp_quick, 10000000, 1.970493, 1, 3
+mpi_openmp_merge, 10000000, 3.033024, 1, 3
+mpi_openmp_quick, 10000000, 1.952227, 1, 4
+mpi_openmp_merge, 10000000, 2.994634, 1, 4
+mpi_openmp_quick, 10000000, 1.970113, 1, 5
+mpi_openmp_merge, 10000000, 3.017951, 1, 5
+mpi_openmp_quick, 10000000, 1.965582, 1, 6
+mpi_openmp_merge, 10000000, 3.034958, 1, 6
+mpi_openmp_quick, 10000000, 1.968310, 1, 7
+mpi_openmp_merge, 10000000, 3.060540, 1, 7
+mpi_openmp_quick, 10000000, 1.951283, 1, 8
+mpi_openmp_merge, 10000000, 3.041464, 1, 8
+mpi_openmp_quick, 10000000, 1.110583, 2, 1
+mpi_openmp_merge, 10000000, 1.614187, 2, 1
+mpi_openmp_quick, 10000000, 1.099198, 2, 2
+mpi_openmp_merge, 10000000, 1.641752, 2, 2
+mpi_openmp_quick, 10000000, 1.107029, 2, 3
+mpi_openmp_merge, 10000000, 1.612416, 2, 3
+mpi_openmp_quick, 10000000, 1.097858, 2, 4
+mpi_openmp_merge, 10000000, 1.639574, 2, 4
+mpi_openmp_quick, 10000000, 1.094343, 2, 5
+mpi_openmp_merge, 10000000, 1.621720, 2, 5
+mpi_openmp_quick, 10000000, 1.097207, 2, 6
+mpi_openmp_merge, 10000000, 1.622311, 2, 6
+mpi_openmp_quick, 10000000, 1.103805, 2, 7
+mpi_openmp_merge, 10000000, 1.618995, 2, 7
+mpi_openmp_quick, 10000000, 1.116913, 2, 8
+mpi_openmp_merge, 10000000, 1.597592, 2, 8
+mpi_openmp_quick, 10000000, 0.854887, 3, 1
+mpi_openmp_merge, 10000000, 1.243573, 3, 1
+mpi_openmp_quick, 10000000, 0.896759, 3, 2
+mpi_openmp_merge, 10000000, 1.247562, 3, 2
+mpi_openmp_quick, 10000000, 0.865268, 3, 3
+mpi_openmp_merge, 10000000, 1.233753, 3, 3
+mpi_openmp_quick, 10000000, 0.871252, 3, 4
+mpi_openmp_merge, 10000000, 1.227780, 3, 4
+mpi_openmp_quick, 10000000, 0.860619, 3, 5
+mpi_openmp_merge, 10000000, 1.315158, 3, 5
+mpi_openmp_quick, 10000000, 0.885816, 3, 6
+mpi_openmp_merge, 10000000, 1.255489, 3, 6
+mpi_openmp_quick, 10000000, 0.864251, 3, 7
+mpi_openmp_merge, 10000000, 1.234524, 3, 7
+mpi_openmp_quick, 10000000, 0.868828, 3, 8
+mpi_openmp_merge, 10000000, 1.236293, 3, 8
+mpi_openmp_quick, 10000000, 0.713110, 4, 1
+mpi_openmp_merge, 10000000, 1.034716, 4, 1
+mpi_openmp_quick, 10000000, 0.732581, 4, 2
+mpi_openmp_merge, 10000000, 1.019560, 4, 2
+mpi_openmp_quick, 10000000, 0.715044, 4, 3
+mpi_openmp_merge, 10000000, 1.035364, 4, 3
+mpi_openmp_quick, 10000000, 0.801522, 4, 4
+mpi_openmp_merge, 10000000, 0.996539, 4, 4
+mpi_openmp_quick, 10000000, 0.737278, 4, 5
+mpi_openmp_merge, 10000000, 0.998554, 4, 5
+mpi_openmp_quick, 10000000, 0.720050, 4, 6
+mpi_openmp_merge, 10000000, 1.073174, 4, 6
+mpi_openmp_quick, 10000000, 0.729755, 4, 7
+mpi_openmp_merge, 10000000, 1.010020, 4, 7
+mpi_openmp_quick, 10000000, 0.748762, 4, 8
+mpi_openmp_merge, 10000000, 0.982748, 4, 8
+mpi_openmp_quick, 10000000, 0.731552, 5, 1
+mpi_openmp_merge, 10000000, 1.023353, 5, 1
+mpi_openmp_quick, 10000000, 0.730580, 5, 2
+mpi_openmp_merge, 10000000, 0.991843, 5, 2
+mpi_openmp_quick, 10000000, 0.777289, 5, 3
+mpi_openmp_merge, 10000000, 0.992567, 5, 3
+mpi_openmp_quick, 10000000, 0.721127, 5, 4
+mpi_openmp_merge, 10000000, 1.008771, 5, 4
+mpi_openmp_quick, 10000000, 0.728119, 5, 5
+mpi_openmp_merge, 10000000, 0.985370, 5, 5
+mpi_openmp_quick, 10000000, 0.730786, 5, 6
+mpi_openmp_merge, 10000000, 0.988115, 5, 6
+mpi_openmp_quick, 10000000, 0.724725, 5, 7
+mpi_openmp_merge, 10000000, 0.974094, 5, 7
+mpi_openmp_quick, 10000000, 0.727044, 5, 8
+mpi_openmp_merge, 10000000, 1.006846, 5, 8
+mpi_openmp_quick, 10000000, 0.695571, 6, 1
+mpi_openmp_merge, 10000000, 0.929440, 6, 1
+mpi_openmp_quick, 10000000, 0.663278, 6, 2
+mpi_openmp_merge, 10000000, 0.942890, 6, 2
+mpi_openmp_quick, 10000000, 0.740400, 6, 3
+mpi_openmp_merge, 10000000, 0.921376, 6, 3
+mpi_openmp_quick, 10000000, 0.659204, 6, 4
+mpi_openmp_merge, 10000000, 0.934402, 6, 4
+mpi_openmp_quick, 10000000, 0.650841, 6, 5
+mpi_openmp_merge, 10000000, 0.937607, 6, 5
+mpi_openmp_quick, 10000000, 0.655572, 6, 6
+mpi_openmp_merge, 10000000, 0.970707, 6, 6
+mpi_openmp_quick, 10000000, 0.675858, 6, 7
+mpi_openmp_merge, 10000000, 0.906127, 6, 7
+mpi_openmp_quick, 10000000, 0.670827, 6, 8
+mpi_openmp_merge, 10000000, 0.943239, 6, 8
+mpi_openmp_quick, 10000000, 0.636096, 7, 1
+mpi_openmp_merge, 10000000, 0.977059, 7, 1
+mpi_openmp_quick, 10000000, 0.647524, 7, 2
+mpi_openmp_merge, 10000000, 0.895709, 7, 2
+mpi_openmp_quick, 10000000, 0.626711, 7, 3
+mpi_openmp_merge, 10000000, 0.879885, 7, 3
+mpi_openmp_quick, 10000000, 0.692525, 7, 4
+mpi_openmp_merge, 10000000, 0.914634, 7, 4
+mpi_openmp_quick, 10000000, 0.632489, 7, 5
+mpi_openmp_merge, 10000000, 0.964322, 7, 5
+mpi_openmp_quick, 10000000, 0.655277, 7, 6
+mpi_openmp_merge, 10000000, 0.888524, 7, 6
+mpi_openmp_quick, 10000000, 0.633148, 7, 7
+mpi_openmp_merge, 10000000, 0.904533, 7, 7
+mpi_openmp_quick, 10000000, 0.637271, 7, 8
+mpi_openmp_merge, 10000000, 0.913093, 7, 8
+mpi_openmp_quick, 10000000, 0.705287, 8, 1
+mpi_openmp_merge, 10000000, 0.843477, 8, 1
+mpi_openmp_quick, 10000000, 0.636949, 8, 2
+mpi_openmp_merge, 10000000, 0.871599, 8, 2
+mpi_openmp_quick, 10000000, 0.624742, 8, 3
+mpi_openmp_merge, 10000000, 0.851420, 8, 3
+mpi_openmp_quick, 10000000, 0.629410, 8, 4
+mpi_openmp_merge, 10000000, 0.875960, 8, 4
+mpi_openmp_quick, 10000000, 0.630959, 8, 5
+mpi_openmp_merge, 10000000, 0.949971, 8, 5
+mpi_openmp_quick, 10000000, 0.624177, 8, 6
+mpi_openmp_merge, 10000000, 0.894770, 8, 6
+mpi_openmp_quick, 10000000, 0.631779, 8, 7
+mpi_openmp_merge, 10000000, 0.869188, 8, 7
+mpi_openmp_quick, 10000000, 0.615836, 8, 8
+mpi_openmp_merge, 10000000, 0.862509, 8, 8
+mpi_openmp_quick, 50000000, 10.724491, 1, 1
+mpi_openmp_merge, 50000000, 16.553395, 1, 1
+mpi_openmp_quick, 50000000, 10.703636, 1, 2
+mpi_openmp_merge, 50000000, 16.483856, 1, 2
+mpi_openmp_quick, 50000000, 10.701635, 1, 3
+mpi_openmp_merge, 50000000, 16.259596, 1, 3
+mpi_openmp_quick, 50000000, 10.726068, 1, 4
+mpi_openmp_merge, 50000000, 16.274193, 1, 4
+mpi_openmp_quick, 50000000, 10.638014, 1, 5
+mpi_openmp_merge, 50000000, 16.113256, 1, 5
+mpi_openmp_quick, 50000000, 10.720670, 1, 6
+mpi_openmp_merge, 50000000, 16.474006, 1, 6
+mpi_openmp_quick, 50000000, 10.804094, 1, 7
+mpi_openmp_merge, 50000000, 16.466916, 1, 7
+mpi_openmp_quick, 50000000, 10.679385, 1, 8
+mpi_openmp_merge, 50000000, 16.425521, 1, 8
+mpi_openmp_quick, 50000000, 5.994795, 2, 1
+mpi_openmp_merge, 50000000, 8.934084, 2, 1
+mpi_openmp_quick, 50000000, 6.029947, 2, 2
+mpi_openmp_merge, 50000000, 8.860948, 2, 2
+mpi_openmp_quick, 50000000, 5.993051, 2, 3
+mpi_openmp_merge, 50000000, 8.996725, 2, 3
+mpi_openmp_quick, 50000000, 5.980310, 2, 4
+mpi_openmp_merge, 50000000, 8.952820, 2, 4
+mpi_openmp_quick, 50000000, 6.040815, 2, 5
+mpi_openmp_merge, 50000000, 8.872304, 2, 5
+mpi_openmp_quick, 50000000, 5.980435, 2, 6
+mpi_openmp_merge, 50000000, 8.920398, 2, 6
+mpi_openmp_quick, 50000000, 6.018382, 2, 7
+mpi_openmp_merge, 50000000, 8.803772, 2, 7
+mpi_openmp_quick, 50000000, 5.957759, 2, 8
+mpi_openmp_merge, 50000000, 8.972196, 2, 8
+mpi_openmp_quick, 50000000, 4.609534, 3, 1
+mpi_openmp_merge, 50000000, 6.398713, 3, 1
+mpi_openmp_quick, 50000000, 4.637106, 3, 2
+mpi_openmp_merge, 50000000, 6.420232, 3, 2
+mpi_openmp_quick, 50000000, 4.658368, 3, 3
+mpi_openmp_merge, 50000000, 6.359149, 3, 3
+mpi_openmp_quick, 50000000, 4.635894, 3, 4
+mpi_openmp_merge, 50000000, 6.320911, 3, 4
+mpi_openmp_quick, 50000000, 4.657596, 3, 5
+mpi_openmp_merge, 50000000, 6.324475, 3, 5
+mpi_openmp_quick, 50000000, 4.661652, 3, 6
+mpi_openmp_merge, 50000000, 6.383409, 3, 6
+mpi_openmp_quick, 50000000, 4.632870, 3, 7
+mpi_openmp_merge, 50000000, 6.230562, 3, 7
+mpi_openmp_quick, 50000000, 4.634066, 3, 8
+mpi_openmp_merge, 50000000, 6.305781, 3, 8
+mpi_openmp_quick, 50000000, 3.814923, 4, 1
+mpi_openmp_merge, 50000000, 5.316728, 4, 1
+mpi_openmp_quick, 50000000, 3.727539, 4, 2
+mpi_openmp_merge, 50000000, 7.419257, 4, 2
+mpi_openmp_quick, 50000000, 3.806030, 4, 3
+mpi_openmp_merge, 50000000, 5.528849, 4, 3
+mpi_openmp_quick, 50000000, 3.814171, 4, 4
+mpi_openmp_merge, 50000000, 5.211013, 4, 4
+mpi_openmp_quick, 50000000, 3.908142, 4, 5
+mpi_openmp_merge, 50000000, 5.258412, 4, 5
+mpi_openmp_quick, 50000000, 3.772727, 4, 6
+mpi_openmp_merge, 50000000, 5.326070, 4, 6
+mpi_openmp_quick, 50000000, 3.779076, 4, 7
+mpi_openmp_merge, 50000000, 5.260119, 4, 7
+mpi_openmp_quick, 50000000, 3.792962, 4, 8
+mpi_openmp_merge, 50000000, 5.356026, 4, 8
+mpi_openmp_quick, 50000000, 3.694959, 5, 1
+mpi_openmp_merge, 50000000, 5.188636, 5, 1
+mpi_openmp_quick, 50000000, 3.930022, 5, 2
+mpi_openmp_merge, 50000000, 5.129788, 5, 2
+mpi_openmp_quick, 50000000, 3.703351, 5, 3
+mpi_openmp_merge, 50000000, 5.027934, 5, 3
+mpi_openmp_quick, 50000000, 3.690485, 5, 4
+mpi_openmp_merge, 50000000, 5.082992, 5, 4
+mpi_openmp_quick, 50000000, 3.750937, 5, 5
+mpi_openmp_merge, 50000000, 5.033261, 5, 5
+mpi_openmp_quick, 50000000, 3.771788, 5, 6
+mpi_openmp_merge, 50000000, 5.136419, 5, 6
+mpi_openmp_quick, 50000000, 3.735456, 5, 7
+mpi_openmp_merge, 50000000, 5.134926, 5, 7
+mpi_openmp_quick, 50000000, 3.893599, 5, 8
+mpi_openmp_merge, 50000000, 5.112055, 5, 8
+mpi_openmp_quick, 50000000, 3.404850, 6, 1
+mpi_openmp_merge, 50000000, 4.676304, 6, 1
+mpi_openmp_quick, 50000000, 3.520586, 6, 2
+mpi_openmp_merge, 50000000, 4.883339, 6, 2
+mpi_openmp_quick, 50000000, 3.444277, 6, 3
+mpi_openmp_merge, 50000000, 4.616560, 6, 3
+mpi_openmp_quick, 50000000, 3.437410, 6, 4
+mpi_openmp_merge, 50000000, 4.626774, 6, 4
+mpi_openmp_quick, 50000000, 3.469755, 6, 5
+mpi_openmp_merge, 50000000, 4.509198, 6, 5
+mpi_openmp_quick, 50000000, 3.441006, 6, 6
+mpi_openmp_merge, 50000000, 4.624143, 6, 6
+mpi_openmp_quick, 50000000, 3.438433, 6, 7
+mpi_openmp_merge, 50000000, 4.581787, 6, 7
+mpi_openmp_quick, 50000000, 3.741479, 6, 8
+mpi_openmp_merge, 50000000, 4.635662, 6, 8
+mpi_openmp_quick, 50000000, 3.322709, 7, 1
+mpi_openmp_merge, 50000000, 4.511031, 7, 1
+mpi_openmp_quick, 50000000, 3.251285, 7, 2
+mpi_openmp_merge, 50000000, 4.424550, 7, 2
+mpi_openmp_quick, 50000000, 3.286179, 7, 3
+mpi_openmp_merge, 50000000, 4.477907, 7, 3
+mpi_openmp_quick, 50000000, 3.283935, 7, 4
+mpi_openmp_merge, 50000000, 4.511638, 7, 4
+mpi_openmp_quick, 50000000, 3.251482, 7, 5
+mpi_openmp_merge, 50000000, 4.396397, 7, 5
+mpi_openmp_quick, 50000000, 3.258247, 7, 6
+mpi_openmp_merge, 50000000, 4.395700, 7, 6
+mpi_openmp_quick, 50000000, 3.552165, 7, 7
+mpi_openmp_merge, 50000000, 4.573563, 7, 7
+mpi_openmp_quick, 50000000, 3.215795, 7, 8
+mpi_openmp_merge, 50000000, 4.361937, 7, 8
+mpi_openmp_quick, 50000000, 3.112907, 8, 1
+mpi_openmp_merge, 50000000, 4.385446, 8, 1
+mpi_openmp_quick, 50000000, 3.104862, 8, 2
+mpi_openmp_merge, 50000000, 4.443806, 8, 2
+mpi_openmp_quick, 50000000, 3.195118, 8, 3
+mpi_openmp_merge, 50000000, 4.327398, 8, 3
+mpi_openmp_quick, 50000000, 3.157935, 8, 4
+mpi_openmp_merge, 50000000, 4.366208, 8, 4
+mpi_openmp_quick, 50000000, 3.141123, 8, 5
+mpi_openmp_merge, 50000000, 4.409421, 8, 5
+mpi_openmp_quick, 50000000, 3.192095, 8, 6
+mpi_openmp_merge, 50000000, 4.453671, 8, 6
+mpi_openmp_quick, 50000000, 3.129225, 8, 7
+mpi_openmp_merge, 50000000, 4.397752, 8, 7
+mpi_openmp_quick, 50000000, 3.206287, 8, 8
+mpi_openmp_merge, 50000000, 4.333453, 8, 8
+mpi_openmp_quick, 100000000, 22.539688, 1, 1
+mpi_openmp_merge, 100000000, 33.959402, 1, 1
+mpi_openmp_quick, 100000000, 22.368635, 1, 2
+mpi_openmp_merge, 100000000, 33.487442, 1, 2
+mpi_openmp_quick, 100000000, 22.454298, 1, 3
+mpi_openmp_merge, 100000000, 34.666636, 1, 3
+mpi_openmp_quick, 100000000, 22.200065, 1, 4
+mpi_openmp_merge, 100000000, 33.609374, 1, 4
+mpi_openmp_quick, 100000000, 22.117495, 1, 5
+mpi_openmp_merge, 100000000, 33.343636, 1, 5
+mpi_openmp_quick, 100000000, 22.213336, 1, 6
+mpi_openmp_merge, 100000000, 33.471592, 1, 6
+mpi_openmp_quick, 100000000, 22.104582, 1, 7
+mpi_openmp_merge, 100000000, 34.216495, 1, 7
+mpi_openmp_quick, 100000000, 22.291500, 1, 8
+mpi_openmp_merge, 100000000, 34.068695, 1, 8
+mpi_openmp_quick, 100000000, 12.575153, 2, 1
+mpi_openmp_merge, 100000000, 18.300230, 2, 1
+mpi_openmp_quick, 100000000, 12.356165, 2, 2
+mpi_openmp_merge, 100000000, 18.262095, 2, 2
+mpi_openmp_quick, 100000000, 12.330863, 2, 3
+mpi_openmp_merge, 100000000, 18.531051, 2, 3
+mpi_openmp_quick, 100000000, 12.350387, 2, 4
+mpi_openmp_merge, 100000000, 18.396095, 2, 4
+mpi_openmp_quick, 100000000, 12.370912, 2, 5
+mpi_openmp_merge, 100000000, 18.379152, 2, 5
+mpi_openmp_quick, 100000000, 12.483758, 2, 6
+mpi_openmp_merge, 100000000, 18.403690, 2, 6
+mpi_openmp_quick, 100000000, 12.446506, 2, 7
+mpi_openmp_merge, 100000000, 18.403435, 2, 7
+mpi_openmp_quick, 100000000, 12.316684, 2, 8
+mpi_openmp_merge, 100000000, 18.267828, 2, 8
+mpi_openmp_quick, 100000000, 10.017818, 3, 1
+mpi_openmp_merge, 100000000, 13.236131, 3, 1
+mpi_openmp_quick, 100000000, 9.496919, 3, 2
+mpi_openmp_merge, 100000000, 13.341189, 3, 2
+mpi_openmp_quick, 100000000, 9.581860, 3, 3
+mpi_openmp_merge, 100000000, 13.166941, 3, 3
+mpi_openmp_quick, 100000000, 9.539397, 3, 4
+mpi_openmp_merge, 100000000, 13.060092, 3, 4
+mpi_openmp_quick, 100000000, 9.534250, 3, 5
+mpi_openmp_merge, 100000000, 13.033744, 3, 5
+mpi_openmp_quick, 100000000, 9.506807, 3, 6
+mpi_openmp_merge, 100000000, 13.106238, 3, 6
+mpi_openmp_quick, 100000000, 9.555864, 3, 7
+mpi_openmp_merge, 100000000, 13.263402, 3, 7
+mpi_openmp_quick, 100000000, 9.522352, 3, 8
+mpi_openmp_merge, 100000000, 13.015372, 3, 8
+mpi_openmp_quick, 100000000, 7.936856, 4, 1
+mpi_openmp_merge, 100000000, 11.814774, 4, 1
+mpi_openmp_quick, 100000000, 7.948255, 4, 2
+mpi_openmp_merge, 100000000, 11.279840, 4, 2
+mpi_openmp_quick, 100000000, 7.813818, 4, 3
+mpi_openmp_merge, 100000000, 11.452844, 4, 3
+mpi_openmp_quick, 100000000, 7.625423, 4, 4
+mpi_openmp_merge, 100000000, 11.501096, 4, 4
+mpi_openmp_quick, 100000000, 7.776861, 4, 5
+mpi_openmp_merge, 100000000, 10.884320, 4, 5
+mpi_openmp_quick, 100000000, 7.920765, 4, 6
+mpi_openmp_merge, 100000000, 11.346308, 4, 6
+mpi_openmp_quick, 100000000, 7.748787, 4, 7
+mpi_openmp_merge, 100000000, 11.646308, 4, 7
+mpi_openmp_quick, 100000000, 7.968932, 4, 8
+mpi_openmp_merge, 100000000, 11.152819, 4, 8
+mpi_openmp_quick, 100000000, 8.242312, 5, 1
+mpi_openmp_merge, 100000000, 11.281440, 5, 1
+mpi_openmp_quick, 100000000, 7.953186, 5, 2
+mpi_openmp_merge, 100000000, 11.908975, 5, 2
+mpi_openmp_quick, 100000000, 7.889747, 5, 3
+mpi_openmp_merge, 100000000, 10.979564, 5, 3
+mpi_openmp_quick, 100000000, 7.902756, 5, 4
+mpi_openmp_merge, 100000000, 11.127299, 5, 4
+mpi_openmp_quick, 100000000, 7.939597, 5, 5
+mpi_openmp_merge, 100000000, 11.105046, 5, 5
+mpi_openmp_quick, 100000000, 8.496181, 5, 6
+mpi_openmp_merge, 100000000, 11.973858, 5, 6
+mpi_openmp_quick, 100000000, 7.923450, 5, 7
+mpi_openmp_merge, 100000000, 10.945018, 5, 7
+mpi_openmp_quick, 100000000, 8.043021, 5, 8
+mpi_openmp_merge, 100000000, 11.103901, 5, 8
+mpi_openmp_quick, 100000000, 7.387437, 6, 1
+mpi_openmp_merge, 100000000, 10.414463, 6, 1
+mpi_openmp_quick, 100000000, 6.930623, 6, 2
+mpi_openmp_merge, 100000000, 9.775269, 6, 2
+mpi_openmp_quick, 100000000, 6.891944, 6, 3
+mpi_openmp_merge, 100000000, 9.940837, 6, 3
+mpi_openmp_quick, 100000000, 6.950441, 6, 4
+mpi_openmp_merge, 100000000, 9.888430, 6, 4
+mpi_openmp_quick, 100000000, 6.913908, 6, 5
+mpi_openmp_merge, 100000000, 9.756133, 6, 5
+mpi_openmp_quick, 100000000, 6.902882, 6, 6
+mpi_openmp_merge, 100000000, 9.876257, 6, 6
+mpi_openmp_quick, 100000000, 6.985696, 6, 7
+mpi_openmp_merge, 100000000, 9.766420, 6, 7
+mpi_openmp_quick, 100000000, 6.938394, 6, 8
+mpi_openmp_merge, 100000000, 10.192894, 6, 8
+mpi_openmp_quick, 100000000, 6.547324, 7, 1
+mpi_openmp_merge, 100000000, 9.981819, 7, 1
+mpi_openmp_quick, 100000000, 6.511095, 7, 2
+mpi_openmp_merge, 100000000, 10.210282, 7, 2
+mpi_openmp_quick, 100000000, 6.551071, 7, 3
+mpi_openmp_merge, 100000000, 9.716606, 7, 3
+mpi_openmp_quick, 100000000, 6.497588, 7, 4
+mpi_openmp_merge, 100000000, 9.640753, 7, 4
+mpi_openmp_quick, 100000000, 6.447322, 7, 5
+mpi_openmp_merge, 100000000, 10.108184, 7, 5
+mpi_openmp_quick, 100000000, 6.520362, 7, 6
+mpi_openmp_merge, 100000000, 9.481944, 7, 6
+mpi_openmp_quick, 100000000, 6.517256, 7, 7
+mpi_openmp_merge, 100000000, 9.720875, 7, 7
+mpi_openmp_quick, 100000000, 6.520211, 7, 8
+mpi_openmp_merge, 100000000, 9.660975, 7, 8
+mpi_openmp_quick, 100000000, 6.230256, 8, 1
+mpi_openmp_merge, 100000000, 9.932608, 8, 1
+mpi_openmp_quick, 100000000, 6.472578, 8, 2
+mpi_openmp_merge, 100000000, 9.961920, 8, 2
+mpi_openmp_quick, 100000000, 6.188760, 8, 3
+mpi_openmp_merge, 100000000, 9.765082, 8, 3
+mpi_openmp_quick, 100000000, 6.302036, 8, 4
+mpi_openmp_merge, 100000000, 9.734489, 8, 4
+mpi_openmp_quick, 100000000, 6.254897, 8, 5
+mpi_openmp_merge, 100000000, 9.874442, 8, 5
+mpi_openmp_quick, 100000000, 6.233447, 8, 6
+mpi_openmp_merge, 100000000, 9.982153, 8, 6
+mpi_openmp_quick, 100000000, 6.236335, 8, 7
+mpi_openmp_merge, 100000000, 10.041530, 8, 7
+mpi_openmp_quick, 100000000, 6.343011, 8, 8
+mpi_openmp_merge, 100000000, 10.004116, 8, 8

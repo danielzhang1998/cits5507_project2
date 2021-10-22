@@ -1,15 +1,27 @@
-setwd("~/Desktop/uwa_master_s1/CITS5507/project2")
+data <- read.csv("/Users/zhanghanlin/Desktop/uwa_master_s1/CITS5507/project2/sort_result.csv")
+head(data)
 
-library(ggplot2)
-library(dplyr)
+library(tidyverse)
 
-df <- read.csv("sort_result.csv")
-# a function to set the column name after doing transformation
+fun1 <- function(){
+  data %>% group_by(sorting_algorithm, array_size,num_of_process, num_of_thread) %>% 
+    summarise(run_time = mean(run_time)) %>% 
+    mutate(num_of_thread = as.factor(num_of_thread)) %>% 
+    ggplot(aes(num_of_process,run_time,color = num_of_thread)) + 
+    geom_point() + geom_line() + ggtitle("Result comparing") + labs(x = "number of process", y = "average run time", color = "number of thread") +
+    facet_grid(array_size~sorting_algorithm ,margins=F,  scales="free_y")
+}
 
-df[, c('array_size', 'run_time', 'num_of_process')]
-data <- df[, c('sorting_algorithm','array_size', 'run_time', 'num_of_process')] %>%
-  group_by(array_size, num_of_process, sorting_algorithm)
 
-ggplot(data, mapping = aes(x=num_of_process, y=run_time, colour=array_size)) +
-  geom_point() + geom_line() +
-  facet_wrap(~array_size) + ylim(0,20)
+fun1()
+
+fun2 <- function(){
+  data %>% group_by(sorting_algorithm, array_size,num_of_process, num_of_thread) %>% 
+    summarise(run_time = mean(run_time)) %>% 
+    mutate(num_of_thread = as.factor(num_of_thread)) %>% 
+    ggplot(aes(num_of_process,run_time,color = num_of_thread)) + 
+    geom_point() + geom_line() + ggtitle("Result comparing between mpi_openmp_merge & mpi_openmp_quick") + labs(x = "number of process", y = "average run time", color = "number of thread") +
+    facet_wrap(array_size~sorting_algorithm,  scales="free_y", ncol = 2)
+}
+
+fun2()

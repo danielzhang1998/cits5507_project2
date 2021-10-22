@@ -6,7 +6,6 @@
 */
 
 #include <ctype.h>
-#include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -70,14 +69,17 @@ int main(int argc, char *argv[])
         start_enum(new_array, array_length);
         gettimeofday(&end, NULL);
 
-        print_time_distance(start, end, argv[2], " ");
+        double result = print_time_distance(start, end, argv[2], " ");
+        save_csv("sort_result.csv", "serial_enum", array_length, result, 1, 1);
     }
     else if(strcmp(argv[2], "quick") == 0 && argc == 3){
         gettimeofday(&start, NULL);
         start_quick(new_array, array_length);
         gettimeofday(&end, NULL);
 
-        print_time_distance(start, end, argv[2], " ");
+        double result = print_time_distance(start, end, argv[2], " ");
+        save_csv("sort_result.csv", "serial_quick", array_length, result, 1, 1);
+
 
         //print_array(new_array, array_length);
     }
@@ -86,21 +88,26 @@ int main(int argc, char *argv[])
         start_merge(new_array, array_length);
         gettimeofday(&end, NULL);
 
-        print_time_distance(start, end, argv[2], " ");
+        double result = print_time_distance(start, end, argv[2], " ");
+        save_csv("sort_result.csv", "serial_merge", array_length, result, 1, 1);
+
     }
     else if(argc == 3){
         gettimeofday(&start, NULL);
         double *array_quick = start_quick(new_array, array_length);
         gettimeofday(&middle, NULL);
-        print_time_distance(start, middle, "quick", " ");
+        double result = print_time_distance(start, middle, argv[2], " ");
+        save_csv("sort_result.csv", "serial_quick", array_length, result, 1, 1);
 
         double *array_merge = start_merge(new_array, array_length);
         gettimeofday(&middle_1, NULL);
-        print_time_distance(middle, middle_1, "merge", " ");
+        double result_1 = print_time_distance(middle, middle_1, argv[2], " ");
+        save_csv("sort_result.csv", "serial_merge", array_length, result_1, 1, 1);
 
         double *array_enum = start_enum(new_array, array_length);
         gettimeofday(&end, NULL);
-        print_time_distance(middle_1, end, "enum", " ");
+        double result_2 = print_time_distance(middle_1, end, argv[2], " ");
+        save_csv("sort_result.csv", "serial_enum", array_length, result_2, 1, 1);
 
         compare_result(array_quick, array_enum, array_merge, array_length);
         //free(array_quick);
